@@ -1,0 +1,16 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-19253
+Date: 2026-07-01
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-19253 below. Terms: Net 30.
+
+- 12 x Bluetooth alarm clock @ 9.90 = 118.80
+
+Subtotal: 118.80
+Total: USD 118.80
+
+Thanks,
+Quayside Electronics Wholesale billing

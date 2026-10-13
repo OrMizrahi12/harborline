@@ -1,0 +1,17 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+INVOICE
+
+Invoice No: KOS-34164    Date: 06/17/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Terms: Net 30    Due: 07/17/2026
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Insulated Water Bottle                              2       10.64        21.28
+Lantern Battery Pack                                8        4.30        34.40
+------------------------------------------------------------------------------
+                                                         Subtotal        55.68
+                                                         Shipping        12.50
+                                                  TOTAL DUE (USD)        68.18

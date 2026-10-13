@@ -1,0 +1,18 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+INVOICE
+
+Invoice No: ILT-51418    Date: 9/24/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0762
+Terms: Net 45    Due: 11/8/26
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+LED desk lamp                                 1 gross       19.70     2,836.80
+Desk organizer                                      6       10.26        61.56
+Garden tool set                                    24       29.40       705.60
+------------------------------------------------------------------------------
+                                                         Subtotal     3,603.96
+                                                  TOTAL DUE (USD)     3,594.96

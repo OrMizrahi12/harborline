@@ -1,0 +1,18 @@
+Brightwater Paper Co.
+Accounts Department
+ar@brightwater-paper.example
+
+August 2, 2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order (your reference PO-26-0324). Please find below our invoice BWP-53363, dated August 2, 2026.
+
+We supplied shipping carton, medium (fifty) at $0.85 each ($42.50); packing tape roll (twenty-four) at $2.26 each ($54.24); gift card stock (pack of 100) (ten) at $17.10 each ($171.00) and thermal shipping labels (roll) (twenty) at $8.79 each ($175.80), a subtotal of $443.54.
+
+That makes a total of $543.54, payable by September 1, 2026 (Net 30).
+
+Kind regards,
+
+Accounts Department
+Brightwater Paper Co.

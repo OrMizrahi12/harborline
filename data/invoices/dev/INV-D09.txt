@@ -1,0 +1,19 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+CREDIT NOTE
+
+Credit note No: KOS-79465    Date: 08/04/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0711
+Credit for goods returned against invoice KOS-68306
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Insulated Water Bottle                             40       10.64       425.60
+Tent Footprint                                      8        9.80        78.40
+Lantern Battery Pack                               10        3.89        38.90
+------------------------------------------------------------------------------
+                                                         Subtotal       542.90
+                                                         Shipping        12.50
+                                               CREDIT TOTAL (USD)       555.40

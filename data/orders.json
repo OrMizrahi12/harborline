@@ -1,0 +1,7163 @@
+[
+  {
+    "order_id": "HL-10001",
+    "customer_id": "C-1034",
+    "source": "legacy_warehouse",
+    "placed_at": 1780000408,
+    "status": 4,
+    "promised_by": 1780444740,
+    "delivered_at": 1780317007,
+    "items": [
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 145.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8425"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3820058398"
+    }
+  },
+  {
+    "order_id": "HL-10002",
+    "customer_id": "C-1024",
+    "source": "legacy_warehouse",
+    "placed_at": 1780053647,
+    "status": 4,
+    "promised_by": 1780531140,
+    "delivered_at": 1780479876,
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 377.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2954"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6302702111"
+    }
+  },
+  {
+    "order_id": "HL-10003",
+    "customer_id": "C-1045",
+    "source": "legacy_warehouse",
+    "placed_at": 1780391193,
+    "status": 4,
+    "promised_by": 1780876740,
+    "delivered_at": 1780753465,
+    "items": [
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 131.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0476"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9495613674"
+    }
+  },
+  {
+    "order_id": "HL-10004",
+    "customer_id": "C-1003",
+    "source": "legacy_warehouse",
+    "placed_at": 1780402416,
+    "status": 4,
+    "promised_by": 1780876740,
+    "delivered_at": 1780693202,
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 22.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 162.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8266"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4878511015"
+    }
+  },
+  {
+    "order_id": "HL-10005",
+    "customer_id": "C-1025",
+    "source": "legacy_warehouse",
+    "placed_at": 1780482214,
+    "status": 4,
+    "promised_by": 1780963140,
+    "delivered_at": 1780938436,
+    "items": [
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 364.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9811"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5093366212"
+    }
+  },
+  {
+    "order_id": "HL-10006",
+    "customer_id": "C-1047",
+    "source": "legacy_warehouse",
+    "placed_at": 1780484411,
+    "status": 4,
+    "promised_by": 1780963140,
+    "delivered_at": 1780848127,
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 27.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4636"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8872410490"
+    }
+  },
+  {
+    "order_id": "HL-10007",
+    "customer_id": "C-1045",
+    "source": "legacy_warehouse",
+    "placed_at": 1780593968,
+    "status": 4,
+    "promised_by": 1781049540,
+    "delivered_at": 1781005937,
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 408.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2345"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1871009673"
+    }
+  },
+  {
+    "order_id": "HL-10008",
+    "customer_id": "C-1028",
+    "source": "legacy_warehouse",
+    "placed_at": 1780603555,
+    "status": 4,
+    "promised_by": 1781049540,
+    "delivered_at": 1781032993,
+    "items": [
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 153.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1940"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4299016742"
+    }
+  },
+  {
+    "order_id": "HL-10009",
+    "customer_id": "C-1019",
+    "source": "legacy_warehouse",
+    "placed_at": 1780608008,
+    "status": 4,
+    "promised_by": 1781049540,
+    "delivered_at": 1780925873,
+    "items": [
+      {
+        "sku": "SKU-1405",
+        "name": "Folding Camp Chair",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 54.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 60.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "9298"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8426846695"
+    }
+  },
+  {
+    "order_id": "HL-10010",
+    "customer_id": "C-1023",
+    "source": "legacy_warehouse",
+    "placed_at": 1780848874,
+    "status": 4,
+    "promised_by": 1781308740,
+    "delivered_at": 1781278180,
+    "items": [
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 435.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0829"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3881640942"
+    }
+  },
+  {
+    "order_id": "HL-10011",
+    "customer_id": "C-1053",
+    "source": "legacy_warehouse",
+    "placed_at": 1780949276,
+    "status": 4,
+    "promised_by": 1781395140,
+    "delivered_at": 1781341393,
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 219.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7869"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4376030690"
+    }
+  },
+  {
+    "order_id": "HL-10012",
+    "customer_id": "C-1020",
+    "source": "legacy_warehouse",
+    "placed_at": 1780950270,
+    "status": 4,
+    "promised_by": 1781395140,
+    "delivered_at": 1781201149,
+    "items": [
+      {
+        "sku": "SKU-1406",
+        "name": "Garden Tool Set",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 67.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 73.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3561"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6211513505"
+    }
+  },
+  {
+    "order_id": "HL-10013",
+    "customer_id": "C-1018",
+    "source": "legacy_warehouse",
+    "placed_at": 1781013220,
+    "status": 4,
+    "promised_by": 1781481540,
+    "delivered_at": 1781431820,
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 198.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "5491"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6681673229"
+    }
+  },
+  {
+    "order_id": "HL-10014",
+    "customer_id": "C-1020",
+    "source": "legacy_warehouse",
+    "placed_at": 1781105589,
+    "status": 4,
+    "promised_by": 1781567940,
+    "delivered_at": 1781432848,
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 189.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9674"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8673775399"
+    }
+  },
+  {
+    "order_id": "HL-10015",
+    "customer_id": "C-1044",
+    "source": "legacy_warehouse",
+    "placed_at": 1781267946,
+    "status": 4,
+    "promised_by": 1781740740,
+    "delivered_at": 1781632508,
+    "items": [
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 40.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "8954"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2194008891"
+    }
+  },
+  {
+    "order_id": "HL-10016",
+    "customer_id": "C-1017",
+    "source": "legacy_warehouse",
+    "placed_at": 1781298776,
+    "status": 7,
+    "promised_by": 1781740740,
+    "delivered_at": 1781520600,
+    "items": [
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1436"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9559149770"
+    }
+  },
+  {
+    "order_id": "HL-10017",
+    "customer_id": "C-1022",
+    "source": "legacy_warehouse",
+    "placed_at": 1781364551,
+    "status": 4,
+    "promised_by": 1781827140,
+    "delivered_at": 1781685848,
+    "items": [
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 28.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 34.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7319"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6602640234"
+    }
+  },
+  {
+    "order_id": "HL-10018",
+    "customer_id": "C-1040",
+    "source": "legacy_warehouse",
+    "placed_at": 1781364671,
+    "status": 4,
+    "promised_by": 1781827140,
+    "delivered_at": 1781618577,
+    "items": [
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1438"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3504168682"
+    }
+  },
+  {
+    "order_id": "HL-10019",
+    "customer_id": "C-1016",
+    "source": "legacy_warehouse",
+    "placed_at": 1781464283,
+    "status": 4,
+    "promised_by": 1781913540,
+    "delivered_at": 1781859825,
+    "items": [
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 28.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 34.95,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3505075476"
+    }
+  },
+  {
+    "order_id": "HL-10020",
+    "customer_id": "C-1027",
+    "source": "legacy_warehouse",
+    "placed_at": 1781467961,
+    "status": 4,
+    "promised_by": 1781913540,
+    "delivered_at": 1781794695,
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 80.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1271"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1666351462"
+    }
+  },
+  {
+    "order_id": "HL-10021",
+    "customer_id": "C-1019",
+    "source": "legacy_warehouse",
+    "placed_at": 1781531289,
+    "status": 4,
+    "promised_by": 1781999940,
+    "delivered_at": 1781978138,
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 219.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9207"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3448240687"
+    }
+  },
+  {
+    "order_id": "HL-10022",
+    "customer_id": "C-1043",
+    "source": "legacy_warehouse",
+    "placed_at": 1781532576,
+    "status": 4,
+    "promised_by": 1781999940,
+    "delivered_at": 1781947645,
+    "items": [
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 64.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0338"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2524503743"
+    }
+  },
+  {
+    "order_id": "HL-10023",
+    "customer_id": "C-1023",
+    "source": "legacy_warehouse",
+    "placed_at": 1781599742,
+    "status": 7,
+    "promised_by": 1782086340,
+    "delivered_at": 1781891209,
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 261.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2139"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5852220593"
+    }
+  },
+  {
+    "order_id": "HL-10024",
+    "customer_id": "C-1005",
+    "source": "legacy_warehouse",
+    "placed_at": 1781728389,
+    "status": 4,
+    "promised_by": 1782172740,
+    "delivered_at": 1781979283,
+    "items": [
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 24.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2605"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9811143964"
+    }
+  },
+  {
+    "order_id": "HL-10025",
+    "customer_id": "C-1016",
+    "source": "legacy_warehouse",
+    "placed_at": 1781732135,
+    "status": 4,
+    "promised_by": 1782172740,
+    "delivered_at": 1782147613,
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 295.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3140"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9244866826"
+    }
+  },
+  {
+    "order_id": "HL-10026",
+    "customer_id": "C-1004",
+    "source": "legacy_warehouse",
+    "placed_at": 1781870174,
+    "status": 4,
+    "promised_by": 1782345540,
+    "delivered_at": 1782316088,
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 156.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4994"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8988286921"
+    }
+  },
+  {
+    "order_id": "HL-10027",
+    "customer_id": "C-1018",
+    "source": "legacy_warehouse",
+    "placed_at": 1781882751,
+    "status": 4,
+    "promised_by": 1782345540,
+    "delivered_at": 1782232502,
+    "items": [
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 70.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2118"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7749384768"
+    }
+  },
+  {
+    "order_id": "HL-10028",
+    "customer_id": "C-1027",
+    "source": "legacy_warehouse",
+    "placed_at": 1781886283,
+    "status": 4,
+    "promised_by": 1782345540,
+    "delivered_at": 1782328023,
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 48.95,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7820036093"
+    }
+  },
+  {
+    "order_id": "HL-10029",
+    "customer_id": "C-1052",
+    "source": "legacy_warehouse",
+    "placed_at": 1782135238,
+    "status": 4,
+    "promised_by": 1782604740,
+    "delivered_at": 1782471289,
+    "items": [
+      {
+        "sku": "SKU-1602",
+        "name": "Clearance: Outdoor Cushion Covers",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 25.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 123.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9994"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5247092586"
+    }
+  },
+  {
+    "order_id": "HL-10030",
+    "customer_id": "C-1035",
+    "source": "legacy_warehouse",
+    "placed_at": 1782161364,
+    "status": 4,
+    "promised_by": 1782604740,
+    "delivered_at": 1782591989,
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1603",
+        "name": "Clearance: Bluetooth Alarm Clock",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 248.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0909"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6054720231"
+    }
+  },
+  {
+    "order_id": "HL-10031",
+    "customer_id": "C-1012",
+    "source": "legacy_warehouse",
+    "placed_at": 1782163299,
+    "status": 4,
+    "promised_by": 1782604740,
+    "delivered_at": 1782471605,
+    "items": [
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 40.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6312"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6118331795"
+    }
+  },
+  {
+    "order_id": "HL-10032",
+    "customer_id": "C-1008",
+    "source": "legacy_warehouse",
+    "placed_at": 1782391961,
+    "status": 4,
+    "promised_by": 1782863940,
+    "delivered_at": 1782728731,
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 164.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7996328242"
+    }
+  },
+  {
+    "order_id": "HL-10033",
+    "customer_id": "C-1029",
+    "source": "legacy_warehouse",
+    "placed_at": 1782405448,
+    "status": 9,
+    "promised_by": 1782863940,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 335.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3152"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10034",
+    "customer_id": "C-1036",
+    "source": "legacy_warehouse",
+    "placed_at": 1782465668,
+    "status": 4,
+    "promised_by": 1782950340,
+    "delivered_at": 1782934229,
+    "items": [
+      {
+        "sku": "SKU-1603",
+        "name": "Clearance: Bluetooth Alarm Clock",
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 137.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2726"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9889130410"
+    }
+  },
+  {
+    "order_id": "HL-10035",
+    "customer_id": "C-1051",
+    "source": "legacy_warehouse",
+    "placed_at": 1782587557,
+    "status": 4,
+    "promised_by": 1783036740,
+    "delivered_at": 1782810175,
+    "items": [
+      {
+        "sku": "SKU-1601",
+        "name": "Clearance: Glass Storage Jars (set of 6)",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 19.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 44.95,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5172921552"
+    }
+  },
+  {
+    "order_id": "HL-10036",
+    "customer_id": "C-1025",
+    "source": "legacy_warehouse",
+    "placed_at": 1782591586,
+    "status": 4,
+    "promised_by": 1783036740,
+    "delivered_at": 1782899126,
+    "items": [
+      {
+        "sku": "SKU-1603",
+        "name": "Clearance: Bluetooth Alarm Clock",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 35.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6639"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9123203449"
+    }
+  },
+  {
+    "order_id": "HL-10037",
+    "customer_id": "C-1029",
+    "source": "legacy_warehouse",
+    "placed_at": 1782648398,
+    "status": 4,
+    "promised_by": 1783123140,
+    "delivered_at": 1782894615,
+    "items": [
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 334.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1254"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5928419067"
+    }
+  },
+  {
+    "order_id": "HL-10038",
+    "customer_id": "C-1014",
+    "source": "legacy_warehouse",
+    "placed_at": 1782927473,
+    "status": 4,
+    "promised_by": 1783382340,
+    "delivered_at": 1783192508,
+    "items": [
+      {
+        "sku": "SKU-1601",
+        "name": "Clearance: Glass Storage Jars (set of 6)",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 19.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 44.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1112"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4298382260"
+    }
+  },
+  {
+    "order_id": "HL-10039",
+    "customer_id": "C-1048",
+    "source": "legacy_warehouse",
+    "placed_at": 1782938477,
+    "status": 4,
+    "promised_by": 1783382340,
+    "delivered_at": 1783368662,
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 338.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1827"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9537362437"
+    }
+  },
+  {
+    "order_id": "HL-10040",
+    "customer_id": "C-1034",
+    "source": "legacy_warehouse",
+    "placed_at": 1783113110,
+    "status": 4,
+    "promised_by": 1783555140,
+    "delivered_at": 1783461044,
+    "items": [
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 79.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0220"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7523202102"
+    }
+  },
+  {
+    "order_id": "HL-10041",
+    "customer_id": "C-1051",
+    "source": "legacy_warehouse",
+    "placed_at": 1783164924,
+    "status": 4,
+    "promised_by": 1783641540,
+    "delivered_at": 1783607421,
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 21.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 18.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 367.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4765685516"
+    }
+  },
+  {
+    "order_id": "HL-10042",
+    "customer_id": "C-1006",
+    "source": "legacy_warehouse",
+    "placed_at": 1783194942,
+    "status": 4,
+    "promised_by": 1783641540,
+    "delivered_at": 1783597852,
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1726"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5033323614"
+    }
+  },
+  {
+    "order_id": "HL-10043",
+    "customer_id": "C-1032",
+    "source": "legacy_warehouse",
+    "placed_at": 1783200798,
+    "status": 4,
+    "promised_by": 1783641540,
+    "delivered_at": 1783611416,
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3986"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6872240586"
+    }
+  },
+  {
+    "order_id": "HL-10044",
+    "customer_id": "C-1005",
+    "source": "legacy_warehouse",
+    "placed_at": 1783334067,
+    "status": 4,
+    "promised_by": 1783814340,
+    "delivered_at": 1783622163,
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 656.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3786"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5183161992"
+    }
+  },
+  {
+    "order_id": "HL-10045",
+    "customer_id": "C-1015",
+    "source": "legacy_warehouse",
+    "placed_at": 1783437915,
+    "status": 4,
+    "promised_by": 1783900740,
+    "delivered_at": 1783787465,
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 89.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2206"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5767110884"
+    }
+  },
+  {
+    "order_id": "HL-10046",
+    "customer_id": "C-1014",
+    "source": "legacy_warehouse",
+    "placed_at": 1783442259,
+    "status": 4,
+    "promised_by": 1783900740,
+    "delivered_at": 1783789628,
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3962"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7550037338"
+    }
+  },
+  {
+    "order_id": "HL-10047",
+    "customer_id": "C-1014",
+    "source": "legacy_warehouse",
+    "placed_at": 1783538540,
+    "status": 4,
+    "promised_by": 1783987140,
+    "delivered_at": 1783845682,
+    "items": [
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 253.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1754"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1664524388"
+    }
+  },
+  {
+    "order_id": "HL-10048",
+    "customer_id": "C-1002",
+    "source": "legacy_warehouse",
+    "placed_at": 1783606082,
+    "status": 4,
+    "promised_by": 1784073540,
+    "delivered_at": 1783937711,
+    "items": [
+      {
+        "sku": "SKU-1405",
+        "name": "Folding Camp Chair",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 54.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 60.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7178"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7509669736"
+    }
+  },
+  {
+    "order_id": "HL-10049",
+    "customer_id": "C-1015",
+    "source": "legacy_warehouse",
+    "placed_at": 1783687856,
+    "status": 4,
+    "promised_by": 1784159940,
+    "delivered_at": 1783979348,
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 109.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7456"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7763521229"
+    }
+  },
+  {
+    "order_id": "HL-10050",
+    "customer_id": "C-1011",
+    "source": "legacy_warehouse",
+    "placed_at": 1783689903,
+    "status": 4,
+    "promised_by": 1784159940,
+    "delivered_at": 1784104546,
+    "items": [
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 368.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1873"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7397341132"
+    }
+  },
+  {
+    "order_id": "HL-10051",
+    "customer_id": "C-1025",
+    "source": "legacy_warehouse",
+    "placed_at": 1783695874,
+    "status": 4,
+    "promised_by": 1784159940,
+    "delivered_at": 1784122272,
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 27.95,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8579044159"
+    }
+  },
+  {
+    "order_id": "HL-10052",
+    "customer_id": "C-1052",
+    "source": "legacy_warehouse",
+    "placed_at": 1783707221,
+    "status": 7,
+    "promised_by": 1784159940,
+    "delivered_at": 1784106519,
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 27.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0145"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6329749869"
+    }
+  },
+  {
+    "order_id": "HL-10053",
+    "customer_id": "C-1047",
+    "source": "legacy_warehouse",
+    "placed_at": 1783760697,
+    "status": 4,
+    "promised_by": 1784246340,
+    "delivered_at": 1784106450,
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 238.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6408"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5114705118"
+    }
+  },
+  {
+    "order_id": "HL-10054",
+    "customer_id": "C-1018",
+    "source": "legacy_warehouse",
+    "placed_at": 1783761862,
+    "status": 4,
+    "promised_by": 1784246340,
+    "delivered_at": 1784235501,
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 289.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7362"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4004243339"
+    }
+  },
+  {
+    "order_id": "HL-10055",
+    "customer_id": "C-1060",
+    "source": "legacy_warehouse",
+    "placed_at": 1783795389,
+    "status": 4,
+    "promised_by": 1784246340,
+    "delivered_at": 1784102519,
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1037"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6261158668"
+    }
+  },
+  {
+    "order_id": "HL-10056",
+    "customer_id": "C-1046",
+    "source": "legacy_warehouse",
+    "placed_at": 1783855888,
+    "status": 4,
+    "promised_by": 1784332740,
+    "delivered_at": 1784195046,
+    "items": [
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 64.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2050"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9655277109"
+    }
+  },
+  {
+    "order_id": "HL-10057",
+    "customer_id": "C-1037",
+    "source": "legacy_warehouse",
+    "placed_at": 1783876336,
+    "status": 4,
+    "promised_by": 1784332740,
+    "delivered_at": 1784303179,
+    "items": [
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1602",
+        "name": "Clearance: Outdoor Cushion Covers",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 25.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 483.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1428"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6612620664"
+    }
+  },
+  {
+    "order_id": "HL-10058",
+    "customer_id": "C-1043",
+    "source": "legacy_warehouse",
+    "placed_at": 1783969734,
+    "status": 4,
+    "promised_by": 1784419140,
+    "delivered_at": 1784403884,
+    "items": [
+      {
+        "sku": "SKU-1406",
+        "name": "Garden Tool Set",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 67.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 106.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7335"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8845014542"
+    }
+  },
+  {
+    "order_id": "HL-10059",
+    "customer_id": "C-1039",
+    "source": "web",
+    "placed_at": "2026-07-16T08:39:07Z",
+    "status": "delivered",
+    "promised_by": "2026-07-21",
+    "delivered_at": "2026-07-19T17:25:12-04:00",
+    "items": [
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 26.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 217.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1116047456"
+    }
+  },
+  {
+    "order_id": "HL-10060",
+    "customer_id": "C-1046",
+    "source": "web",
+    "placed_at": "2026-07-16T14:28:14Z",
+    "status": "delivered",
+    "promised_by": "2026-07-21",
+    "delivered_at": "2026-07-19T15:16:15Z",
+    "items": [
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 22.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 28.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2156"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3234598585"
+    }
+  },
+  {
+    "order_id": "HL-10061",
+    "customer_id": "C-1060",
+    "source": "web",
+    "placed_at": "2026-07-17T15:08:42-04:00",
+    "status": "cancelled",
+    "promised_by": "2026-07-22",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10062",
+    "customer_id": "C-1039",
+    "source": "web",
+    "placed_at": "2026-07-17T20:11:59-04:00",
+    "status": "delivered",
+    "promised_by": "2026-07-22",
+    "delivered_at": "2026-07-22T15:40:35-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 158.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0929"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3548724717"
+    }
+  },
+  {
+    "order_id": "HL-10063",
+    "customer_id": "C-1008",
+    "source": "web",
+    "placed_at": "2026-07-21T21:34:13Z",
+    "status": "delivered",
+    "promised_by": "2026-07-26",
+    "delivered_at": "2026-07-26T13:15:23-04:00",
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 80.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6701"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3227911277"
+    }
+  },
+  {
+    "order_id": "HL-10064",
+    "customer_id": "C-1001",
+    "source": "web",
+    "placed_at": "2026-07-22T16:01:09Z",
+    "status": "returned",
+    "promised_by": "2026-07-27",
+    "delivered_at": "2026-07-25T08:44:35-04:00",
+    "items": [
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 2,
+        "unit_price": 28.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 135.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0624"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2227610669"
+    }
+  },
+  {
+    "order_id": "HL-10065",
+    "customer_id": "C-1041",
+    "source": "web",
+    "placed_at": "2026-07-23T09:48:27Z",
+    "status": "delivered",
+    "promised_by": "2026-07-28",
+    "delivered_at": "2026-07-28T16:00:36-04:00",
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 335.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2164"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1234490103"
+    }
+  },
+  {
+    "order_id": "HL-10066",
+    "customer_id": "C-1004",
+    "source": "web",
+    "placed_at": "2026-07-23T11:46:34-04:00",
+    "status": "delivered",
+    "promised_by": "2026-07-28",
+    "delivered_at": "2026-07-27T10:54:45-04:00",
+    "items": [
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 342.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8926"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2647545987"
+    }
+  },
+  {
+    "order_id": "HL-10067",
+    "customer_id": "C-1030",
+    "source": "web",
+    "placed_at": "2026-07-23T18:18:02Z",
+    "status": "delivered",
+    "promised_by": "2026-07-28",
+    "delivered_at": "2026-07-26T10:29:36-04:00",
+    "items": [
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 22.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 196.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2894"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4442468566"
+    }
+  },
+  {
+    "order_id": "HL-10068",
+    "customer_id": "C-1028",
+    "source": "web",
+    "placed_at": "2026-07-24T14:27:08-04:00",
+    "status": "delivered",
+    "promised_by": "2026-07-29",
+    "delivered_at": "2026-07-28T08:25:26Z",
+    "items": [
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 70.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7327"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8134388491"
+    }
+  },
+  {
+    "order_id": "HL-10069",
+    "customer_id": "C-1051",
+    "source": "web",
+    "placed_at": "2026-07-24T15:25:48-04:00",
+    "status": "delivered",
+    "promised_by": "2026-07-29",
+    "delivered_at": "2026-07-28T08:29:42Z",
+    "items": [
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1006",
+        "name": "Linen Tea Towels (set of 4)",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 24.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 313.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1730"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8490830094"
+    }
+  },
+  {
+    "order_id": "HL-10070",
+    "customer_id": "C-1043",
+    "source": "web",
+    "placed_at": "2026-07-25T17:09:36Z",
+    "status": "delivered",
+    "promised_by": "2026-07-30",
+    "delivered_at": "2026-07-30T08:03:38-04:00",
+    "items": [
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 128.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1067"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2569251273"
+    }
+  },
+  {
+    "order_id": "HL-10071",
+    "customer_id": "C-1057",
+    "source": "web",
+    "placed_at": "2026-07-25T21:07:05-04:00",
+    "status": "delivered",
+    "promised_by": "2026-07-30",
+    "delivered_at": "2026-07-28T09:39:06-04:00",
+    "items": [
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 26.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1601",
+        "name": "Clearance: Glass Storage Jars (set of 6)",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 19.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 122.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3808"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5628672074"
+    }
+  },
+  {
+    "order_id": "HL-10072",
+    "customer_id": "C-1007",
+    "source": "web",
+    "placed_at": "2026-07-26T09:47:57-04:00",
+    "status": "delivered",
+    "promised_by": "2026-07-31",
+    "delivered_at": "2026-07-29T16:21:05Z",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "9835"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4239657025"
+    }
+  },
+  {
+    "order_id": "HL-10073",
+    "customer_id": "C-1044",
+    "source": "web",
+    "placed_at": "2026-07-26T10:45:03Z",
+    "status": "delivered",
+    "promised_by": "2026-07-31",
+    "delivered_at": "2026-07-30T14:54:08Z",
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 80.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1983"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4950325874"
+    }
+  },
+  {
+    "order_id": "HL-10074",
+    "customer_id": "C-1023",
+    "source": "web",
+    "placed_at": "2026-07-27T10:30:59-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-01",
+    "delivered_at": "2026-08-01T12:11:46-04:00",
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 310.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4535"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8881964898"
+    }
+  },
+  {
+    "order_id": "HL-10075",
+    "customer_id": "C-1032",
+    "source": "web",
+    "placed_at": "2026-07-27T10:32:45-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-01",
+    "delivered_at": "2026-07-31T21:01:33-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 26.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 113.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2391950950"
+    }
+  },
+  {
+    "order_id": "HL-10076",
+    "customer_id": "C-1049",
+    "source": "web",
+    "placed_at": "2026-07-27T21:10:08Z",
+    "status": "delivered",
+    "promised_by": "2026-08-01",
+    "delivered_at": "2026-07-31T15:11:41-04:00",
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 253.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9895544453"
+    }
+  },
+  {
+    "order_id": "HL-10077",
+    "customer_id": "C-1003",
+    "source": "web",
+    "placed_at": "2026-07-29T14:09:10-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-03",
+    "delivered_at": "2026-08-02T20:09:42Z",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 184.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2510"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3130377915"
+    }
+  },
+  {
+    "order_id": "HL-10078",
+    "customer_id": "C-1004",
+    "source": "web",
+    "placed_at": "2026-07-30T15:13:32-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-04",
+    "delivered_at": "2026-08-04T20:25:14Z",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0951"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5384864399"
+    }
+  },
+  {
+    "order_id": "HL-10079",
+    "customer_id": "C-1050",
+    "source": "web",
+    "placed_at": "2026-07-30T16:23:44-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-04",
+    "delivered_at": "2026-08-02T11:01:24-04:00",
+    "items": [
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 22.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 128.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2823284509"
+    }
+  },
+  {
+    "order_id": "HL-10080",
+    "customer_id": "C-1012",
+    "source": "web",
+    "placed_at": "2026-07-31T16:39:26Z",
+    "status": "delivered",
+    "promised_by": "2026-08-05",
+    "delivered_at": "2026-08-03T12:04:48Z",
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 278.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6566"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3837923333"
+    }
+  },
+  {
+    "order_id": "HL-10081",
+    "customer_id": "C-1037",
+    "source": "web",
+    "placed_at": "2026-08-02T17:04:18Z",
+    "status": "delivered",
+    "promised_by": "2026-08-07",
+    "delivered_at": "2026-08-06T18:26:14Z",
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 289.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2716"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1447826628"
+    }
+  },
+  {
+    "order_id": "HL-10082",
+    "customer_id": "C-1015",
+    "source": "web",
+    "placed_at": "2026-08-04T12:53:31-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-09",
+    "delivered_at": "2026-08-09T19:15:25-04:00",
+    "items": [
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 99.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3794"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3243803586"
+    }
+  },
+  {
+    "order_id": "HL-10083",
+    "customer_id": "C-1036",
+    "source": "web",
+    "placed_at": "2026-08-04T14:03:53Z",
+    "status": "delivered",
+    "promised_by": "2026-08-09",
+    "delivered_at": "2026-08-08T19:31:42-04:00",
+    "items": [
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 70.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0105"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3830061811"
+    }
+  },
+  {
+    "order_id": "HL-10084",
+    "customer_id": "C-1027",
+    "source": "web",
+    "placed_at": "2026-08-04T15:26:34Z",
+    "status": "delivered",
+    "promised_by": "2026-08-09",
+    "delivered_at": "2026-08-07T10:13:53Z",
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 403.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2224"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8076255798"
+    }
+  },
+  {
+    "order_id": "HL-10085",
+    "customer_id": "C-1043",
+    "source": "web",
+    "placed_at": "2026-08-06T12:20:08-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-11",
+    "delivered_at": "2026-08-10T21:00:32Z",
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "9635"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7684903837"
+    }
+  },
+  {
+    "order_id": "HL-10086",
+    "customer_id": "C-1021",
+    "source": "web",
+    "placed_at": "2026-08-08T18:06:09Z",
+    "status": "delivered",
+    "promised_by": "2026-08-13",
+    "delivered_at": "2026-08-12T18:05:52Z",
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1602",
+        "name": "Clearance: Outdoor Cushion Covers",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 25.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 131.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5367365449"
+    }
+  },
+  {
+    "order_id": "HL-10087",
+    "customer_id": "C-1024",
+    "source": "web",
+    "placed_at": "2026-08-09T10:33:18-04:00",
+    "status": "returned",
+    "promised_by": "2026-08-14",
+    "delivered_at": "2026-08-14T10:51:08Z",
+    "items": [
+      {
+        "sku": "SKU-1601",
+        "name": "Clearance: Glass Storage Jars (set of 6)",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 19.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 25.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4233"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5879341935"
+    }
+  },
+  {
+    "order_id": "HL-10088",
+    "customer_id": "C-1033",
+    "source": "web",
+    "placed_at": "2026-08-10T08:30:27-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-15",
+    "delivered_at": "2026-08-13T17:31:05Z",
+    "items": [
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 26.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 32.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3733"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7689092214"
+    }
+  },
+  {
+    "order_id": "HL-10089",
+    "customer_id": "C-1046",
+    "source": "web",
+    "placed_at": "2026-08-10T11:20:46Z",
+    "status": "delivered",
+    "promised_by": "2026-08-15",
+    "delivered_at": "2026-08-14T12:17:01-04:00",
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 48.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1516"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7741425640"
+    }
+  },
+  {
+    "order_id": "HL-10090",
+    "customer_id": "C-1037",
+    "source": "web",
+    "placed_at": "2026-08-10T12:41:18-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-15",
+    "delivered_at": "2026-08-14T09:04:35-04:00",
+    "items": [
+      {
+        "sku": "SKU-1405",
+        "name": "Folding Camp Chair",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 54.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 60.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7156"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5657912236"
+    }
+  },
+  {
+    "order_id": "HL-10091",
+    "customer_id": "C-1011",
+    "source": "web",
+    "placed_at": "2026-08-12T12:47:54Z",
+    "status": "delivered",
+    "promised_by": "2026-08-17",
+    "delivered_at": "2026-08-16T18:49:44Z",
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 289.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6014"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6563271344"
+    }
+  },
+  {
+    "order_id": "HL-10092",
+    "customer_id": "C-1047",
+    "source": "web",
+    "placed_at": "2026-08-12T20:00:02Z",
+    "status": "delivered",
+    "promised_by": "2026-08-17",
+    "delivered_at": "2026-08-15T17:23:29Z",
+    "items": [
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 26.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 58.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7815"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5776800852"
+    }
+  },
+  {
+    "order_id": "HL-10093",
+    "customer_id": "C-1049",
+    "source": "web",
+    "placed_at": "2026-08-13T14:02:37Z",
+    "status": "delivered",
+    "promised_by": "2026-08-18",
+    "delivered_at": "2026-08-18T14:56:41Z",
+    "items": [
+      {
+        "sku": "SKU-1601",
+        "name": "Clearance: Glass Storage Jars (set of 6)",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 19.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 73.95,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3639017959"
+    }
+  },
+  {
+    "order_id": "HL-10094",
+    "customer_id": "C-1017",
+    "source": "web",
+    "placed_at": "2026-08-15T08:58:21Z",
+    "status": "delivered",
+    "promised_by": "2026-08-20",
+    "delivered_at": "2026-08-19T18:47:27Z",
+    "items": [
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 145.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4284"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2522969795"
+    }
+  },
+  {
+    "order_id": "HL-10095",
+    "customer_id": "C-1022",
+    "source": "web",
+    "placed_at": "2026-08-15T14:27:48Z",
+    "status": "delivered",
+    "promised_by": "2026-08-20",
+    "delivered_at": "2026-08-20T15:09:02Z",
+    "items": [
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 21.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 410.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2446"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1733526726"
+    }
+  },
+  {
+    "order_id": "HL-10096",
+    "customer_id": "C-1026",
+    "source": "web",
+    "placed_at": "2026-08-15T17:36:16-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-20",
+    "delivered_at": "2026-08-18T19:47:35Z",
+    "items": [
+      {
+        "sku": "SKU-1405",
+        "name": "Folding Camp Chair",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 54.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 92.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6760"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4664229931"
+    }
+  },
+  {
+    "order_id": "HL-10097",
+    "customer_id": "C-1009",
+    "source": "web",
+    "placed_at": "2026-08-15T21:55:10-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-20",
+    "delivered_at": "2026-08-19T12:45:21-04:00",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 75.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6478417251"
+    }
+  },
+  {
+    "order_id": "HL-10098",
+    "customer_id": "C-1035",
+    "source": "web",
+    "placed_at": "2026-08-16T09:06:34-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-21",
+    "delivered_at": "2026-08-21T21:12:00-04:00",
+    "items": [
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 258.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8643"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1773368337"
+    }
+  },
+  {
+    "order_id": "HL-10099",
+    "customer_id": "C-1052",
+    "source": "web",
+    "placed_at": "2026-08-17T16:18:55Z",
+    "status": "delivered",
+    "promised_by": "2026-08-22",
+    "delivered_at": "2026-08-20T12:17:07-04:00",
+    "items": [
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 22.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 113.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0428"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2810636156"
+    }
+  },
+  {
+    "order_id": "HL-10100",
+    "customer_id": "C-1002",
+    "source": "web",
+    "placed_at": "2026-08-19T14:32:37-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-24",
+    "delivered_at": "2026-08-23T21:27:08Z",
+    "items": [
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 458.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6818"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1383100429"
+    }
+  },
+  {
+    "order_id": "HL-10101",
+    "customer_id": "C-1038",
+    "source": "web",
+    "placed_at": "2026-08-20T09:41:24-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-25",
+    "delivered_at": "2026-08-23T08:43:33-04:00",
+    "items": [
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 44.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "5385"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9833252007"
+    }
+  },
+  {
+    "order_id": "HL-10102",
+    "customer_id": "C-1030",
+    "source": "web",
+    "placed_at": "2026-08-20T21:44:50-04:00",
+    "status": "returned",
+    "promised_by": "2026-08-25",
+    "delivered_at": "2026-08-23T11:27:44-04:00",
+    "items": [
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 24.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2154"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3273128301"
+    }
+  },
+  {
+    "order_id": "HL-10103",
+    "customer_id": "C-1038",
+    "source": "web",
+    "placed_at": "2026-08-22T09:21:35Z",
+    "status": "delivered",
+    "promised_by": "2026-08-27",
+    "delivered_at": "2026-08-26T11:21:27-04:00",
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 189.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0118"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5993686557"
+    }
+  },
+  {
+    "order_id": "HL-10104",
+    "customer_id": "C-1032",
+    "source": "web",
+    "placed_at": "2026-08-22T20:48:43-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-27",
+    "delivered_at": "2026-08-25T20:32:32-04:00",
+    "items": [
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 70.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4486"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9323751117"
+    }
+  },
+  {
+    "order_id": "HL-10105",
+    "customer_id": "C-1028",
+    "source": "web",
+    "placed_at": "2026-08-26T20:38:04-04:00",
+    "status": "delivered",
+    "promised_by": "2026-08-31",
+    "delivered_at": "2026-08-30T20:28:00-04:00",
+    "items": [
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 79.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2496"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7739113820"
+    }
+  },
+  {
+    "order_id": "HL-10106",
+    "customer_id": "C-1024",
+    "source": "web",
+    "placed_at": "2026-08-27T11:03:11Z",
+    "status": "delivered",
+    "promised_by": "2026-09-01",
+    "delivered_at": "2026-08-31T09:05:22Z",
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 89.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0228"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2495363991"
+    }
+  },
+  {
+    "order_id": "HL-10107",
+    "customer_id": "C-1013",
+    "source": "web",
+    "placed_at": "2026-08-27T19:48:25-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-01",
+    "delivered_at": "2026-08-30T12:24:08Z",
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3456"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9021891119"
+    }
+  },
+  {
+    "order_id": "HL-10108",
+    "customer_id": "C-1008",
+    "source": "web",
+    "placed_at": "2026-08-28T09:13:41-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-02",
+    "delivered_at": "2026-09-02T17:06:16Z",
+    "items": [
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 99.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1936"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9432324884"
+    }
+  },
+  {
+    "order_id": "HL-10109",
+    "customer_id": "C-1055",
+    "source": "web",
+    "placed_at": "2026-08-29T15:44:58-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-03",
+    "delivered_at": "2026-09-03T18:56:56-04:00",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3572"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5690786990"
+    }
+  },
+  {
+    "order_id": "HL-10110",
+    "customer_id": "C-1059",
+    "source": "web",
+    "placed_at": "2026-08-29T16:57:39-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-03",
+    "delivered_at": "2026-09-03T12:48:59Z",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 423.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3192"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1780883174"
+    }
+  },
+  {
+    "order_id": "HL-10111",
+    "customer_id": "C-1010",
+    "source": "web",
+    "placed_at": "2026-08-30T14:49:18Z",
+    "status": "delivered",
+    "promised_by": "2026-09-04",
+    "delivered_at": "2026-09-04T10:24:57Z",
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 251.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2594"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9846232267"
+    }
+  },
+  {
+    "order_id": "HL-10112",
+    "customer_id": "C-1046",
+    "source": "web",
+    "placed_at": "2026-08-30T18:48:58Z",
+    "status": "delivered",
+    "promised_by": "2026-09-04",
+    "delivered_at": "2026-09-03T10:57:50Z",
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 219.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2654"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9790288485"
+    }
+  },
+  {
+    "order_id": "HL-10113",
+    "customer_id": "C-1053",
+    "source": "web",
+    "placed_at": "2026-08-30T19:17:21-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-04",
+    "delivered_at": "2026-09-02T15:51:12-04:00",
+    "items": [
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 2,
+        "unit_price": 22.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 50.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6887"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2967803347"
+    }
+  },
+  {
+    "order_id": "HL-10114",
+    "customer_id": "C-1007",
+    "source": "web",
+    "placed_at": "2026-08-30T21:31:57Z",
+    "status": "delivered",
+    "promised_by": "2026-09-04",
+    "delivered_at": "2026-09-03T11:18:11Z",
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 307.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "5877"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4390231356"
+    }
+  },
+  {
+    "order_id": "HL-10115",
+    "customer_id": "C-1059",
+    "source": "web",
+    "placed_at": "2026-08-31T13:38:12Z",
+    "status": "delivered",
+    "promised_by": "2026-09-05",
+    "delivered_at": "2026-09-04T09:33:34Z",
+    "items": [
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 2,
+        "unit_price": 28.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 62.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7021"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4099826735"
+    }
+  },
+  {
+    "order_id": "HL-10116",
+    "customer_id": "C-1001",
+    "source": "web",
+    "placed_at": "2026-08-31T17:57:04-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-05",
+    "delivered_at": "2026-09-04T15:59:30-04:00",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7873"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8497156119"
+    }
+  },
+  {
+    "order_id": "HL-10117",
+    "customer_id": "C-1032",
+    "source": "web",
+    "placed_at": "2026-08-31T21:31:28Z",
+    "status": "delivered",
+    "promised_by": "2026-09-05",
+    "delivered_at": "2026-09-03T15:58:46Z",
+    "items": [
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1005",
+        "name": "Pour-Over Coffee Kettle",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 42.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 80.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7541"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2668562015"
+    }
+  },
+  {
+    "order_id": "HL-10118",
+    "customer_id": "C-1017",
+    "source": "web",
+    "placed_at": "2026-09-02T10:46:33Z",
+    "status": "delivered",
+    "promised_by": "2026-09-07",
+    "delivered_at": "2026-09-06T11:19:07-04:00",
+    "items": [
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 26.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 66.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2176"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9597611987"
+    }
+  },
+  {
+    "order_id": "HL-10119",
+    "customer_id": "C-1026",
+    "source": "web",
+    "placed_at": "2026-09-02T21:10:56-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-07",
+    "delivered_at": "2026-09-07T21:20:56Z",
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 89.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8537"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4927414683"
+    }
+  },
+  {
+    "order_id": "HL-10120",
+    "customer_id": "C-1046",
+    "source": "web",
+    "placed_at": "2026-09-02T21:54:46Z",
+    "status": "delivered",
+    "promised_by": "2026-09-07",
+    "delivered_at": "2026-09-05T13:39:26-04:00",
+    "items": [
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 329.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2214"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4921335296"
+    }
+  },
+  {
+    "order_id": "HL-10121",
+    "customer_id": "C-1046",
+    "source": "web",
+    "placed_at": "2026-09-03T14:51:48-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-08",
+    "delivered_at": "2026-09-08T20:36:37-04:00",
+    "items": [
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 54.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "7402"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1705755451"
+    }
+  },
+  {
+    "order_id": "HL-10122",
+    "customer_id": "C-1024",
+    "source": "web",
+    "placed_at": "2026-09-03T15:05:49-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-08",
+    "delivered_at": "2026-09-08T19:35:00-04:00",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6832"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7683926568"
+    }
+  },
+  {
+    "order_id": "HL-10123",
+    "customer_id": "C-1050",
+    "source": "web",
+    "placed_at": "2026-09-04T21:22:16Z",
+    "status": "delivered",
+    "promised_by": "2026-09-09",
+    "delivered_at": "2026-09-09T16:38:25Z",
+    "items": [
+      {
+        "sku": "SKU-1405",
+        "name": "Folding Camp Chair",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 54.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1603",
+        "name": "Clearance: Bluetooth Alarm Clock",
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 112.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8966"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9820495423"
+    }
+  },
+  {
+    "order_id": "HL-10124",
+    "customer_id": "C-1004",
+    "source": "web",
+    "placed_at": "2026-09-05T14:52:25-04:00",
+    "status": "returned",
+    "promised_by": "2026-09-10",
+    "delivered_at": "2026-09-10T21:07:59-04:00",
+    "items": [
+      {
+        "sku": "SKU-1103",
+        "name": "Hand-Woven Rug 5x7",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 219.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 363.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1983"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9662815228"
+    }
+  },
+  {
+    "order_id": "HL-10125",
+    "customer_id": "C-1056",
+    "source": "web",
+    "placed_at": "2026-09-05T15:41:58Z",
+    "status": "delivered",
+    "promised_by": "2026-09-10",
+    "delivered_at": "2026-09-09T12:18:07Z",
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "8379"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8647637926"
+    }
+  },
+  {
+    "order_id": "HL-10126",
+    "customer_id": "C-1011",
+    "source": "web",
+    "placed_at": "2026-09-06T12:26:29Z",
+    "status": "delivered",
+    "promised_by": "2026-09-11",
+    "delivered_at": "2026-09-09T08:09:15Z",
+    "items": [
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 207.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4292"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7594992702"
+    }
+  },
+  {
+    "order_id": "HL-10127",
+    "customer_id": "C-1051",
+    "source": "web",
+    "placed_at": "2026-09-07T09:08:59-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-12",
+    "delivered_at": "2026-09-10T12:23:43Z",
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1406",
+        "name": "Garden Tool Set",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 67.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 88.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1666"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6732326038"
+    }
+  },
+  {
+    "order_id": "HL-10128",
+    "customer_id": "C-1021",
+    "source": "web",
+    "placed_at": "2026-09-07T18:08:02-04:00",
+    "status": "cancelled",
+    "promised_by": "2026-09-12",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 110.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8903"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10129",
+    "customer_id": "C-1016",
+    "source": "web",
+    "placed_at": "2026-09-10T16:27:24Z",
+    "status": "delivered",
+    "promised_by": "2026-09-15",
+    "delivered_at": "2026-09-15T19:29:00-04:00",
+    "items": [
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 28.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 416.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6259"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5260138502"
+    }
+  },
+  {
+    "order_id": "HL-10130",
+    "customer_id": "C-1047",
+    "source": "web",
+    "placed_at": "2026-09-11T21:50:06Z",
+    "status": "delivered",
+    "promised_by": "2026-09-16",
+    "delivered_at": "2026-09-14T10:55:54-04:00",
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 287.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9254399274"
+    }
+  },
+  {
+    "order_id": "HL-10131",
+    "customer_id": "C-1009",
+    "source": "web",
+    "placed_at": "2026-09-12T19:12:26Z",
+    "status": "delivered",
+    "promised_by": "2026-09-17",
+    "delivered_at": "2026-09-17T20:31:49-04:00",
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 408.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7364"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1616607495"
+    }
+  },
+  {
+    "order_id": "HL-10132",
+    "customer_id": "C-1008",
+    "source": "web",
+    "placed_at": "2026-09-13T13:15:03-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-18",
+    "delivered_at": "2026-09-16T08:25:09-04:00",
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1603",
+        "name": "Clearance: Bluetooth Alarm Clock",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 236.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7271"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9290222409"
+    }
+  },
+  {
+    "order_id": "HL-10133",
+    "customer_id": "C-1005",
+    "source": "web",
+    "placed_at": "2026-09-13T13:39:40Z",
+    "status": "delivered",
+    "promised_by": "2026-09-18",
+    "delivered_at": "2026-09-18T11:13:51-04:00",
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 228.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1892"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2375532695"
+    }
+  },
+  {
+    "order_id": "HL-10134",
+    "customer_id": "C-1022",
+    "source": "web",
+    "placed_at": "2026-09-14T11:24:52-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-19",
+    "delivered_at": "2026-09-19T15:35:34Z",
+    "items": [
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 87.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "0491"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8493806490"
+    }
+  },
+  {
+    "order_id": "HL-10135",
+    "customer_id": "C-1034",
+    "source": "web",
+    "placed_at": "2026-09-14T11:35:00-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-19",
+    "delivered_at": "2026-09-17T18:02:03-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1729"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3697543288"
+    }
+  },
+  {
+    "order_id": "HL-10136",
+    "customer_id": "C-1007",
+    "source": "web",
+    "placed_at": "2026-09-17T10:28:53-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-22",
+    "delivered_at": "2026-09-20T09:25:27-04:00",
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "9683"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6421739039"
+    }
+  },
+  {
+    "order_id": "HL-10137",
+    "customer_id": "C-1024",
+    "source": "web",
+    "placed_at": "2026-09-18T21:11:56-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-23",
+    "delivered_at": "2026-09-21T13:33:39-04:00",
+    "items": [
+      {
+        "sku": "SKU-1406",
+        "name": "Garden Tool Set",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 67.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 165.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "5726"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6358590493"
+    }
+  },
+  {
+    "order_id": "HL-10138",
+    "customer_id": "C-1051",
+    "source": "web",
+    "placed_at": "2026-09-19T08:45:00-04:00",
+    "status": "returned",
+    "promised_by": "2026-09-24",
+    "delivered_at": "2026-09-23T12:32:50Z",
+    "items": [
+      {
+        "sku": "SKU-1006",
+        "name": "Linen Tea Towels (set of 4)",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 24.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 75.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4202"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5856024716"
+    }
+  },
+  {
+    "order_id": "HL-10139",
+    "customer_id": "C-1047",
+    "source": "web",
+    "placed_at": "2026-09-19T09:41:19-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-24",
+    "delivered_at": "2026-09-24T11:27:51Z",
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 363.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2770076329"
+    }
+  },
+  {
+    "order_id": "HL-10140",
+    "customer_id": "C-1055",
+    "source": "web",
+    "placed_at": "2026-09-21T08:01:08-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-26",
+    "delivered_at": "2026-09-25T12:01:58Z",
+    "items": [
+      {
+        "sku": "SKU-1301",
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 79.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 79.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7592356689"
+    }
+  },
+  {
+    "order_id": "HL-10141",
+    "customer_id": "C-1005",
+    "source": "web",
+    "placed_at": "2026-09-21T14:54:13Z",
+    "status": "delivered",
+    "promised_by": "2026-09-26",
+    "delivered_at": "2026-09-25T16:35:27-04:00",
+    "items": [
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7762"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4193631355"
+    }
+  },
+  {
+    "order_id": "HL-10142",
+    "customer_id": "C-1029",
+    "source": "web",
+    "placed_at": "2026-09-21T21:35:55Z",
+    "status": "delivered",
+    "promised_by": "2026-09-26",
+    "delivered_at": "2026-09-25T09:39:23-04:00",
+    "items": [
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 54.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6767"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3475900108"
+    }
+  },
+  {
+    "order_id": "HL-10143",
+    "customer_id": "C-1010",
+    "source": "web",
+    "placed_at": "2026-09-22T15:00:18Z",
+    "status": "delivered",
+    "promised_by": "2026-09-27",
+    "delivered_at": "2026-09-26T19:10:02-04:00",
+    "items": [
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 80.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2075"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3281616507"
+    }
+  },
+  {
+    "order_id": "HL-10144",
+    "customer_id": "C-1003",
+    "source": "web",
+    "placed_at": "2026-09-22T19:00:25Z",
+    "status": "delivered",
+    "promised_by": "2026-09-27",
+    "delivered_at": "2026-09-26T08:14:59-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 79.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "5983"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4451818286"
+    }
+  },
+  {
+    "order_id": "HL-10145",
+    "customer_id": "C-1041",
+    "source": "web",
+    "placed_at": "2026-09-22T19:48:12Z",
+    "status": "delivered",
+    "promised_by": "2026-09-27",
+    "delivered_at": "2026-09-26T15:34:35Z",
+    "items": [
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 145.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9839"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2644634347"
+    }
+  },
+  {
+    "order_id": "HL-10146",
+    "customer_id": "C-1054",
+    "source": "web",
+    "placed_at": "2026-09-22T20:47:41Z",
+    "status": "delivered",
+    "promised_by": "2026-09-27",
+    "delivered_at": "2026-09-25T08:33:34-04:00",
+    "items": [
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 289.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3687002116"
+    }
+  },
+  {
+    "order_id": "HL-10147",
+    "customer_id": "C-1043",
+    "source": "web",
+    "placed_at": "2026-09-23T20:54:17-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-28",
+    "delivered_at": "2026-10-06T16:07:38-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1053"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8811897375"
+    }
+  },
+  {
+    "order_id": "HL-10148",
+    "customer_id": "C-1008",
+    "source": "web",
+    "placed_at": "2026-09-24T09:31:05-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-29",
+    "delivered_at": "2026-10-07T14:02:16-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2297"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2399845818"
+    }
+  },
+  {
+    "order_id": "HL-10149",
+    "customer_id": "C-1004",
+    "source": "web",
+    "placed_at": "2026-09-24T09:59:16Z",
+    "status": "delivered",
+    "promised_by": "2026-09-29",
+    "delivered_at": "2026-09-29T15:33:06-04:00",
+    "items": [
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 130.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9033"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5759817683"
+    }
+  },
+  {
+    "order_id": "HL-10150",
+    "customer_id": "C-1043",
+    "source": "web",
+    "placed_at": "2026-09-24T13:00:09Z",
+    "status": "cancelled",
+    "promised_by": "2026-09-29",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 268.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8099"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10151",
+    "customer_id": "C-1021",
+    "source": "web",
+    "placed_at": "2026-09-24T19:40:30-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-29",
+    "delivered_at": "2026-09-28T19:38:56-04:00",
+    "items": [
+      {
+        "sku": "SKU-1404",
+        "name": "Two-Person Tent",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 189.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7418"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6810804180"
+    }
+  },
+  {
+    "order_id": "HL-10152",
+    "customer_id": "C-1054",
+    "source": "web",
+    "placed_at": "2026-09-25T10:26:54-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-30",
+    "delivered_at": "2026-09-29T16:08:37-04:00",
+    "items": [
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 73.95,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3082641879"
+    }
+  },
+  {
+    "order_id": "HL-10153",
+    "customer_id": "C-1039",
+    "source": "web",
+    "placed_at": "2026-09-25T17:35:08Z",
+    "status": "delivered",
+    "promised_by": "2026-09-30",
+    "delivered_at": "2026-09-28T08:39:41-04:00",
+    "items": [
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4401"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8331656223"
+    }
+  },
+  {
+    "order_id": "HL-10154",
+    "customer_id": "C-1026",
+    "source": "web",
+    "placed_at": "2026-09-25T19:08:25-04:00",
+    "status": "delivered",
+    "promised_by": "2026-09-30",
+    "delivered_at": "2026-09-28T18:33:15Z",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "5344"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7432315958"
+    }
+  },
+  {
+    "order_id": "HL-10155",
+    "customer_id": "C-1059",
+    "source": "web",
+    "placed_at": "2026-09-26T16:02:18-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-01",
+    "delivered_at": "2026-09-30T15:15:27Z",
+    "items": [
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 73.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "9855"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9191101762"
+    }
+  },
+  {
+    "order_id": "HL-10156",
+    "customer_id": "C-1035",
+    "source": "web",
+    "placed_at": "2026-09-26T19:17:48-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-01",
+    "delivered_at": "2026-09-30T17:19:43Z",
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 89.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4708"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2303851393"
+    }
+  },
+  {
+    "order_id": "HL-10157",
+    "customer_id": "C-1030",
+    "source": "web",
+    "placed_at": "2026-09-26T20:08:37Z",
+    "status": "delivered",
+    "promised_by": "2026-10-01",
+    "delivered_at": "2026-09-30T19:53:34Z",
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 89.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2632"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8701042866"
+    }
+  },
+  {
+    "order_id": "HL-10158",
+    "customer_id": "C-1009",
+    "source": "web",
+    "placed_at": "2026-09-27T10:03:00-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-02",
+    "delivered_at": "2026-10-01T11:29:13Z",
+    "items": [
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3499"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7971369088"
+    }
+  },
+  {
+    "order_id": "HL-10159",
+    "customer_id": "C-1016",
+    "source": "web",
+    "placed_at": "2026-09-27T15:18:54-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-02",
+    "delivered_at": "2026-10-01T20:19:53-04:00",
+    "items": [
+      {
+        "sku": "SKU-1602",
+        "name": "Clearance: Outdoor Cushion Covers",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 25.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 60.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0887"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8203718157"
+    }
+  },
+  {
+    "order_id": "HL-10160",
+    "customer_id": "C-1022",
+    "source": "web",
+    "placed_at": "2026-09-27T17:49:52Z",
+    "status": "delivered",
+    "promised_by": "2026-10-02",
+    "delivered_at": "2026-10-01T21:50:06-04:00",
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 21.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 100.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3494"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5997878659"
+    }
+  },
+  {
+    "order_id": "HL-10161",
+    "customer_id": "C-1041",
+    "source": "web",
+    "placed_at": "2026-09-27T21:56:41-04:00",
+    "status": "cancelled",
+    "promised_by": "2026-10-02",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1603",
+        "name": "Clearance: Bluetooth Alarm Clock",
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 64.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1482"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10162",
+    "customer_id": "C-1050",
+    "source": "web",
+    "placed_at": "2026-09-29T14:37:29-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-04",
+    "delivered_at": "2026-10-03T18:51:47-04:00",
+    "items": [
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 77.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7155666576"
+    }
+  },
+  {
+    "order_id": "HL-10163",
+    "customer_id": "C-1031",
+    "source": "web",
+    "placed_at": "2026-09-29T17:13:17-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-04",
+    "delivered_at": "2026-10-03T15:49:30-04:00",
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 80.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1817"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2977975357"
+    }
+  },
+  {
+    "order_id": "HL-10164",
+    "customer_id": "C-1037",
+    "source": "web",
+    "placed_at": "2026-09-29T21:46:08-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-04",
+    "delivered_at": "2026-10-03T13:16:42Z",
+    "items": [
+      {
+        "sku": "SKU-1504",
+        "name": "LED Desk Lamp",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 48.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 106.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8423"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1985537580"
+    }
+  },
+  {
+    "order_id": "HL-10165",
+    "customer_id": "C-1057",
+    "source": "web",
+    "placed_at": "2026-09-30T11:31:13Z",
+    "status": "delivered",
+    "promised_by": "2026-10-05",
+    "delivered_at": "2026-10-05T14:25:29Z",
+    "items": [
+      {
+        "sku": "SKU-1602",
+        "name": "Clearance: Outdoor Cushion Covers",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 25.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 453.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "5973"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7330164848"
+    }
+  },
+  {
+    "order_id": "HL-10166",
+    "customer_id": "C-1004",
+    "source": "web",
+    "placed_at": "2026-09-30T12:03:49Z",
+    "status": "delivered",
+    "promised_by": "2026-10-05",
+    "delivered_at": "2026-10-04T11:41:14-04:00",
+    "items": [
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 104.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0006"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1486990692"
+    }
+  },
+  {
+    "order_id": "HL-10167",
+    "customer_id": "C-1060",
+    "source": "web",
+    "placed_at": "2026-09-30T16:18:49-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-05",
+    "delivered_at": "2026-10-05T20:21:12Z",
+    "items": [
+      {
+        "sku": "SKU-1104",
+        "name": "Linen Curtain Panel",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 46.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 52.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4032"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1918790949"
+    }
+  },
+  {
+    "order_id": "HL-10168",
+    "customer_id": "C-1038",
+    "source": "web",
+    "placed_at": "2026-09-30T19:35:18-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-05",
+    "delivered_at": "2026-10-04T18:45:34-04:00",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 74.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "8734"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8219914471"
+    }
+  },
+  {
+    "order_id": "HL-10169",
+    "customer_id": "C-1007",
+    "source": "web",
+    "placed_at": "2026-09-30T19:51:18-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-05",
+    "delivered_at": "2026-10-04T19:50:53Z",
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 89.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1536"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4799165875"
+    }
+  },
+  {
+    "order_id": "HL-10170",
+    "customer_id": "C-1023",
+    "source": "web",
+    "placed_at": "2026-10-01T10:30:58-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-06",
+    "delivered_at": "2026-10-05T12:01:34-04:00",
+    "items": [
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 38.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0902"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1054335167"
+    }
+  },
+  {
+    "order_id": "HL-10171",
+    "customer_id": "C-1021",
+    "source": "web",
+    "placed_at": "2026-10-01T19:17:05-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-06",
+    "delivered_at": "2026-10-05T08:43:36Z",
+    "items": [
+      {
+        "sku": "SKU-1305",
+        "name": "Robot Vacuum",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 517.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7838"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9879919051"
+    }
+  },
+  {
+    "order_id": "HL-10172",
+    "customer_id": "C-1042",
+    "source": "web",
+    "placed_at": "2026-10-02T12:14:57-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-07",
+    "delivered_at": "2026-10-06T19:27:04Z",
+    "items": [
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 28.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 2,
+        "unit_price": 22.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 78.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3884"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8826788818"
+    }
+  },
+  {
+    "order_id": "HL-10173",
+    "customer_id": "C-1051",
+    "source": "web",
+    "placed_at": "2026-10-03T11:25:13-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-08",
+    "delivered_at": "2026-10-07T15:41:19-04:00",
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 95.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "0238"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7544888598"
+    }
+  },
+  {
+    "order_id": "HL-10174",
+    "customer_id": "C-1057",
+    "source": "web",
+    "placed_at": "2026-10-03T15:30:29-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-08",
+    "delivered_at": "2026-10-08T17:04:27Z",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4523"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5730647369"
+    }
+  },
+  {
+    "order_id": "HL-10175",
+    "customer_id": "C-1060",
+    "source": "web",
+    "placed_at": "2026-10-03T18:58:46Z",
+    "status": "delivered",
+    "promised_by": "2026-10-08",
+    "delivered_at": "2026-10-07T21:23:42-04:00",
+    "items": [
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 329.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1277"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1147817228"
+    }
+  },
+  {
+    "order_id": "HL-10176",
+    "customer_id": "C-1032",
+    "source": "web",
+    "placed_at": "2026-10-03T19:33:45Z",
+    "status": "delivered",
+    "promised_by": "2026-10-08",
+    "delivered_at": "2026-10-07T10:59:54-04:00",
+    "items": [
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 99.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "8107"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1260986218"
+    }
+  },
+  {
+    "order_id": "HL-10177",
+    "customer_id": "C-1012",
+    "source": "web",
+    "placed_at": "2026-10-03T21:32:56-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-08",
+    "delivered_at": "2026-10-08T13:28:36Z",
+    "items": [
+      {
+        "sku": "SKU-1501",
+        "name": "Oak Standing Desk",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 649.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 649.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1428"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8101555637"
+    }
+  },
+  {
+    "order_id": "HL-10178",
+    "customer_id": "C-1017",
+    "source": "web",
+    "placed_at": "2026-10-03T21:37:10-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-08",
+    "delivered_at": "2026-10-07T16:18:29Z",
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1204",
+        "name": "Waffle Bath Towel",
+        "category": "bedding",
+        "quantity": 2,
+        "unit_price": 22.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 83.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1247360863"
+    }
+  },
+  {
+    "order_id": "HL-10179",
+    "customer_id": "C-1057",
+    "source": "web",
+    "placed_at": "2026-10-04T08:26:25Z",
+    "status": "delivered",
+    "promised_by": "2026-10-09",
+    "delivered_at": "2026-10-08T13:14:14Z",
+    "items": [
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1249"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8626505489"
+    }
+  },
+  {
+    "order_id": "HL-10180",
+    "customer_id": "C-1053",
+    "source": "web",
+    "placed_at": "2026-10-04T10:06:45Z",
+    "status": "delivered",
+    "promised_by": "2026-10-09",
+    "delivered_at": "2026-10-08T11:52:30Z",
+    "items": [
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 145.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3141"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3349884267"
+    }
+  },
+  {
+    "order_id": "HL-10181",
+    "customer_id": "C-1019",
+    "source": "web",
+    "placed_at": "2026-10-04T10:49:30Z",
+    "status": "delivered",
+    "promised_by": "2026-10-09",
+    "delivered_at": "2026-10-07T14:02:40-04:00",
+    "items": [
+      {
+        "sku": "SKU-1003",
+        "name": "Ceramic Mixing Bowl Set",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 44.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "2986"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5749576034"
+    }
+  },
+  {
+    "order_id": "HL-10182",
+    "customer_id": "C-1027",
+    "source": "web",
+    "placed_at": "2026-10-04T18:04:07-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-09",
+    "delivered_at": "2026-10-08T20:45:22-04:00",
+    "items": [
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 98.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8903346453"
+    }
+  },
+  {
+    "order_id": "HL-10183",
+    "customer_id": "C-1042",
+    "source": "web",
+    "placed_at": "2026-10-05T10:44:13-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-10",
+    "delivered_at": "2026-10-08T17:49:26-04:00",
+    "items": [
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1302",
+        "name": "Smart Speaker",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 99.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 172.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "2882"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW3647298791"
+    }
+  },
+  {
+    "order_id": "HL-10184",
+    "customer_id": "C-1033",
+    "source": "web",
+    "placed_at": "2026-10-05T12:01:50-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-10",
+    "delivered_at": "2026-10-09T13:44:29-04:00",
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 119.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "5079"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1187830106"
+    }
+  },
+  {
+    "order_id": "HL-10185",
+    "customer_id": "C-1020",
+    "source": "web",
+    "placed_at": "2026-10-05T13:25:07-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-10",
+    "delivered_at": "2026-10-08T21:07:01Z",
+    "items": [
+      {
+        "sku": "SKU-1106",
+        "name": "Round Wall Mirror",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 129.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7032"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6170022949"
+    }
+  },
+  {
+    "order_id": "HL-10186",
+    "customer_id": "C-1044",
+    "source": "web",
+    "placed_at": "2026-10-05T13:58:56-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-10",
+    "delivered_at": "2026-10-09T15:55:10Z",
+    "items": [
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 98.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6169"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW5818881628"
+    }
+  },
+  {
+    "order_id": "HL-10187",
+    "customer_id": "C-1035",
+    "source": "web",
+    "placed_at": "2026-10-06T09:48:05Z",
+    "status": "delivered",
+    "promised_by": "2026-10-11",
+    "delivered_at": "2026-10-10T08:04:23-04:00",
+    "items": [
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 38.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "6293"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9900046927"
+    }
+  },
+  {
+    "order_id": "HL-10188",
+    "customer_id": "C-1050",
+    "source": "web",
+    "placed_at": "2026-10-06T10:40:36-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-11",
+    "delivered_at": "2026-10-10T12:04:18Z",
+    "items": [
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 329.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7738914439"
+    }
+  },
+  {
+    "order_id": "HL-10189",
+    "customer_id": "C-1006",
+    "source": "web",
+    "placed_at": "2026-10-06T19:07:57Z",
+    "status": "delivered",
+    "promised_by": "2026-10-11",
+    "delivered_at": "2026-10-09T09:22:08-04:00",
+    "items": [
+      {
+        "sku": "SKU-1601",
+        "name": "Clearance: Glass Storage Jars (set of 6)",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 19.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 93.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1540"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1216861252"
+    }
+  },
+  {
+    "order_id": "HL-10190",
+    "customer_id": "C-1013",
+    "source": "web",
+    "placed_at": "2026-10-07T18:18:52-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-12",
+    "delivered_at": "2026-10-11T11:17:35Z",
+    "items": [
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 2,
+        "unit_price": 29.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 76.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6030"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6517238535"
+    }
+  },
+  {
+    "order_id": "HL-10191",
+    "customer_id": "C-1059",
+    "source": "web",
+    "placed_at": "2026-10-07T19:46:35Z",
+    "status": "delivered",
+    "promised_by": "2026-10-12",
+    "delivered_at": "2026-10-11T08:03:25Z",
+    "items": [
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 70.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1032"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW8218486720"
+    }
+  },
+  {
+    "order_id": "HL-10192",
+    "customer_id": "C-1047",
+    "source": "web",
+    "placed_at": "2026-10-08T15:03:39Z",
+    "status": "delivered",
+    "promised_by": "2026-10-13",
+    "delivered_at": "2026-10-12T17:59:39-04:00",
+    "items": [
+      {
+        "sku": "SKU-1004",
+        "name": "Dual-Boiler Espresso Machine",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 549.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 549.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9048982860"
+    }
+  },
+  {
+    "order_id": "HL-10193",
+    "customer_id": "C-1009",
+    "source": "web",
+    "placed_at": "2026-10-08T16:11:03-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-13",
+    "delivered_at": "2026-10-11T17:29:07-04:00",
+    "items": [
+      {
+        "sku": "SKU-1605",
+        "name": "Clearance: Scented Candle Trio",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "final_sale": true
+      },
+      {
+        "sku": "SKU-1406",
+        "name": "Garden Tool Set",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 67.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1604",
+        "name": "Clearance: Velvet Throw Pillow",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 18.0,
+        "final_sale": true
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 106.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7053"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1722602240"
+    }
+  },
+  {
+    "order_id": "HL-10194",
+    "customer_id": "C-1052",
+    "source": "web",
+    "placed_at": "2026-10-08T20:36:49-04:00",
+    "status": "delivered",
+    "promised_by": "2026-10-13",
+    "delivered_at": "2026-10-13T18:22:40Z",
+    "items": [
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1402",
+        "name": "Camping Lantern",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 195.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7830"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW2930364443"
+    }
+  },
+  {
+    "order_id": "HL-10195",
+    "customer_id": "C-1052",
+    "source": "web",
+    "placed_at": "2026-10-09T21:03:22Z",
+    "status": "delivered",
+    "promised_by": "2026-10-14",
+    "delivered_at": "2026-10-12T14:26:01-04:00",
+    "items": [
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 38.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "8106"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9768165553"
+    }
+  },
+  {
+    "order_id": "HL-10196",
+    "customer_id": "C-1002",
+    "source": "web",
+    "placed_at": "2026-10-10T11:22:30Z",
+    "status": "shipped",
+    "promised_by": "2026-10-15",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 38.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4480"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4974187387",
+      "estimated_delivery": "2026-10-16"
+    }
+  },
+  {
+    "order_id": "HL-10197",
+    "customer_id": "C-1026",
+    "source": "web",
+    "placed_at": "2026-10-11T10:58:17Z",
+    "status": "shipped",
+    "promised_by": "2026-10-16",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 28.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 79.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "3821"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW1936051180",
+      "estimated_delivery": "2026-10-17"
+    }
+  },
+  {
+    "order_id": "HL-10198",
+    "customer_id": "C-1054",
+    "source": "web",
+    "placed_at": "2026-10-11T18:55:23-04:00",
+    "status": "shipped",
+    "promised_by": "2026-10-16",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "Chef's Knife 8in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 64.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 138.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "3644"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6294745960",
+      "estimated_delivery": "2026-10-17"
+    }
+  },
+  {
+    "order_id": "HL-10199",
+    "customer_id": "C-1031",
+    "source": "web",
+    "placed_at": "2026-10-11T19:56:45-04:00",
+    "status": "shipped",
+    "promised_by": "2026-10-16",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 289.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1247"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW7883400214",
+      "estimated_delivery": "2026-10-17"
+    }
+  },
+  {
+    "order_id": "HL-10200",
+    "customer_id": "C-1059",
+    "source": "web",
+    "placed_at": "2026-10-11T21:31:00-04:00",
+    "status": "shipped",
+    "promised_by": "2026-10-16",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1203",
+        "name": "Memory Foam Pillow",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 39.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 45.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "1219"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4003512425",
+      "estimated_delivery": "2026-10-17"
+    }
+  },
+  {
+    "order_id": "HL-10201",
+    "customer_id": "C-1024",
+    "source": "web",
+    "placed_at": "2026-10-12T09:16:27-04:00",
+    "status": "shipped",
+    "promised_by": "2026-10-17",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1503",
+        "name": "Desk Organizer",
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 26.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 58.95,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4006365115",
+      "estimated_delivery": "2026-10-18"
+    }
+  },
+  {
+    "order_id": "HL-10202",
+    "customer_id": "C-1038",
+    "source": "web",
+    "placed_at": "2026-10-12T10:56:25-04:00",
+    "status": "shipped",
+    "promised_by": "2026-10-17",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 289.0,
+    "payment": {
+      "method": "gift_card"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9340569446",
+      "estimated_delivery": "2026-10-18"
+    }
+  },
+  {
+    "order_id": "HL-10203",
+    "customer_id": "C-1037",
+    "source": "web",
+    "placed_at": "2026-10-12T11:52:19Z",
+    "status": "shipped",
+    "promised_by": "2026-10-17",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1304",
+        "name": "USB-C Charging Hub",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 164.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9130"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW4193151067",
+      "estimated_delivery": "2026-10-18"
+    }
+  },
+  {
+    "order_id": "HL-10204",
+    "customer_id": "C-1052",
+    "source": "web",
+    "placed_at": "2026-10-12T15:54:47Z",
+    "status": "shipped",
+    "promised_by": "2026-10-17",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1102",
+        "name": "Ceramic Table Lamp",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 80.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4351"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW6673624367",
+      "estimated_delivery": "2026-10-18"
+    }
+  },
+  {
+    "order_id": "HL-10205",
+    "customer_id": "C-1003",
+    "source": "web",
+    "placed_at": "2026-10-12T21:01:17-04:00",
+    "status": "shipped",
+    "promised_by": "2026-10-17",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1105",
+        "name": "Stoneware Vase",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 32.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1202",
+        "name": "Down-Alternative Duvet",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 145.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 177.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7196"
+    },
+    "tracking": {
+      "carrier": "Parcelway",
+      "number": "PW9177579633",
+      "estimated_delivery": "2026-10-18"
+    }
+  },
+  {
+    "order_id": "HL-10206",
+    "customer_id": "C-1029",
+    "source": "web",
+    "placed_at": "2026-10-13T16:05:42Z",
+    "status": "processing",
+    "promised_by": "2026-10-18",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1406",
+        "name": "Garden Tool Set",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 67.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 356.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "5372"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10207",
+    "customer_id": "C-1060",
+    "source": "web",
+    "placed_at": "2026-10-14T11:05:15-04:00",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1006",
+        "name": "Linen Tea Towels (set of 4)",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 24.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1405",
+        "name": "Folding Camp Chair",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 54.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 176.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "9966"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10208",
+    "customer_id": "C-1048",
+    "source": "web",
+    "placed_at": "2026-10-14T11:17:42Z",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1201",
+        "name": "Percale Sheet Set (Queen)",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 98.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 98.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "6220"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10209",
+    "customer_id": "C-1040",
+    "source": "web",
+    "placed_at": "2026-10-14T12:59:41Z",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1205",
+        "name": "Weighted Blanket",
+        "category": "bedding",
+        "quantity": 1,
+        "unit_price": 119.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 119.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "1260"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10210",
+    "customer_id": "C-1025",
+    "source": "web",
+    "placed_at": "2026-10-14T16:01:36-04:00",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1008",
+        "name": "Stand Mixer",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 329.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "Bamboo Cutting Board",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 29.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1403",
+        "name": "Insulated Water Bottle",
+        "category": "outdoor",
+        "quantity": 1,
+        "unit_price": 28.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 386.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "7623"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10211",
+    "customer_id": "C-1010",
+    "source": "web",
+    "placed_at": "2026-10-14T17:09:47Z",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 6.95,
+    "total": 55.95,
+    "payment": {
+      "method": "card",
+      "card_last4": "4787"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10212",
+    "customer_id": "C-1049",
+    "source": "web",
+    "placed_at": "2026-10-14T18:47:28-04:00",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1502",
+        "name": "Ergonomic Desk Chair",
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1001",
+        "name": "Cast Iron Skillet 12in",
+        "category": "kitchen",
+        "quantity": 1,
+        "unit_price": 49.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 338.0,
+    "payment": {
+      "method": "store_credit"
+    },
+    "tracking": null
+  },
+  {
+    "order_id": "HL-10213",
+    "customer_id": "C-1006",
+    "source": "web",
+    "placed_at": "2026-10-14T20:18:13Z",
+    "status": "processing",
+    "promised_by": "2026-10-19",
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "SKU-1101",
+        "name": "Wool Throw Blanket",
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 89.0,
+        "final_sale": false
+      },
+      {
+        "sku": "SKU-1306",
+        "name": "E-Reader",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 129.0,
+        "final_sale": false
+      }
+    ],
+    "shipping_fee": 0.0,
+    "total": 218.0,
+    "payment": {
+      "method": "card",
+      "card_last4": "4426"
+    },
+    "tracking": null
+  }
+]

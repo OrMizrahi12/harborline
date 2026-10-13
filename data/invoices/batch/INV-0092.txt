@@ -1,0 +1,17 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Invoice CPH-19274
+Date: 3 Sep 2026
+
+Hi Harborline AP team,
+
+Please see the details of invoice CPH-19274 below. Terms: Net 45. Payment is due 18 Oct 2026.
+
+- 8 x Velvet throw pillow @ 7.20 = 57.60
+
+Subtotal: 57.60
+GST: 2.88
+Total: CAD 60.48
+
+Thanks,
+Cedar & Pine Home Goods billing

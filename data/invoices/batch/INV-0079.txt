@@ -1,0 +1,20 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Credit note CPH-46533 for PO-26-0392
+Date: 5 Sep 2026
+
+Hi Harborline AP team,
+
+Please see the details of credit note CPH-46533 below.
+
+- 2 x Round wall mirror @ 57.75 = 115.50
+- 20 x Weighted blanket @ 52.00 = 1,040.00
+- 10 x Wool throw blanket @ 40.43 = 404.30
+
+Subtotal: 1,559.80
+GST: 77.99
+Shipping: 12.50
+Total: CAD 1,650.29
+
+Thanks,
+Cedar & Pine Home Goods billing

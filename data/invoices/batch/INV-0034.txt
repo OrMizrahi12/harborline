@@ -1,0 +1,20 @@
+LUMEN KITCHENWARE GMBH
+rechnung@lumen-kitchen.example
+
+CREDIT NOTE
+
+Credit note No: LK-26939    Date: 10.07.2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0871
+Credit for goods returned against invoice LK-30611
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Mixing bowl set                                     5       14,15        70,75
+Chef's knife 20 cm                                  4       27,80       111,20
+Cast iron skillet 30 cm                             2       21,50        43,00
+Espresso machine, dual boiler                       6      268,00     1.608,00
+------------------------------------------------------------------------------
+                                                         Subtotal     1.832,95
+                                                        Tax (19%)       348,26
+                                               CREDIT TOTAL (EUR)     2.181,21

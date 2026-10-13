@@ -1,0 +1,18 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-90989 for PO-26-0983
+Date: 2026-09-01
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-90989 below. Terms: Net 30. Payment is due 2026-10-01.
+
+- 24 x Smart speaker @ 49.88 = 1,197.12
+- 5 x Bluetooth alarm clock @ 9.90 = 49.50
+
+Subtotal: 1,246.62
+Shipping: 25.00
+Total: USD 1,271.62
+
+Thanks,
+Quayside Electronics Wholesale billing

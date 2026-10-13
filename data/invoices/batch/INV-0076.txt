@@ -1,0 +1,18 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+INVOICE
+
+Invoice No: ILT-50096    Date: 7/14/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0342
+Terms: Net 30    Due: 8/13/26
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Hand trowel                              half a dozen        3.95        23.70
+LED desk lamp                           3 cases of 12       19.70       709.20
+Garden tool set                                    24       27.93       670.32
+------------------------------------------------------------------------------
+                                                         Subtotal     1,403.22
+                                                  TOTAL DUE (USD)     1,403.22

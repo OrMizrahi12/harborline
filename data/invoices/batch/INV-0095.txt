@@ -1,0 +1,19 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Invoice CPH-32035 for PO-26-0737
+Date: 5 Jul 2026
+
+Hi Harborline AP team,
+
+Please see the details of invoice CPH-32035 below. Terms: Net 30. Payment is due 4 Aug 2026.
+
+- 6 x Wool throw blanket @ 40.43 = 242.58
+- 12 x Velvet throw pillow @ 6.84 = 82.08
+- 40 x Round wall mirror @ 55.00 = 2,200.00
+
+Subtotal: 2,524.66
+GST: 126.23
+Total: CAD 2,650.89
+
+Thanks,
+Cedar & Pine Home Goods billing

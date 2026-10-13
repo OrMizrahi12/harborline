@@ -1,0 +1,19 @@
+LUMEN KITCHENWARE GMBH
+rechnung@lumen-kitchen.example
+
+QUOTATION
+
+Invoice No: LK-16675    Date: 11.09.2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0798
+Quotation valid for 30 days. Prices in EUR.
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Chef's knife 20 cm                                 40       27,80     1.112,00
+Cast iron skillet 30 cm                             6       22,57       135,42
+Pour-over kettle                                   24       16,72       401,28
+------------------------------------------------------------------------------
+                                                         Subtotal     1.648,70
+                                                        Tax (19%)       313,25
+                                                      TOTAL (EUR)     1.961,95

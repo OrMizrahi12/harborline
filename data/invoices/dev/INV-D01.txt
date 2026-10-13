@@ -1,0 +1,17 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+INVOICE
+
+Invoice No: KOS-50960    Date: 06/18/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0559
+Terms: Net 30    Due: 07/18/2026
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Two-Person Tent                                    20       96.00     1,920.00
+Tent Footprint                                     24       10.29       246.96
+------------------------------------------------------------------------------
+                                                         Subtotal     2,166.96
+                                                  TOTAL DUE (USD)     2,166.96

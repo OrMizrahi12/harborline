@@ -1,0 +1,19 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Pro-forma invoice QEW-33236 for PO-26-0461
+Date: 2026-06-05
+
+Hi Harborline AP team,
+
+Please see the details of pro-forma invoice QEW-33236 below. This pro-forma is for approval only; no payment is due yet.
+
+- 4 x Bluetooth alarm clock @ 10.40 = 41.60
+- 40 x USB-C charging hub @ 20.90 = 836.00
+- 20 x E-reader @ 71.00 = 1,420.00
+
+Subtotal: 2,297.60
+Shipping: 18.00
+Total: USD 2,315.60
+
+Thanks,
+Quayside Electronics Wholesale billing

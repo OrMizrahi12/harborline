@@ -1,0 +1,17 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+CREDIT NOTE
+
+Credit note No: ILT-74675    Date: 8/11/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0944
+Credit for goods returned against invoice ILT-32449
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Pruning shears                                      2        8.17        16.34
+------------------------------------------------------------------------------
+                                                         Subtotal        16.34
+                                                         Shipping        12.50
+                                               CREDIT TOTAL (USD)        28.84

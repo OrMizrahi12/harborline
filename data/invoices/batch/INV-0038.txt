@@ -1,0 +1,17 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+INVOICE
+
+Invoice No: KOS-31531    Date: 06/29/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0854
+Terms: Net 15
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Lantern Battery Pack                            1 doz        4.10        49.20
+------------------------------------------------------------------------------
+                                                         Subtotal        49.20
+                                                         Shipping        25.00
+                                                  TOTAL DUE (USD)        74.20

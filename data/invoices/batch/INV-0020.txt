@@ -1,0 +1,20 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Credit note CPH-17214 for PO-26-0104
+Date: 2 Aug 2026
+
+Hi Harborline AP team,
+
+Please see the details of credit note CPH-17214 below.
+
+- 40 x Velvet throw pillow @ 7.20 = 288.00
+- 12 x Weighted blanket @ 49.40 = 592.80
+- 4 x Round wall mirror @ 57.75 = 231.00
+
+Subtotal: 1,111.80
+GST: 55.59
+Shipping: 25.00
+Total: CAD 1,192.39
+
+Thanks,
+Cedar & Pine Home Goods billing

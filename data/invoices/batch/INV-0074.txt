@@ -1,0 +1,18 @@
+Brightwater Paper Co.
+Accounts Department
+ar@brightwater-paper.example
+
+August 11, 2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order (your reference PO-26-0125). Please find below our invoice BWP-87110, dated August 11, 2026.
+
+We supplied thermal shipping labels (roll) (five) at $8.79 each ($43.95) and gift card stock (pack of 100) (twelve) at $18.00 each ($216.00), a subtotal of $259.95.
+
+Carriage was $12.50, making a total of $281.45, payable by September 25, 2026 (Net 45).
+
+Kind regards,
+
+Accounts Department
+Brightwater Paper Co.

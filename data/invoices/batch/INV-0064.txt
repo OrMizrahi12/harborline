@@ -1,0 +1,17 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-23611
+Date: 2026-08-30
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-23611 below. Terms: Net 45.
+
+- 50 x Bluetooth alarm clock @ 9.40 = 470.00
+- 4 x USB-C charging hub @ 22.00 = 88.00
+
+Subtotal: 558.00
+Total: USD 558.00
+
+Thanks,
+Quayside Electronics Wholesale billing

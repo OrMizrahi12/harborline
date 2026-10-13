@@ -1,0 +1,20 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+QUOTATION
+
+Invoice No: KOS-14701    Date: 08/16/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0837
+Quotation valid for 30 days. Prices in USD.
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Folding Camp Chair                                 12       24.75       297.00
+Camping Lantern                                     6       15.50        93.00
+Insulated Water Bottle                  3 cases of 12       11.20       403.20
+Lantern Battery Pack                               20        4.30        86.00
+------------------------------------------------------------------------------
+                                                         Subtotal       879.20
+                                                         Shipping        18.00
+                                                      TOTAL (USD)       897.20

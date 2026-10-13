@@ -1,0 +1,20 @@
+LUMEN KITCHENWARE GMBH
+rechnung@lumen-kitchen.example
+
+INVOICE
+
+Invoice No: LK-38366    Date: 02.07.2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0462
+Terms: Net 45    Due: 16.08.2026
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Pour-over kettle                                   12       18,48       221,76
+Cast iron skillet 30 cm                             8       21,50       172,00
+Espresso machine, dual boiler                      20      254,60     5.092,00
+------------------------------------------------------------------------------
+                                                         Subtotal     5.485,76
+                                                        Tax (19%)     1.042,29
+                                                         Shipping        18,00
+                                                  TOTAL DUE (EUR)     6.546,05

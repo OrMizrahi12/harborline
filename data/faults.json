@@ -1,0 +1,9 @@
+{
+  "note": "Simulated outages for the error-handling lessons.",
+  "slow_orders": {
+    "HL-10211": 1
+  },
+  "research_timeout_words": [
+    "fraud"
+  ]
+}

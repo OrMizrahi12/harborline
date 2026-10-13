@@ -1,0 +1,19 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Pro-forma invoice QEW-96932 for PO-26-0280
+Date: 2026-09-01
+
+Hi Harborline AP team,
+
+Please see the details of pro-forma invoice QEW-96932 below. This pro-forma is for approval only; no payment is due yet.
+
+- 4 x Bluetooth alarm clock @ 9.90 = 39.60
+- 20 x USB-C charging hub @ 22.00 = 440.00
+- 12 x Wireless earbuds @ 41.20 = 494.40
+- 24 x Smart speaker @ 52.50 = 1,260.00
+
+Subtotal: 2,234.00
+Total: USD 2,234.00
+
+Thanks,
+Quayside Electronics Wholesale billing

@@ -1,0 +1,19 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Invoice CPH-47221 for PO-26-0413
+Date: 1 Sep 2026
+
+Hi Harborline AP team,
+
+Please see the details of invoice CPH-47221 below. Terms: Net 30. Payment is due 1 Oct 2026.
+
+- 24 x Weighted blanket @ 54.60 = 1,310.40
+- 24 x Velvet throw pillow @ 7.20 = 172.80
+
+Subtotal: 1,483.20
+GST: 74.16
+Shipping: 18.00
+Total: CAD 1,575.36
+
+Thanks,
+Cedar & Pine Home Goods billing

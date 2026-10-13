@@ -1,0 +1,16 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+INVOICE
+
+Invoice No: ILT-75426    Date: 6/30/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Terms: Net 15    Due: 7/15/26
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Garden tool set                                     2       29.40        58.80
+Desk organizer                                      2       10.80        21.60
+------------------------------------------------------------------------------
+                                                         Subtotal        80.40
+                                                  TOTAL DUE (USD)        80.40

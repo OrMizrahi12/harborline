@@ -1,0 +1,19 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+INVOICE
+
+Invoice No: KOS-83526    Date: 08/26/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0143
+Terms: Net 30    Due: 09/25/2026
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Folding Camp Chair                                 24       25.99       623.76
+Two-Person Tent                                     6       96.00       576.00
+Camping Lantern                                    12       15.50       186.00
+------------------------------------------------------------------------------
+                                                         Subtotal     1,385.76
+                                                         Shipping        12.50
+                                                  TOTAL DUE (USD)     1,398.26

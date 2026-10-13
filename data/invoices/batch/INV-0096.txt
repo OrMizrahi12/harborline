@@ -1,0 +1,17 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-98698
+Date: 2026-06-25
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-98698 below. Terms: Net 30.
+
+- 8 x Bluetooth alarm clock @ 9.90 = 79.20
+
+Subtotal: 79.20
+Shipping: 18.00
+Total: USD 97.20
+
+Thanks,
+Quayside Electronics Wholesale billing

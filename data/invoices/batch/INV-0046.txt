@@ -1,0 +1,18 @@
+Brightwater Paper Co.
+Accounts Department
+ar@brightwater-paper.example
+
+August 3, 2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order (your reference PO-26-0873). Please find below our invoice BWP-89230, dated August 3, 2026.
+
+We supplied shipping carton, medium (four) at $0.85 each ($3.40) and packing tape roll (twenty) at $2.26 each ($45.20), a subtotal of $48.60.
+
+That makes a total of $48.60, payable by September 17, 2026 (Net 45).
+
+Kind regards,
+
+Accounts Department
+Brightwater Paper Co.

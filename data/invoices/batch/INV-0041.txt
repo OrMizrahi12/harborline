@@ -1,0 +1,18 @@
+Saltmarsh Textiles Ltd
+Accounts Department
+accounts@saltmarsh-textiles.example
+
+01/07/2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order (your reference PO-26-0536). Please find below our invoice ST-79995, dated 01/07/2026.
+
+We supplied waffle bath towel (twenty-four) at £7.77 each (£186.48) and percale pillowcase (four) at £4.25 each (£17.00), a subtotal of £203.48.
+
+VAT at 20% comes to £40.70, and carriage was £25.00, making a total of £269.18, payable by 31/07/2026 (Net 30).
+
+Kind regards,
+
+Accounts Department
+Saltmarsh Textiles Ltd

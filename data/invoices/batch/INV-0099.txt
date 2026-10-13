@@ -1,0 +1,19 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-94261 for PO-26-0503
+Date: 2026-07-25
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-94261 below. Terms: Net 30.
+
+- 12 x E-reader @ 74.55 = 894.60
+- 6 x Wireless earbuds @ 39.14 = 234.84
+- 5 x USB-C charging hub @ 22.00 = 110.00
+
+Subtotal: 1,239.44
+Shipping: 12.50
+Total: USD 1,251.94
+
+Thanks,
+Quayside Electronics Wholesale billing

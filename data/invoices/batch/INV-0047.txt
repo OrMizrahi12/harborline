@@ -1,0 +1,18 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-46977 for PO-26-0292
+Date: 2026-07-16
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-46977 below. Terms: Net 30. Payment is due 2026-08-15.
+
+- 2 x USB-C charging hub @ 22.00 = 44.00
+- 24 x Wireless earbuds @ 41.20 = 988.80
+
+Subtotal: 1,032.80
+Shipping: 18.00
+Total: USD 1,050.80
+
+Thanks,
+Quayside Electronics Wholesale billing

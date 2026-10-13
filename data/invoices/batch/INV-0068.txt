@@ -1,0 +1,19 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Invoice CPH-93474 for PO-26-0612
+Date: 19 Jul 2026
+
+Hi Harborline AP team,
+
+Please see the details of invoice CPH-93474 below. Terms: Due on receipt. Payment is due 19 Jul 2026.
+
+- 10 x Wool throw blanket @ 38.50 = 385.00
+- 6 x Velvet throw pillow @ 6.84 = 41.04
+
+Subtotal: 426.04
+GST: 21.30
+Shipping: 12.50
+Total: CAD 459.84
+
+Thanks,
+Cedar & Pine Home Goods billing

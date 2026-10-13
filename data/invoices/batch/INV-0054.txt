@@ -1,0 +1,18 @@
+LUMEN KITCHENWARE GMBH
+rechnung@lumen-kitchen.example
+
+INVOICE
+
+Invoice No: LK-83876    Date: 06.06.2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Terms: Net 30
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Chef's knife 20 cm                                  2       27,80        55,60
+Cast iron skillet 30 cm                             8       21,50       172,00
+Espresso machine, dual boiler                       5      268,00     1.340,00
+------------------------------------------------------------------------------
+                                                         Subtotal     1.567,60
+                                                        Tax (19%)       297,84
+                                                  TOTAL DUE (EUR)     1.865,44

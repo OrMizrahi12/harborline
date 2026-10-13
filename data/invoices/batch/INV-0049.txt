@@ -1,0 +1,16 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+INVOICE
+
+Invoice No: ILT-82998    Date: 6/29/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0958
+Terms: Due on receipt    Due: 6/29/26
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Pruning shears                                     10        8.60        86.00
+------------------------------------------------------------------------------
+                                                         Subtotal        86.00
+                                                  TOTAL DUE (USD)        86.00

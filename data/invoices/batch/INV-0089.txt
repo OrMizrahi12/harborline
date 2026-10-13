@@ -1,0 +1,16 @@
+LUMEN KITCHENWARE GMBH
+rechnung@lumen-kitchen.example
+
+INVOICE
+
+Invoice No: LK-98237    Date: 04.06.2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Terms: Net 45    Due: 19.07.2026
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Pour-over kettle                                    5       17,60        88,00
+------------------------------------------------------------------------------
+                                                         Subtotal        88,00
+                                                        Tax (19%)        16,72
+                                                  TOTAL DUE (EUR)       104,72

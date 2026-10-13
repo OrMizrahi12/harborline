@@ -1,0 +1,18 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Pro-forma invoice CPH-38640 for PO-26-0866
+Date: 28 Jul 2026
+
+Hi Harborline AP team,
+
+Please see the details of pro-forma invoice CPH-38640 below. This pro-forma is for approval only; no payment is due yet.
+
+- 12 x Weighted blanket @ 52.00 = 624.00
+- 24 x Velvet throw pillow @ 7.56 = 181.44
+
+Subtotal: 805.44
+GST: 40.27
+Total: CAD 845.71
+
+Thanks,
+Cedar & Pine Home Goods billing

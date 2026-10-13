@@ -1,0 +1,18 @@
+Saltmarsh Textiles Ltd
+Accounts Department
+accounts@saltmarsh-textiles.example
+
+22/09/2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order (your reference PO-26-0301). Please find below our invoice ST-54190, dated 22/09/2026.
+
+We supplied queen percale sheet set (ten) at £38.00 each (£380.00), a subtotal of £380.00.
+
+VAT at 20% comes to £76.00, and carriage was £18.00, making a total of £474.00, payable by 07/10/2026 (Net 15).
+
+Kind regards,
+
+Accounts Department
+Saltmarsh Textiles Ltd

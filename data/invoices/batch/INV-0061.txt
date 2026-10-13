@@ -1,0 +1,18 @@
+LUMEN KITCHENWARE GMBH
+rechnung@lumen-kitchen.example
+
+INVOICE
+
+Invoice No: LK-68435    Date: 15.08.2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Terms: Net 30    Due: 14.09.2026
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Mixing bowl set                                    20       15,65       313,00
+Pour-over kettle                                    4       17,60        70,40
+Cast iron skillet 30 cm                            24       20,43       490,32
+------------------------------------------------------------------------------
+                                                         Subtotal       873,72
+                                                        Tax (19%)       166,01
+                                                  TOTAL DUE (EUR)     1.039,73

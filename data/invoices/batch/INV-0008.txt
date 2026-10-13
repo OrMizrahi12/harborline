@@ -1,0 +1,165 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+INVOICE
+
+Invoice No: ILT-42604    Date: 7/3/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0450
+Terms: Net 30    Due: 8/2/26
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Garden tool set (lot 001)                          20       29.40       588.00
+Pruning shears (lot 002)                            6        8.17        49.02
+Hand trowel (lot 003)                               5        3.95        19.75
+Desk organizer (lot 004)                           50       11.34       567.00
+LED desk lamp (lot 005)                            24       18.71       449.04
+Garden tool set (lot 006)                          50       29.40     1,470.00
+Pruning shears (lot 007)                            8        8.60        68.80
+Hand trowel (lot 008)                              40        4.15       166.00
+Desk organizer (lot 009)                           40       11.34       453.60
+LED desk lamp (lot 010)                            10       19.70       197.00
+Garden tool set (lot 011)                           8       27.93       223.44
+Pruning shears (lot 012)                            5        8.60        43.00
+Hand trowel (lot 013)                              24        3.75        90.00
+Desk organizer (lot 014)                            8       11.34        90.72
+LED desk lamp (lot 015)                            20       20.68       413.60
+Garden tool set (lot 016)                          40       29.40     1,176.00
+Pruning shears (lot 017)                           12        8.60       103.20
+Hand trowel (lot 018)                               5        3.95        19.75
+Desk organizer (lot 019)                            2       10.80        21.60
+LED desk lamp (lot 020)                             4       20.68        82.72
+Garden tool set (lot 021)                          12       29.40       352.80
+Pruning shears (lot 022)                            4        8.60        34.40
+Hand trowel (lot 023)                              12        3.75        45.00
+Desk organizer (lot 024)                            4       10.26        41.04
+LED desk lamp (lot 025)                            20       20.68       413.60
+Garden tool set (lot 026)                           2       27.93        55.86
+Pruning shears (lot 027)                            8        8.60        68.80
+Hand trowel (lot 028)                               5        3.95        19.75
+Desk organizer (lot 029)                            8       11.34        90.72
+LED desk lamp (lot 030)                             2       19.70        39.40
+Garden tool set (lot 031)                           8       29.40       235.20
+Pruning shears (lot 032)                           20        8.17       163.40
+Hand trowel (lot 033)                              20        4.15        83.00
+Desk organizer (lot 034)                            6       10.80        64.80
+LED desk lamp (lot 035)                            24       19.70       472.80
+Garden tool set (lot 036)                          24       27.93       670.32
+Pruning shears (lot 037)                           50        9.03       451.50
+Hand trowel (lot 038)                              20        3.95        79.00
+Desk organizer (lot 039)                           20       10.80       216.00
+LED desk lamp (lot 040)                             6       19.70       118.20
+Garden tool set (lot 041)                           6       30.87       185.22
+Pruning shears (lot 042)                            8        8.60        68.80
+Hand trowel (lot 043)                              20        3.95        79.00
+Desk organizer (lot 044)                           50       11.34       567.00
+LED desk lamp (lot 045)                             8       20.68       165.44
+Garden tool set (lot 046)                          24       27.93       670.32
+Pruning shears (lot 047)                            8        8.60        68.80
+Hand trowel (lot 048)                              24        3.75        90.00
+Desk organizer (lot 049)                           10       11.34       113.40
+LED desk lamp (lot 050)                            10       18.71       187.10
+Garden tool set (lot 051)                           2       30.87        61.74
+Pruning shears (lot 052)                            8        9.03        72.24
+Hand trowel (lot 053)                              20        3.75        75.00
+Desk organizer (lot 054)                           12       10.80       129.60
+LED desk lamp (lot 055)                            50       18.71       935.50
+Garden tool set (lot 056)                           5       30.87       154.35
+Pruning shears (lot 057)                           24        8.60       206.40
+Hand trowel (lot 058)                               6        3.95        23.70
+Desk organizer (lot 059)                           12       10.26       123.12
+LED desk lamp (lot 060)                            20       19.70       394.00
+Garden tool set (lot 061)                           5       29.40       147.00
+Pruning shears (lot 062)                           40        8.17       326.80
+Hand trowel (lot 063)                              10        3.75        37.50
+Desk organizer (lot 064)                            5       10.26        51.30
+LED desk lamp (lot 065)                            40       19.70       788.00
+Garden tool set (lot 066)                          10       27.93       279.30
+Pruning shears (lot 067)                           20        8.60       172.00
+Hand trowel (lot 068)                              10        3.95        39.50
+Desk organizer (lot 069)                           20       10.80       216.00
+LED desk lamp (lot 070)                             6       20.68       124.08
+Garden tool set (lot 071)                           4       29.40       117.60
+Pruning shears (lot 072)                            4        9.03        36.12
+Hand trowel (lot 073)                               6        3.95        23.70
+Desk organizer (lot 074)                           20       11.34       226.80
+LED desk lamp (lot 075)                            50       19.70       985.00
+Garden tool set (lot 076)                          50       29.40     1,470.00
+Pruning shears (lot 077)                           40        8.60       344.00
+Hand trowel (lot 078)                              20        3.95        79.00
+Desk organizer (lot 079)                            2       11.34        22.68
+LED desk lamp (lot 080)                             8       19.70       157.60
+Garden tool set (lot 081)                          50       27.93     1,396.50
+Pruning shears (lot 082)                           40        9.03       361.20
+Hand trowel (lot 083)                              12        4.15        49.80
+Desk organizer (lot 084)                           20       10.26       205.20
+LED desk lamp (lot 085)                            24       18.71       449.04
+Garden tool set (lot 086)                          50       30.87     1,543.50
+Pruning shears (lot 087)                            5        8.60        43.00
+Hand trowel (lot 088)                               4        3.95        15.80
+Desk organizer (lot 089)                            8       10.26        82.08
+LED desk lamp (lot 090)                            10       20.68       206.80
+Garden tool set (lot 091)                           8       29.40       235.20
+Pruning shears (lot 092)                           10        9.03        90.30
+Hand trowel (lot 093)                               8        3.95        31.60
+Desk organizer (lot 094)                           10       10.26       102.60
+LED desk lamp (lot 095)                            24       18.71       449.04
+Garden tool set (lot 096)                          10       27.93       279.30
+Pruning shears (lot 097)                            5        8.60        43.00
+Hand trowel (lot 098)                              10        3.95        39.50
+Desk organizer (lot 099)                           20       10.80       216.00
+LED desk lamp (lot 100)                            20       18.71       374.20
+Garden tool set (lot 101)                           2       29.40        58.80
+Pruning shears (lot 102)                           24        8.17       196.08
+Hand trowel (lot 103)                               8        3.75        30.00
+Desk organizer (lot 104)                            6       10.26        61.56
+LED desk lamp (lot 105)                             2       20.68        41.36
+Garden tool set (lot 106)                          24       27.93       670.32
+Pruning shears (lot 107)                            4        8.17        32.68
+Hand trowel (lot 108)                              10        3.95        39.50
+Desk organizer (lot 109)                           20       10.80       216.00
+LED desk lamp (lot 110)                             2       19.70        39.40
+Garden tool set (lot 111)                          10       30.87       308.70
+Pruning shears (lot 112)                            8        8.17        65.36
+Hand trowel (lot 113)                              10        3.95        39.50
+Desk organizer (lot 114)                           40       10.26       410.40
+LED desk lamp (lot 115)                             4       20.68        82.72
+Garden tool set (lot 116)                           2       30.87        61.74
+Pruning shears (lot 117)                           24        8.17       196.08
+Hand trowel (lot 118)                               2        3.95         7.90
+Desk organizer (lot 119)                           12       10.80       129.60
+LED desk lamp (lot 120)                            12       20.68       248.16
+Garden tool set (lot 121)                          10       30.87       308.70
+Pruning shears (lot 122)                           40        8.60       344.00
+Hand trowel (lot 123)                               5        3.95        19.75
+Desk organizer (lot 124)                           50       10.80       540.00
+LED desk lamp (lot 125)                            12       20.68       248.16
+Garden tool set (lot 126)                          50       27.93     1,396.50
+Pruning shears (lot 127)                            2        9.03        18.06
+Hand trowel (lot 128)                              50        4.15       207.50
+Desk organizer (lot 129)                           10       10.80       108.00
+LED desk lamp (lot 130)                             2       19.70        39.40
+Garden tool set (lot 131)                          10       29.40       294.00
+Pruning shears (lot 132)                            6        9.03        54.18
+Hand trowel (lot 133)                               5        3.75        18.75
+Desk organizer (lot 134)                           10       10.26       102.60
+LED desk lamp (lot 135)                             5       19.70        98.50
+Garden tool set (lot 136)                          50       27.93     1,396.50
+Pruning shears (lot 137)                           20        9.03       180.60
+Hand trowel (lot 138)                               2        3.75         7.50
+Desk organizer (lot 139)                           50       11.34       567.00
+LED desk lamp (lot 140)                            10       19.70       197.00
+Garden tool set (lot 141)                          10       27.93       279.30
+Pruning shears (lot 142)                            4        9.03        36.12
+Hand trowel (lot 143)                               6        3.95        23.70
+Desk organizer (lot 144)                           24       11.34       272.16
+LED desk lamp (lot 145)                             6       20.68       124.08
+Garden tool set (lot 146)                           6       29.40       176.40
+Pruning shears (lot 147)                            6        8.60        51.60
+Hand trowel (lot 148)                               6        3.95        23.70
+Desk organizer (lot 149)                           50       10.80       540.00
+LED desk lamp (lot 150)                            10       19.70       197.00
+------------------------------------------------------------------------------
+                                                         Subtotal    37,042.82
+                                                  TOTAL DUE (USD)    37,042.82

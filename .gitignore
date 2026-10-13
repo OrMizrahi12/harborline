@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Secrets: never commit your API key
+.env
+
+# Output of your own runs
+runs/
+
+# Editors and operating systems
+.DS_Store

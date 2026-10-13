@@ -1,0 +1,19 @@
+-- HARROW VALLEY CERAMICS --
+(scanned copy)
+
+INVOICE   No. HVC-25744
+Date  2026-07-08
+Cust. P.O.  PO-26-0546
+Terms Due on receipt
+
+DESCRlPTION   QTY  PRICE   AMOUNT
+Mixing bowl, large   4  8.31   33.24
+Ceramic table lamp base   24  28.60   686.40
+Stoneware vase   4  11.78   47.12
+
+Sub-total 766.76
+HST 13%  99.68
+Freight 18.00
+TOTAL DUE CAD  884.44
+
+Page 1 of 1

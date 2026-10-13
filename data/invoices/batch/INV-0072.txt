@@ -1,0 +1,18 @@
+Saltmarsh Textiles Ltd
+Accounts Department
+accounts@saltmarsh-textiles.example
+
+12/06/2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order. Please find below our invoice ST-87203, dated 12/06/2026.
+
+We supplied linen tea towel (1 gross) at £3.10 each (£446.40), a subtotal of £446.40.
+
+VAT at 20% comes to £89.28, making a total of £535.68, payable by 12/07/2026 (Net 30).
+
+Kind regards,
+
+Accounts Department
+Saltmarsh Textiles Ltd

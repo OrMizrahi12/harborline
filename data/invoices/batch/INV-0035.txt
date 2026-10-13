@@ -1,0 +1,19 @@
+IRONLEAF TOOLS INC.
+billing@ironleaf-tools.example
+
+INVOICE
+
+Invoice No: ILT-53861    Date: 8/16/26
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0266
+Terms: Net 30    Due: 9/15/26
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Garden tool set                                     8       27.93       223.44
+LED desk lamp                                   2 doz       19.70       472.80
+Pruning shears                                1 gross        8.60     1,238.40
+------------------------------------------------------------------------------
+                                                         Subtotal     1,934.64
+                                                         Shipping        12.50
+                                                  TOTAL DUE (USD)     1,947.14

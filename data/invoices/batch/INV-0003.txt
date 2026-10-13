@@ -1,0 +1,18 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-13378 for PO-26-0390
+Date: 2026-06-25
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-13378 below. Terms: Net 30. Payment is due 2026-07-25.
+
+- 6 x Wireless earbuds @ 41.20 = 247.20
+- 5 x E-reader @ 74.55 = 372.75
+- 12 x Bluetooth alarm clock @ 10.40 = 124.80
+
+Subtotal: 744.75
+Total: USD 744.75
+
+Thanks,
+Quayside Electronics Wholesale billing

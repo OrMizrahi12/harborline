@@ -1,0 +1,18 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-47017
+Date: 2026-09-05
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-47017 below. Terms: Net 30. Payment is due 2026-10-05.
+
+- 2 x Bluetooth alarm clock @ 10.40 = 20.80
+- 50 x Wireless earbuds @ 39.14 = 1,957.00
+- 20 x E-reader @ 71.00 = 1,420.00
+
+Subtotal: 3,397.80
+Total: USD 3,397.80
+
+Thanks,
+Quayside Electronics Wholesale billing

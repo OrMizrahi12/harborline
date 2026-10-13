@@ -1,0 +1,282 @@
+[
+  {
+    "sku": "SKU-1001",
+    "name": "Cast Iron Skillet 12in",
+    "category": "kitchen",
+    "price": 49.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1002",
+    "name": "Chef's Knife 8in",
+    "category": "kitchen",
+    "price": 64.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1003",
+    "name": "Ceramic Mixing Bowl Set",
+    "category": "kitchen",
+    "price": 38.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1004",
+    "name": "Dual-Boiler Espresso Machine",
+    "category": "kitchen",
+    "price": 549.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1005",
+    "name": "Pour-Over Coffee Kettle",
+    "category": "kitchen",
+    "price": 42.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1006",
+    "name": "Linen Tea Towels (set of 4)",
+    "category": "kitchen",
+    "price": 24.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1007",
+    "name": "Bamboo Cutting Board",
+    "category": "kitchen",
+    "price": 29.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1008",
+    "name": "Stand Mixer",
+    "category": "kitchen",
+    "price": 329.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1101",
+    "name": "Wool Throw Blanket",
+    "category": "home",
+    "price": 89.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1102",
+    "name": "Ceramic Table Lamp",
+    "category": "home",
+    "price": 74.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1103",
+    "name": "Hand-Woven Rug 5x7",
+    "category": "home",
+    "price": 219.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1104",
+    "name": "Linen Curtain Panel",
+    "category": "home",
+    "price": 46.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1105",
+    "name": "Stoneware Vase",
+    "category": "home",
+    "price": 32.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1106",
+    "name": "Round Wall Mirror",
+    "category": "home",
+    "price": 129.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1201",
+    "name": "Percale Sheet Set (Queen)",
+    "category": "bedding",
+    "price": 98.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1202",
+    "name": "Down-Alternative Duvet",
+    "category": "bedding",
+    "price": 145.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1203",
+    "name": "Memory Foam Pillow",
+    "category": "bedding",
+    "price": 39.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1204",
+    "name": "Waffle Bath Towel",
+    "category": "bedding",
+    "price": 22.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1205",
+    "name": "Weighted Blanket",
+    "category": "bedding",
+    "price": 119.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1301",
+    "name": "Wireless Earbuds",
+    "category": "electronics",
+    "price": 79.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1302",
+    "name": "Smart Speaker",
+    "category": "electronics",
+    "price": 99.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1303",
+    "name": "4K Projector",
+    "category": "electronics",
+    "price": 579.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1304",
+    "name": "USB-C Charging Hub",
+    "category": "electronics",
+    "price": 45.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1305",
+    "name": "Robot Vacuum",
+    "category": "electronics",
+    "price": 289.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1306",
+    "name": "E-Reader",
+    "category": "electronics",
+    "price": 129.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1401",
+    "name": "Teak Outdoor Sofa Set",
+    "category": "outdoor",
+    "price": 1249.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1402",
+    "name": "Camping Lantern",
+    "category": "outdoor",
+    "price": 34.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1403",
+    "name": "Insulated Water Bottle",
+    "category": "outdoor",
+    "price": 28.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1404",
+    "name": "Two-Person Tent",
+    "category": "outdoor",
+    "price": 189.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1405",
+    "name": "Folding Camp Chair",
+    "category": "outdoor",
+    "price": 54.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1406",
+    "name": "Garden Tool Set",
+    "category": "outdoor",
+    "price": 67.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1501",
+    "name": "Oak Standing Desk",
+    "category": "office",
+    "price": 649.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1502",
+    "name": "Ergonomic Desk Chair",
+    "category": "office",
+    "price": 289.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1503",
+    "name": "Desk Organizer",
+    "category": "office",
+    "price": 26.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1504",
+    "name": "LED Desk Lamp",
+    "category": "office",
+    "price": 48.0,
+    "final_sale": false
+  },
+  {
+    "sku": "SKU-1601",
+    "name": "Clearance: Glass Storage Jars (set of 6)",
+    "category": "kitchen",
+    "price": 19.0,
+    "final_sale": true
+  },
+  {
+    "sku": "SKU-1602",
+    "name": "Clearance: Outdoor Cushion Covers",
+    "category": "outdoor",
+    "price": 25.0,
+    "final_sale": true
+  },
+  {
+    "sku": "SKU-1603",
+    "name": "Clearance: Bluetooth Alarm Clock",
+    "category": "electronics",
+    "price": 29.0,
+    "final_sale": true
+  },
+  {
+    "sku": "SKU-1604",
+    "name": "Clearance: Velvet Throw Pillow",
+    "category": "home",
+    "price": 18.0,
+    "final_sale": true
+  },
+  {
+    "sku": "SKU-1605",
+    "name": "Clearance: Scented Candle Trio",
+    "category": "home",
+    "price": 21.0,
+    "final_sale": true
+  }
+]

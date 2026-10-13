@@ -1,0 +1,166 @@
+KESTREL OUTDOOR SUPPLY
+billing@kestrel-outdoor.example
+
+INVOICE
+
+Invoice No: KOS-14992    Date: 08/16/2026
+Bill to: Harborline Inc., Accounts Payable, 400 Wharf Street, Portland, OR
+Your PO: PO-26-0494
+Terms: Net 45
+
+Description                                       Qty  Unit price       Amount
+------------------------------------------------------------------------------
+Two-Person Tent (lot 001)                          12       96.00     1,152.00
+Camping Lantern (lot 002)                          12       16.28       195.36
+Folding Camp Chair (lot 003)                       20       25.99       519.80
+Insulated Water Bottle (lot 004)                    8       11.20        89.60
+Tent Footprint (lot 005)                            5        9.31        46.55
+Lantern Battery Pack (lot 006)                     12        4.30        51.60
+Two-Person Tent (lot 007)                          12       91.20     1,094.40
+Camping Lantern (lot 008)                          40       14.72       588.80
+Folding Camp Chair (lot 009)                        6       23.51       141.06
+Insulated Water Bottle (lot 010)                   12       11.76       141.12
+Tent Footprint (lot 011)                           10        9.80        98.00
+Lantern Battery Pack (lot 012)                      6        4.10        24.60
+Two-Person Tent (lot 013)                           5       96.00       480.00
+Camping Lantern (lot 014)                          20       14.72       294.40
+Folding Camp Chair (lot 015)                        2       24.75        49.50
+Insulated Water Bottle (lot 016)                    2       11.76        23.52
+Tent Footprint (lot 017)                            5        9.80        49.00
+Lantern Battery Pack (lot 018)                      4        4.10        16.40
+Two-Person Tent (lot 019)                          12       96.00     1,152.00
+Camping Lantern (lot 020)                           6       15.50        93.00
+Folding Camp Chair (lot 021)                       24       24.75       594.00
+Insulated Water Bottle (lot 022)                   40       11.76       470.40
+Tent Footprint (lot 023)                           40        9.31       372.40
+Lantern Battery Pack (lot 024)                     12        4.10        49.20
+Two-Person Tent (lot 025)                           5       96.00       480.00
+Camping Lantern (lot 026)                           8       16.28       130.24
+Folding Camp Chair (lot 027)                       12       23.51       282.12
+Insulated Water Bottle (lot 028)                   24       10.64       255.36
+Tent Footprint (lot 029)                           40        9.31       372.40
+Lantern Battery Pack (lot 030)                     24        4.30       103.20
+Two-Person Tent (lot 031)                           5      100.80       504.00
+Camping Lantern (lot 032)                          10       15.50       155.00
+Folding Camp Chair (lot 033)                        6       23.51       141.06
+Insulated Water Bottle (lot 034)                   10       11.20       112.00
+Tent Footprint (lot 035)                            5       10.29        51.45
+Lantern Battery Pack (lot 036)                     40        4.10       164.00
+Two-Person Tent (lot 037)                           6       96.00       576.00
+Camping Lantern (lot 038)                           6       15.50        93.00
+Folding Camp Chair (lot 039)                        5       24.75       123.75
+Insulated Water Bottle (lot 040)                    6       11.20        67.20
+Tent Footprint (lot 041)                           50        9.80       490.00
+Lantern Battery Pack (lot 042)                     10        4.10        41.00
+Two-Person Tent (lot 043)                           2      100.80       201.60
+Camping Lantern (lot 044)                          12       14.72       176.64
+Folding Camp Chair (lot 045)                       12       23.51       282.12
+Insulated Water Bottle (lot 046)                   24       11.20       268.80
+Tent Footprint (lot 047)                            2        9.80        19.60
+Lantern Battery Pack (lot 048)                      2        4.10         8.20
+Two-Person Tent (lot 049)                           2       96.00       192.00
+Camping Lantern (lot 050)                           2       15.50        31.00
+Folding Camp Chair (lot 051)                       12       23.51       282.12
+Insulated Water Bottle (lot 052)                   50       11.20       560.00
+Tent Footprint (lot 053)                            2       10.29        20.58
+Lantern Battery Pack (lot 054)                      6        3.89        23.34
+Two-Person Tent (lot 055)                           4      100.80       403.20
+Camping Lantern (lot 056)                          24       14.72       353.28
+Folding Camp Chair (lot 057)                       40       24.75       990.00
+Insulated Water Bottle (lot 058)                   20       11.20       224.00
+Tent Footprint (lot 059)                           12        9.31       111.72
+Lantern Battery Pack (lot 060)                     50        4.10       205.00
+Two-Person Tent (lot 061)                          40       91.20     3,648.00
+Camping Lantern (lot 062)                          24       14.72       353.28
+Folding Camp Chair (lot 063)                       20       23.51       470.20
+Insulated Water Bottle (lot 064)                    8       11.20        89.60
+Tent Footprint (lot 065)                            2        9.80        19.60
+Lantern Battery Pack (lot 066)                      4        4.10        16.40
+Two-Person Tent (lot 067)                          24      100.80     2,419.20
+Camping Lantern (lot 068)                          50       14.72       736.00
+Folding Camp Chair (lot 069)                        2       23.51        47.02
+Insulated Water Bottle (lot 070)                   24       11.76       282.24
+Tent Footprint (lot 071)                            8        9.80        78.40
+Lantern Battery Pack (lot 072)                     24        3.89        93.36
+Two-Person Tent (lot 073)                           6       91.20       547.20
+Camping Lantern (lot 074)                           4       15.50        62.00
+Folding Camp Chair (lot 075)                        8       24.75       198.00
+Insulated Water Bottle (lot 076)                    8       10.64        85.12
+Tent Footprint (lot 077)                            8        9.80        78.40
+Lantern Battery Pack (lot 078)                      6        4.10        24.60
+Two-Person Tent (lot 079)                           4       96.00       384.00
+Camping Lantern (lot 080)                          10       14.72       147.20
+Folding Camp Chair (lot 081)                       40       23.51       940.40
+Insulated Water Bottle (lot 082)                    8       11.76        94.08
+Tent Footprint (lot 083)                           24        9.31       223.44
+Lantern Battery Pack (lot 084)                      2        4.30         8.60
+Two-Person Tent (lot 085)                          12       96.00     1,152.00
+Camping Lantern (lot 086)                           5       16.28        81.40
+Folding Camp Chair (lot 087)                       40       23.51       940.40
+Insulated Water Bottle (lot 088)                   40       11.20       448.00
+Tent Footprint (lot 089)                           20        9.80       196.00
+Lantern Battery Pack (lot 090)                     10        3.89        38.90
+Two-Person Tent (lot 091)                          50       96.00     4,800.00
+Camping Lantern (lot 092)                           2       15.50        31.00
+Folding Camp Chair (lot 093)                       12       24.75       297.00
+Insulated Water Bottle (lot 094)                    8       11.20        89.60
+Tent Footprint (lot 095)                           10        9.31        93.10
+Lantern Battery Pack (lot 096)                     12        4.10        49.20
+Two-Person Tent (lot 097)                           6       91.20       547.20
+Camping Lantern (lot 098)                           4       14.72        58.88
+Folding Camp Chair (lot 099)                       12       23.51       282.12
+Insulated Water Bottle (lot 100)                    4       11.76        47.04
+Tent Footprint (lot 101)                            8       10.29        82.32
+Lantern Battery Pack (lot 102)                     24        4.10        98.40
+Two-Person Tent (lot 103)                          10       96.00       960.00
+Camping Lantern (lot 104)                          40       14.72       588.80
+Folding Camp Chair (lot 105)                       10       25.99       259.90
+Insulated Water Bottle (lot 106)                    2       11.20        22.40
+Tent Footprint (lot 107)                            4        9.80        39.20
+Lantern Battery Pack (lot 108)                     12        3.89        46.68
+Two-Person Tent (lot 109)                          20       91.20     1,824.00
+Camping Lantern (lot 110)                           5       15.50        77.50
+Folding Camp Chair (lot 111)                       20       24.75       495.00
+Insulated Water Bottle (lot 112)                    4       11.20        44.80
+Tent Footprint (lot 113)                           50       10.29       514.50
+Lantern Battery Pack (lot 114)                      6        4.10        24.60
+Two-Person Tent (lot 115)                          12       91.20     1,094.40
+Camping Lantern (lot 116)                           2       15.50        31.00
+Folding Camp Chair (lot 117)                        4       23.51        94.04
+Insulated Water Bottle (lot 118)                   20       10.64       212.80
+Tent Footprint (lot 119)                            2        9.31        18.62
+Lantern Battery Pack (lot 120)                     50        4.30       215.00
+Two-Person Tent (lot 121)                          40       96.00     3,840.00
+Camping Lantern (lot 122)                           6       16.28        97.68
+Folding Camp Chair (lot 123)                        6       24.75       148.50
+Insulated Water Bottle (lot 124)                    8       11.20        89.60
+Tent Footprint (lot 125)                            6        9.31        55.86
+Lantern Battery Pack (lot 126)                     50        4.10       205.00
+Two-Person Tent (lot 127)                          40       91.20     3,648.00
+Camping Lantern (lot 128)                          24       15.50       372.00
+Folding Camp Chair (lot 129)                       24       24.75       594.00
+Insulated Water Bottle (lot 130)                   12       11.20       134.40
+Tent Footprint (lot 131)                            6        9.80        58.80
+Lantern Battery Pack (lot 132)                      5        3.89        19.45
+Two-Person Tent (lot 133)                          20      100.80     2,016.00
+Camping Lantern (lot 134)                          50       14.72       736.00
+Folding Camp Chair (lot 135)                       20       24.75       495.00
+Insulated Water Bottle (lot 136)                    2       11.20        22.40
+Tent Footprint (lot 137)                            5        9.80        49.00
+Lantern Battery Pack (lot 138)                     50        4.30       215.00
+Two-Person Tent (lot 139)                           2       96.00       192.00
+Camping Lantern (lot 140)                          10       15.50       155.00
+Folding Camp Chair (lot 141)                       12       25.99       311.88
+Insulated Water Bottle (lot 142)                    5       11.20        56.00
+Tent Footprint (lot 143)                           20        9.31       186.20
+Lantern Battery Pack (lot 144)                     24        3.89        93.36
+Two-Person Tent (lot 145)                          24       96.00     2,304.00
+Camping Lantern (lot 146)                          12       16.28       195.36
+Folding Camp Chair (lot 147)                        4       24.75        99.00
+Insulated Water Bottle (lot 148)                    8       11.20        89.60
+Tent Footprint (lot 149)                            5        9.31        46.55
+Lantern Battery Pack (lot 150)                      5        4.10        20.50
+------------------------------------------------------------------------------
+                                                         Subtotal    59,769.97
+                                                         Shipping        18.00
+                                                  TOTAL DUE (USD)    59,787.97

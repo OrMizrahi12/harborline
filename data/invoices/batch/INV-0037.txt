@@ -1,0 +1,18 @@
+Brightwater Paper Co.
+Accounts Department
+ar@brightwater-paper.example
+
+September 19, 2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order. Please find below our invoice BWP-54280, dated September 19, 2026.
+
+We supplied packing tape roll (twelve) at $2.15 each ($25.80), a subtotal of $25.80.
+
+Carriage was $12.50, making a total of $38.30, payable by October 19, 2026 (Net 30).
+
+Kind regards,
+
+Accounts Department
+Brightwater Paper Co.

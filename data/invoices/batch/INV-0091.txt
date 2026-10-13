@@ -1,0 +1,18 @@
+-- HARROW VALLEY CERAMICS --
+(scanned copy)
+
+lNVOICE   No. HVC-60455
+Date  2026-08-17
+Cust. P.O.  PO-26-0152
+Terms Net 30 / due 2026-09-16
+
+DESCRlPTION   QTY  PRICE   AMOUNT
+Stoneware vase   40  12.40   496.00
+Ceramic table lamp base   40  27.17   1,086.80
+
+Sub-total 1,582.80
+HST 13%  205.76
+Freight 12.50
+TOTAL DUE CAD  1,801.06
+
+Page 1 of 1

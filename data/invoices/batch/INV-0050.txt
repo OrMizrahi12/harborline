@@ -1,0 +1,18 @@
+Brightwater Paper Co.
+Accounts Department
+ar@brightwater-paper.example
+
+September 15, 2026
+
+Dear Harborline purchasing team,
+
+Thank you for your recent order (your reference PO-26-0374). Please find below our invoice BWP-58930, dated September 15, 2026.
+
+We supplied shipping carton, medium (twenty) at $0.81 each ($16.20) and gift card stock (pack of 100) (six) at $17.10 each ($102.60), a subtotal of $118.80.
+
+Carriage was $25.00, making a total of $143.80, payable by October 15, 2026 (Net 30).
+
+Kind regards,
+
+Accounts Department
+Brightwater Paper Co.

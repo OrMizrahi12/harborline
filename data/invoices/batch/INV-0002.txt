@@ -1,0 +1,17 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-21507
+Date: 2026-07-03
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-21507 below. Terms: Net 45. Payment is due 2026-08-17.
+
+- 24 x Smart speaker @ 52.50 = 1,260.00
+
+Subtotal: 1,260.00
+Shipping: 12.50
+Total: USD 1,272.50
+
+Thanks,
+Quayside Electronics Wholesale billing

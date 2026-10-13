@@ -1,0 +1,156 @@
+[
+  {
+    "id": "S01",
+    "kind": "web",
+    "title": "Online return rates hit a new high as free returns become the norm",
+    "publisher": "Retail Signals Weekly",
+    "author": "Dana Whitfield",
+    "published": "2026-03-12",
+    "url": "https://retail-signals.example/2026/03/return-rates-new-high",
+    "method": "survey of 312 retail executives, return rate by order value",
+    "path": "research/docs/S01.md"
+  },
+  {
+    "id": "S02",
+    "kind": "web",
+    "title": "E-commerce Returns Benchmark 2025",
+    "publisher": "Meridian Commerce Institute",
+    "author": "Meridian research team",
+    "published": "2025-11-04",
+    "url": "https://meridian-institute.example/reports/returns-benchmark-2025",
+    "method": "transaction data from 1,214 merchants, January to September 2025, return rate by units",
+    "path": "research/docs/S02.md"
+  },
+  {
+    "id": "S03",
+    "kind": "web",
+    "title": "E-commerce Returns Benchmark 2023",
+    "publisher": "Meridian Commerce Institute",
+    "author": "Meridian research team",
+    "published": "2024-01-22",
+    "url": "https://meridian-institute.example/reports/returns-benchmark-2023",
+    "method": "transaction data from 986 merchants, full year 2023, return rate by units",
+    "path": "research/docs/S03.md"
+  },
+  {
+    "id": "S04",
+    "kind": "web",
+    "title": "What happened when retailers started charging for returns",
+    "publisher": "Retail Signals Weekly",
+    "author": "Marcus Feld",
+    "published": "2026-05-19",
+    "url": "https://retail-signals.example/2026/05/charging-for-returns",
+    "method": "panel of 40 retailers that introduced a return fee in 2025, compared with 40 that did not",
+    "path": "research/docs/S04.md"
+  },
+  {
+    "id": "S05",
+    "kind": "web",
+    "title": "The bracketing habit: shoppers buy several sizes on purpose",
+    "publisher": "Consumer Pulse Panel",
+    "author": "Elena Sorvino",
+    "published": "2025-09-02",
+    "url": "https://consumerpulse.example/insights/bracketing-2025",
+    "method": "online survey of 2,050 adult online shoppers, July 2025",
+    "path": "research/docs/S05.md"
+  },
+  {
+    "id": "S06",
+    "kind": "web",
+    "title": "Return fraud and abuse: annual survey of loss-prevention managers",
+    "publisher": "Northgate Loss Prevention Council",
+    "author": "Northgate staff",
+    "published": "2025-12-10",
+    "url": "https://northgate-lpc.example/research/return-fraud-2025",
+    "method": "survey of 180 loss-prevention managers",
+    "path": "research/docs/S06.md"
+  },
+  {
+    "id": "S07",
+    "kind": "web",
+    "title": "Drop-off points cut the cost of return shipping",
+    "publisher": "Parcel & Post Review",
+    "author": "Hannah Iqbal",
+    "published": "2026-07-08",
+    "url": "https://parcelpostreview.example/2026/07/box-free-returns",
+    "method": "carrier rate cards and interviews with 12 retailers",
+    "path": "research/docs/S07.md"
+  },
+  {
+    "id": "S08",
+    "kind": "internal",
+    "title": "Q2 2026 Returns Report",
+    "publisher": "Harborline Operations",
+    "author": "Harborline Operations team",
+    "published": "2026-07-20",
+    "url": "harborline://internal/q2-2026-returns-report",
+    "method": "Harborline order and return records, April to June 2026",
+    "path": "research/docs/S08.md"
+  },
+  {
+    "id": "S09",
+    "kind": "internal",
+    "title": "Customer Survey: Delivery and Returns (August 2026)",
+    "publisher": "Harborline Customer Insights",
+    "author": "Customer Insights team",
+    "published": "2026-09-05",
+    "url": "harborline://internal/customer-survey-aug-2026",
+    "method": "email survey of 1,148 Harborline customers, August 2026",
+    "path": "research/docs/S09.md"
+  },
+  {
+    "id": "S10",
+    "kind": "internal",
+    "title": "Finance memo: the cost of free returns, FY2026 forecast",
+    "publisher": "Harborline Finance",
+    "author": "Harborline Finance",
+    "published": "2026-08-14",
+    "url": "harborline://internal/finance-memo-free-returns",
+    "method": "forecast from the FY2026 budget model",
+    "path": "research/docs/S10.md"
+  },
+  {
+    "id": "S11",
+    "kind": "internal",
+    "title": "Warehouse operations note: returns processing",
+    "publisher": "Harborline Fulfillment",
+    "author": "Fulfillment operations",
+    "published": "2026-06-30",
+    "url": "harborline://internal/warehouse-returns-note",
+    "method": "warehouse management system data, January to June 2026",
+    "path": "research/docs/S11.md"
+  },
+  {
+    "id": "S12",
+    "kind": "web",
+    "title": "Return policy leniency and customer lifetime value",
+    "publisher": "Lakeshore University School of Business (working paper)",
+    "author": "M. Okafor and L. Brandt",
+    "published": "2025-04-15",
+    "url": "https://lakeshore-business.example/papers/return-leniency-clv",
+    "method": "panel data from 23 online retailers, 2019 to 2024",
+    "path": "research/docs/S12.md"
+  },
+  {
+    "id": "S13",
+    "kind": "web",
+    "title": "Half of everything bought online gets sent back",
+    "publisher": "The Checkout Line (personal blog)",
+    "author": "anonymous",
+    "published": "2026-02-03",
+    "url": "https://checkoutline.example/half-gets-sent-back",
+    "method": "none stated",
+    "path": "research/docs/S13.md"
+  },
+  {
+    "id": "S14",
+    "kind": "web",
+    "title": "Pinecrest Home adds a $5.95 return fee, waives it for members",
+    "publisher": "Home Retail Daily",
+    "author": "Jon Achebe",
+    "published": "2026-08-27",
+    "url": "https://homeretaildaily.example/2026/08/pinecrest-return-fee",
+    "method": "news report",
+    "path": "research/docs/S14.md"
+  }
+]

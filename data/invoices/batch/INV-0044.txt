@@ -1,0 +1,17 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Invoice CPH-31711 for PO-26-0130
+Date: 17 Jul 2026
+
+Hi Harborline AP team,
+
+Please see the details of invoice CPH-31711 below. Terms: Net 15. Payment is due 1 Aug 2026.
+
+- 10 x Wool throw blanket @ 38.50 = 385.00
+
+Subtotal: 385.00
+GST: 19.25
+Total: CAD 404.25
+
+Thanks,
+Cedar & Pine Home Goods billing

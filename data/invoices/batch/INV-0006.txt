@@ -1,0 +1,19 @@
+From: accounts@cedarpine.example
+To: ap@harborline.example
+Subject: Invoice CPH-37091 for PO-26-0957
+Date: 28 Aug 2026
+
+Hi Harborline AP team,
+
+Please see the details of invoice CPH-37091 below. Terms: Net 30. Payment is due 27 Sep 2026.
+
+- 40 x Round wall mirror @ 55.00 = 2,200.00
+- 12 x Weighted blanket @ 52.00 = 624.00
+
+Subtotal: 2,824.00
+GST: 141.20
+Shipping: 12.50
+Total: CAD 2,977.70
+
+Thanks,
+Cedar & Pine Home Goods billing

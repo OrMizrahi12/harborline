@@ -1,0 +1,19 @@
+-- HARROW VALLEY CERAMICS --
+(scanned copy)
+
+INVOICE   No. HVC-76540
+Date  2026-07-23
+Cust. P.O.  PO-26-0730
+Terms Net 30
+
+DESCRlPTION   QTY  PRICE   AMOUNT
+Stoneware vase   20  12.40   248.00
+Serving platter   6  16.07   96.42
+Ceramic table lamp base   10  30.03   300.30
+
+Sub-total 644.72
+HST 13%  83.81
+Freight 18.00
+TOTAL DUE CAD  746.53
+
+Page 1 of 1

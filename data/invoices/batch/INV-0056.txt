@@ -1,0 +1,18 @@
+From: invoices@quayside-wholesale.example
+To: ap@harborline.example
+Subject: Invoice QEW-58518 for PO-26-0125
+Date: 2026-07-30
+
+Hi Harborline AP team,
+
+Please see the details of invoice QEW-58518 below. Terms: Net 30. Payment is due 2026-08-29.
+
+- 8 x Smart speaker @ 52.50 = 420.00
+- 50 x E-reader @ 67.45 = 3,372.50
+- 50 x Wireless earbuds @ 39.14 = 1,957.00
+
+Subtotal: 5,749.50
+Total: USD 5,749.50
+
+Thanks,
+Quayside Electronics Wholesale billing

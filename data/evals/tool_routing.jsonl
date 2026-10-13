@@ -1,0 +1,16 @@
+{"id": "R01", "request": "Has order HL-10190 shipped yet?", "expected_tool": "lookup_order"}
+{"id": "R02", "request": "What have I ordered from you since August?", "expected_tool": "list_orders"}
+{"id": "R03", "request": "Where's the lamp I bought last month? I don't have the order number.", "expected_tool": "list_orders"}
+{"id": "R04", "request": "Can you tell me what was in order HL-10199?", "expected_tool": "lookup_order"}
+{"id": "R05", "request": "Is marcus.varga@example.com still the email on my account?", "expected_tool": "get_customer"}
+{"id": "R06", "request": "The kettle in order HL-10112 arrived cracked. I want my money back.", "expected_tool": "process_refund"}
+{"id": "R07", "request": "Please let me talk to a real person.", "expected_tool": "escalate_to_human"}
+{"id": "R08", "request": "Which of my orders had free shipping?", "expected_tool": "list_orders"}
+{"id": "R09", "request": "When was HL-10072 delivered?", "expected_tool": "lookup_order"}
+{"id": "R10", "request": "Do you have an account for Leila Kingsley?", "expected_tool": "get_customer"}
+{"id": "R11", "request": "My last order still hasn't arrived.", "expected_tool": "list_orders"}
+{"id": "R12", "request": "Order HL-10089 came a week late. Please refund the shipping fee.", "expected_tool": "process_refund"}
+{"id": "R13", "request": "I need a supervisor to sign off on a refund over $500.", "expected_tool": "escalate_to_human"}
+{"id": "R14", "request": "Did my most recent order go out?", "expected_tool": "list_orders"}
+{"id": "R15", "request": "Track HL-10063 for me.", "expected_tool": "lookup_order"}
+{"id": "R16", "request": "What phone number do you have for me? I'm leila.kingsley@example.com.", "expected_tool": "get_customer"}
