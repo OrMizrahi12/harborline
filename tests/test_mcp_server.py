@@ -24,7 +24,8 @@ async def test_lists_its_tools_resources_and_prompt():
     assert {t.name for t in tools.tools} == {
         "get_customer", "lookup_order", "list_orders", "process_refund"}
     assert {str(r.uri) for r in resources.resources} == {
-        "harborline://policy/refunds", "harborline://catalog/products"}
+        "harborline://policy/refunds", "harborline://catalog/products",
+        "harborline://catalog/statuses"}
     assert [p.name for p in prompts.prompts] == ["order_help"]
 
 

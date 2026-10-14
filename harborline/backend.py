@@ -110,6 +110,8 @@ def list_orders(customer_id, limit=10):
 
 def process_refund(order_id, amount, reason, sku=None, opened=False):
     """Refund money to the customer, if the refund policy allows it."""
+    if amount <= 0:  # checked first: a bad amount is never processed
+        raise InvalidRequest("A refund amount must be more than $0.")
     order = _find_order(order_id)
     customer = get_customer(customer_id=order["customer_id"])["customer"]
     if customer["status"] == "review_hold":

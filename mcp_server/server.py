@@ -16,6 +16,7 @@ from mcp.types import CallToolResult, TextContent
 from harborline import backend, data
 from harborline.errors import BackendError
 from harborline.tool_errors import tool_error
+from legacy.warehouse.codes import STATUS_NAMES
 from loop.tools import (GET_CUSTOMER, LIST_ORDERS, LOOKUP_ORDER,
                         PROCESS_REFUND)
 
@@ -75,6 +76,14 @@ def refund_policy() -> str:
                           "and whether it is final sale.")
 def product_catalog() -> str:
     return json.dumps(data.products(), indent=1)
+
+
+@app.resource("harborline://catalog/statuses",
+              mime_type="application/json",
+              description="What each numeric order status code means, "
+                          "from the old warehouse system.")
+def status_codes() -> str:
+    return json.dumps(STATUS_NAMES, indent=1)
 
 
 
