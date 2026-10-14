@@ -1,5 +1,7 @@
 """Harborline's agentic loop: Claude decides, our code runs the tools.
 
+Lab 1: every stop reason has its own branch.
+
     python -m loop.agent T-003
 """
 
@@ -22,10 +24,24 @@ SYSTEM = (
     "sentences or fewer, in plain text.\n\n" + data.refund_policy()
 )
 MAX_TURNS = 10  # a safety net for runaway loops, not how we stop
+MAX_TOKENS_CEILING = 4 * MAX_TOKENS  # the most room one retry may get
+MAX_CONTINUATIONS = 3  # pause_turn: send the paused turn back this often
 
 
 class LoopStopped(Exception):
     """The loop ended without a finished answer."""
+
+
+class CutOff(LoopStopped):
+    """Still cut off by max_tokens with the most room we allow."""
+
+
+class Refused(LoopStopped):
+    """Claude declined (stop_reason "refusal"). Never resend it as is."""
+
+    def __init__(self, category):
+        super().__init__(f"refused ({category})")
+        self.category = category
 
 
 def first_message(ticket_id):
@@ -49,22 +65,53 @@ def show(turn, response):
             print(f"  [{block.type}]")
 
 
+def refusal_category(response):
+    details = getattr(response, "stop_details", None)
+    return getattr(details, "category", None) or "unknown"
+
+
 def run(client, messages):
     """Call Claude until it ends its turn; return every response."""
     responses = []
+    max_tokens = MAX_TOKENS
+    continuations = 0
     for turn in range(1, MAX_TURNS + 1):
         response = client.messages.create(
-            model=MODEL, max_tokens=MAX_TOKENS, system=SYSTEM,
+            model=MODEL, max_tokens=max_tokens, system=SYSTEM,
             tools=TOOLS, messages=messages,
         )
-        log_usage(response, "1.4 agent")
+        log_usage(response, "lab 1 agent")
         responses.append(response)
         show(turn, response)
-        if response.stop_reason not in ("tool_use", "end_turn"):
-            raise LoopStopped(f"stopped on {response.stop_reason}")
+        reason = response.stop_reason
+
+        if reason == "max_tokens":
+            # Cut off: a half reply or a half tool call. Don't keep it;
+            # send the same request again with more room, up to a ceiling.
+            if max_tokens >= MAX_TOKENS_CEILING:
+                raise CutOff(f"still cut off at max_tokens={max_tokens}")
+            max_tokens = min(2 * max_tokens, MAX_TOKENS_CEILING)
+            print(f"  retrying with max_tokens={max_tokens}")
+            continue
+        if reason == "refusal":
+            # A normal response, not an error. The same request usually
+            # gets the same answer: stop, and let a person take over.
+            raise Refused(refusal_category(response))
+        if reason == "pause_turn":
+            # Server-side work isn't finished: send the turn back as is.
+            continuations += 1
+            if continuations > MAX_CONTINUATIONS:
+                raise LoopStopped("paused too many times")
+            messages.append({"role": "assistant",
+                             "content": response.content})
+            continue
+        if reason not in ("tool_use", "end_turn"):
+            # stop_sequence (we set none), model_context_window_exceeded, ...
+            raise LoopStopped(f"stopped on {reason}")
+
         messages.append({"role": "assistant",
                          "content": response.content})  # as returned
-        if response.stop_reason == "end_turn":
+        if reason == "end_turn":
             return responses
         results = [run_tool(block) for block in response.content
                    if block.type == "tool_use"]
@@ -78,7 +125,12 @@ def run(client, messages):
 if __name__ == "__main__":
     load_dotenv()
     messages = [first_message(sys.argv[1])]
-    run(anthropic.Anthropic(), messages)
+    try:
+        run(anthropic.Anthropic(), messages)
+    except Refused as stop:
+        print(f"\nRefused ({stop.category}): hand this ticket to a person.")
+    except LoopStopped as stop:
+        print(f"\nNo answer: {stop}. Hand this ticket to a person.")
     print("\nHistory:")
     for message in messages:
         content = message["content"]
