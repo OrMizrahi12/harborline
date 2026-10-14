@@ -14,10 +14,10 @@ def epoch_to_iso(seconds):
 
 def read_record(raw):
     """Return a copy of a legacy order with readable dates and status."""
-    record = dict(raw)
+    order = dict(raw)
     for field in ("placed_at", "delivered_at", "promised_by"):
-        if isinstance(record.get(field), int):
-            record[field] = epoch_to_iso(record[field])
-    if isinstance(record.get("status"), int):
-        record["status"] = status_name(record["status"])
-    return record
+        if isinstance(order.get(field), int):
+            order[field] = epoch_to_iso(order[field])
+    if isinstance(order.get("status"), int):
+        order["status"] = status_name(order["status"])
+    return order
