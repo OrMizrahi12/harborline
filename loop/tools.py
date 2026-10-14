@@ -75,7 +75,8 @@ PROCESS_REFUND = {
         "a damaged or wrong item, a return, a late delivery, a fee "
         "charged in error. It needs the amount and, for an item, its "
         "SKU: get both from lookup_order first. Above $500? Use "
-        "escalate_to_human instead."
+        "escalate_to_human instead. Only asking what the policy "
+        "allows? Use check_refund."
     ),
     "input_schema": {
         "type": "object",
@@ -115,8 +116,41 @@ ESCALATE_TO_HUMAN = {
         "required": ["customer_id", "reason", "summary"],
     },
 }
+CHECK_REFUND = {
+    "name": "check_refund",
+    "description": (
+        "Check what the refund policy allows for one order, without "
+        "refunding anything. Returns allowed (true or false), refund "
+        "(the most it can pay, in US dollars) and rule (the policy "
+        "rule that decided). Use it when a customer asks whether they "
+        "can return something or how much they would get back. For "
+        "an item, pass its SKU from lookup_order. To pay the refund, "
+        "use process_refund."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "order_id": {"type": "string",
+                         "description": "HL- plus five digits"},
+            "reason": {"type": "string", "enum": list(policy.REASONS)},
+            "sku": {"type": "string",
+                    "description": "The item's SKU, for item refunds"},
+            "opened": {"type": "boolean",
+                       "description": "True if electronics were opened"},
+        },
+        "required": ["order_id", "reason"],
+    },
+}
+
+
+def check_refund(order_id, reason, sku=None, opened=False):
+    """The policy's decision for one order, as data: nothing is paid."""
+    order = backend.lookup_order(order_id)
+    return policy.check_refund(order, reason, sku=sku, opened=opened)
+
+
 TOOLS = [GET_CUSTOMER, LOOKUP_ORDER, LIST_ORDERS, PROCESS_REFUND,
-         ESCALATE_TO_HUMAN]
+         ESCALATE_TO_HUMAN, CHECK_REFUND]
 
 HANDLERS = {
     "get_customer": backend.get_customer,
@@ -124,6 +158,7 @@ HANDLERS = {
     "list_orders": backend.list_orders,
     "process_refund": backend.process_refund,
     "escalate_to_human": backend.escalate_to_human,
+    "check_refund": check_refund,
 }
 
 
