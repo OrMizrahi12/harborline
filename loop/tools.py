@@ -4,6 +4,7 @@ import json
 
 from harborline import backend, policy
 from harborline.errors import BackendError
+from harborline.tool_errors import tool_error
 
 GET_CUSTOMER = {
     "name": "get_customer",
@@ -171,6 +172,6 @@ def run_tool(call):
                          "is_error": True}
     try:
         output = handler(**call.input)
-    except BackendError as error:  # not found, bad input, ...
-        return result | {"content": str(error), "is_error": True}
+    except BackendError as error:  # what kind, and retry or not
+        return result | {"content": tool_error(error), "is_error": True}
     return result | {"content": json.dumps(output)}
