@@ -6,6 +6,8 @@ templates a user picks. Tool descriptions: Lessons 2.1 and 2.2's.
 """
 
 import json
+import os
+import sys
 from typing import Literal
 
 from mcp.server import MCPServer
@@ -17,7 +19,11 @@ from harborline.tool_errors import tool_error
 from loop.tools import (GET_CUSTOMER, LIST_ORDERS, LOOKUP_ORDER,
                         PROCESS_REFUND)
 
-app = MCPServer("harborline")
+app = MCPServer("harborline", instructions=(
+    "Harborline's customer, order and refund systems. Use these tools "
+    "for any question about a customer, an order or a refund. Don't "
+    "read or search data/ for that: it holds seed files, and it never "
+    "shows the refunds made through these tools."))
 Reason = Literal["changed_mind", "damaged", "defective", "wrong_item",
                  "cancel_before_shipment", "late_delivery",
                  "shipping_charged_in_error"]  # policy.REASONS
@@ -79,4 +85,6 @@ def order_help(order_id: str) -> str:
 
 
 if __name__ == "__main__":
+    if not os.environ.get("HARBORLINE_API_TOKEN", "").startswith("hl_"):
+        sys.exit("Set HARBORLINE_API_TOKEN: see .env.example")
     app.run()  # stdio: the host starts this process and talks to it
