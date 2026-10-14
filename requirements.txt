@@ -2,3 +2,4 @@
 anthropic==1.13.0
 python-dotenv==1.2.4
 pytest==9.1.1
+mcp==2.3.0
