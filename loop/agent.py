@@ -13,7 +13,8 @@ from dotenv import load_dotenv
 from harborline import data
 from harborline.config import BUSINESS_DATE, MAX_TOKENS, MODEL
 from harborline.usage import log_usage
-from loop.tools import TOOLS, run_tool
+from loop.tools import (CHECK_REFUND, ESCALATE_TO_HUMAN, GET_CUSTOMER,
+                        LIST_ORDERS, LOOKUP_ORDER, run_tool)
 
 SYSTEM = (
     "You are Harborline's customer support agent. "
@@ -23,6 +24,10 @@ SYSTEM = (
     "refunds yet: say what the policy allows. Answer in four "
     "sentences or fewer, in plain text.\n\n" + data.refund_policy()
 )
+# This agent answers, checks what the policy allows and hands off to a
+# person. It never pays refunds, so it is not given process_refund.
+ROLE_TOOLS = [GET_CUSTOMER, LOOKUP_ORDER, LIST_ORDERS, CHECK_REFUND,
+              ESCALATE_TO_HUMAN]
 MAX_TURNS = 10  # a safety net for runaway loops, not how we stop
 MAX_TOKENS_CEILING = 4 * MAX_TOKENS  # the most room one retry may get
 MAX_CONTINUATIONS = 3  # pause_turn: send the paused turn back this often
@@ -78,7 +83,7 @@ def run(client, messages):
     for turn in range(1, MAX_TURNS + 1):
         response = client.messages.create(
             model=MODEL, max_tokens=max_tokens, system=SYSTEM,
-            tools=TOOLS, messages=messages,
+            tools=ROLE_TOOLS, messages=messages,
         )
         log_usage(response, "lab 1 agent")
         responses.append(response)

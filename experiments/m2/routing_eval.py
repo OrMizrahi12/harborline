@@ -18,7 +18,7 @@ from harborline.config import MAX_TOKENS, MODEL, ROOT_DIR
 from harborline.usage import log_usage
 from loop.tools import TOOLS, run_tool
 
-LOOKUPS = ["get_customer", "lookup_order", "list_orders"]
+LOOKUPS = ["get_customer", "lookup_order", "list_orders", "check_refund"]
 TRIES = 3  # one try per request is an anecdote, not a measurement
 SAVED = ROOT_DIR / "runs" / "routing-before.json"
 # Held out: written for this lesson, labeled before the first run and
