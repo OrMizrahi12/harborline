@@ -1,20 +1,20 @@
 """Harborline's research coordinator: a hub with three subagents.
 
-The coordinator picks the subagents a question needs, briefs them and
-writes the answer. The subagents search and read, each in a fresh
-context: all they get from the coordinator is the prompt it writes.
+The coordinator gets a goal and what a good answer looks like, splits
+the work so no two subagents cover the same ground, starts independent
+subagents together, and checks the answer against the goal. Each line
+it prints starts with the seconds since the run began.
 
     python -m research.coordinator "Should Harborline charge for return shipping?"
 """
 
 import asyncio
-import json
 import sys
-import textwrap
+import time
 
 from claude_agent_sdk import (AssistantMessage, ClaudeAgentOptions,
-                              HookMatcher, ResultMessage, SystemMessage,
-                              TextBlock, ToolUseBlock, query)
+                              HookMatcher, ResultMessage, TextBlock,
+                              ToolUseBlock, UserMessage, query)
 from dotenv import load_dotenv
 
 from harborline.config import MODEL
@@ -41,15 +41,23 @@ OPTIONS = ClaudeAgentOptions(
     system_prompt=(
         "You coordinate research for Harborline, an online home-goods "
         "store. The research tools work on a saved copy of the web, "
-        "where every URL ends in .example. You don't search or read "
-        "yourself. Your subagents: "
-        "searcher finds sources, analyst reads them and returns findings "
-        "as JSON, synthesizer writes the answer from findings. Use only "
-        "the ones the question needs. They know only what you write in "
-        "their prompt: include the question and everything they need. "
-        "Use only what they report, never your own knowledge. Give the "
-        "synthesizer the analyst's findings complete and unchanged, the "
-        "whole JSON, never a summary, and ask for at most eight lines. "
+        "where every URL ends in .example; Harborline's own documents "
+        "start with harborline://internal/. You don't search or read "
+        "yourself: searcher finds sources, analyst reads them and "
+        "returns findings as JSON, synthesizer writes the answer from "
+        "findings. Subagents know only what you write in their prompt.\n"
+        "Goal: an answer Harborline's managers can act on. A good answer "
+        "covers the cost of returns, how customers react to a fee, what "
+        "competitors do, and Harborline's own data; keeps every claim "
+        "with its source; and shows where sources disagree.\n"
+        "Split the work so no two subagents cover the same ground, for "
+        "example by part of the goal or by source type (web pages, "
+        "Harborline's documents). Subagents that don't depend on each "
+        "other start together, in one response.\n"
+        "Before you answer, check the synthesizer's answer against the "
+        "goal. If a part is missing, send a subagent for that gap only, "
+        "then have the synthesizer write again with all the findings. "
+        "Give it findings whole, as JSON, and ask for at most ten lines. "
         "Your answer is the synthesizer's."),
     model=MODEL,
     agents=AGENTS,
@@ -60,54 +68,60 @@ OPTIONS = ClaudeAgentOptions(
                                       hooks=[spokes_only])]},
     permission_mode="dontAsk",
     setting_sources=[],
-    env={"CLAUDE_CODE_DISABLE_BACKGROUND_TASKS": "1"},  # wait for each report
+    env={"CLAUDE_CODE_DISABLE_BACKGROUND_TASKS": "1",  # wait for each report
+         "CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS": "1"},  # only our three
     max_turns=10,
     max_budget_usd=0.10,
 )
 
 
-def findings(text):
-    """The list of findings handed over in a prompt, if there is one."""
-    try:
-        found = json.loads(text[text.index("["):text.rindex("]") + 1])
-    except ValueError:
-        return None
-    return found if found and isinstance(found[0], dict) else None
-
-
-def show(prompt):
-    found = findings(prompt)
-    text = prompt[:prompt.index("[")] if found else prompt
-    for line in text.strip().splitlines():
-        print(textwrap.fill(line, 78, initial_indent="   ",
-                            subsequent_indent="   "))
-    if found:  # handed over whole: say what, instead of printing it all
-        print(f"   [ {len(found)} findings as JSON, keys: "
-              f"{', '.join(found[0])} ]")
+def covered(spans):
+    """Seconds when at least one subagent was running."""
+    total, end = 0.0, 0.0
+    for a, b in sorted(spans):
+        total += max(0.0, b - max(a, end))
+        end = max(end, b)
+    return total
 
 
 async def main(question):
-    names, reply = {}, ""
+    names, started, counts, spans, reply = {}, {}, {}, [], ""
+    start = time.monotonic()
     async for message in query(prompt=question, options=OPTIONS):
-        if isinstance(message, SystemMessage) and message.subtype == "init":
-            print("coordinator tools:", ", ".join(message.data["tools"]))
+        now = time.monotonic() - start
         if isinstance(message, AssistantMessage):
             inside = message.parent_tool_use_id  # None: the coordinator
             for block in message.content:
                 if isinstance(block, ToolUseBlock) and block.name == "Agent":
-                    names[block.id] = block.input["subagent_type"]
-                    print(f"\n-> {names[block.id]} gets only this prompt:")
-                    show(block.input["prompt"])
+                    kind = block.input["subagent_type"]
+                    counts[kind] = counts.get(kind, 0) + 1
+                    names[block.id] = f"{kind} {counts[kind]}"
+                    started[block.id] = now
+                    print(f"{now:5.1f}s -> {names[block.id]}: "
+                          f"{block.input['prompt'][:60]}...")
                 elif isinstance(block, ToolUseBlock):
-                    who = names.get(inside, "coordinator")
-                    print(f"   [{who}] {block.name.split('__')[-1]}",
-                          block.input)
+                    tool = block.name.split("__")[-1]
+                    who = names.get(inside, "coordinator, denied")  # the hook
+                    print(f"{now:5.1f}s    [{who}] {tool}",
+                          *block.input.values())
                 elif isinstance(block, TextBlock) and inside is None:
-                    reply = block.text
+                    reply = block.text  # the last one is the answer
+        elif isinstance(message, UserMessage) and isinstance(message.content,
+                                                             list):
+            for block in message.content:  # a subagent's report is back
+                done = getattr(block, "tool_use_id", None)
+                if done in started:
+                    spans.append((started[done], now))
+                    print(f"{now:5.1f}s <- {names[done]} done "
+                          f"({now - started[done]:.1f}s)")
         elif isinstance(message, ResultMessage):
             print("\n" + reply)
-            print(f"\nsubagents: {', '.join(names.values()) or 'none'} · "
-                  f"{message.num_turns} turns · ${message.total_cost_usd:.4f}")
+            print(f"\nsubagents: {', '.join(names.values()) or 'none'}")
+            work, clock = sum(b - a for a, b in spans), covered(spans)
+            print(f"subagents worked {work:.0f}s in {clock:.0f}s of clock "
+                  f"time: running together saved {work - clock:.0f}s")
+            print(f"{now:.0f}s in all · {message.num_turns} turns · "
+                  f"${message.total_cost_usd:.4f}")
 
 
 if __name__ == "__main__":
