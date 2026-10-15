@@ -12,6 +12,7 @@ from claude_agent_sdk import (AssistantMessage, ClaudeAgentOptions,
                               query)
 from dotenv import load_dotenv
 
+from harborline import data
 from harborline.config import BUSINESS_DATE, MODEL
 from loop.agent import first_message
 from support import gates
@@ -19,7 +20,8 @@ from support.hooks import HOOKS
 from support.tools import NAMES, server
 
 PROMPT = Path(__file__).parent / "prompts" / "system.md"
-SYSTEM = PROMPT.read_text().replace("{date}", str(BUSINESS_DATE))
+SYSTEM = (PROMPT.read_text().replace("{date}", str(BUSINESS_DATE))
+          .replace("{policy}", data.refund_policy()))
 
 OPTIONS = ClaudeAgentOptions(
     system_prompt=SYSTEM,

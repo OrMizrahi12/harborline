@@ -12,8 +12,9 @@ from harborline import backend
 from harborline.errors import BackendError
 from harborline.tool_errors import tool_error
 from loop.tools import GET_CUSTOMER, LOOKUP_ORDER
-from loop.tools import ESCALATE_TO_HUMAN, PROCESS_REFUND
+from loop.tools import PROCESS_REFUND
 from support import gates
+from support.handoff import HANDOFF
 
 
 def reply(handler, **arguments):
@@ -49,12 +50,15 @@ async def process_refund(args):
                  sku=args.get("sku"))
 
 
-@tool("escalate_to_human", ESCALATE_TO_HUMAN["description"],
-      ESCALATE_TO_HUMAN["input_schema"])
+@tool("escalate_to_human", HANDOFF["description"],
+      HANDOFF["input_schema"])
 async def escalate_to_human(args):
     return reply(backend.escalate_to_human,
                  customer_id=args["customer_id"],
-                 reason=args["reason"], summary=args["summary"])
+                 order_id=args["order_id"], reason=args["root_cause"],
+                 amount=args["amount"],
+                 recommended_action=args["recommended_action"],
+                 summary=args["summary"])
 
 
 TOOLS = [get_customer, lookup_order, process_refund, escalate_to_human]
