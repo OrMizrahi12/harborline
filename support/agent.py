@@ -5,6 +5,7 @@
 
 import asyncio
 import sys
+from dataclasses import replace
 from pathlib import Path
 
 from claude_agent_sdk import (AssistantMessage, ClaudeAgentOptions,
@@ -37,12 +38,18 @@ OPTIONS = ClaudeAgentOptions(
 )
 
 
-async def handle(ticket_id, prompt=None):
-    """One ticket: the tools Claude called, its reply, the result."""
-    gates.start_case()
+async def handle(ticket_id, prompt=None, resume=None):
+    """One ticket: the tools Claude called, its reply, the result.
+
+    resume: a session ID, to send the customer's next message into
+    the same conversation (the verified customer stays verified).
+    """
+    if resume is None:
+        gates.start_case()
     prompt = prompt or first_message(ticket_id)["content"]
+    options = replace(OPTIONS, resume=resume) if resume else OPTIONS
     calls, reply, result = [], "", None
-    async for message in query(prompt=prompt, options=OPTIONS):
+    async for message in query(prompt=prompt, options=options):
         if isinstance(message, AssistantMessage):
             for block in message.content:
                 if isinstance(block, ToolUseBlock):

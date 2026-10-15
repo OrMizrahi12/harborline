@@ -75,7 +75,9 @@ PROCESS_REFUND = {
         "does not allow. Use it when a customer asks for money back: "
         "a damaged or wrong item, a return, a late delivery, a fee "
         "charged in error. It needs the amount and, for an item, its "
-        "SKU: get both from lookup_order first. Above $500? Use "
+        "SKU: get both from lookup_order first. A damaged, defective "
+        "or wrong item is one refund: the item price plus the "
+        "order's shipping fee, with the item's SKU. Above $500? Use "
         "escalate_to_human instead. Only asking what the policy "
         "allows? Use check_refund."
     ),

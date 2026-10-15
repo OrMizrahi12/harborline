@@ -92,6 +92,9 @@ def check_refund(order, reason, sku=None, opened=False, today=BUSINESS_DATE):
             return _decision(True, order["shipping_fee"], "deliveries more than 5 days late get the shipping fee back")
         return _decision(False, 0, "the order was not delivered more than 5 days late")
 
+    if sku is None:
+        return _decision(False, 0, "a refund for an item needs its SKU: "
+                                   "get it from lookup_order")
     item = _find_item(order, sku)
     if item is None:
         return _decision(False, 0, f"item {sku} is not on this order")

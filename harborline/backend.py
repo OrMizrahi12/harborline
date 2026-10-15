@@ -122,6 +122,11 @@ def process_refund(order_id, amount, reason, sku=None, opened=False):
         raise PolicyViolation(f"Refund not allowed: {decision['rule']}.")
     if amount > decision["refund"]:
         raise PolicyViolation(f"The most this refund can be is ${decision['refund']:.2f}.")
+    paid = sum(r["amount"] for r in _refunds if r["order_id"] == order_id)
+    if paid + amount > order["total"] + 0.005:  # never more than the order cost
+        left = max(order["total"] - paid, 0)
+        raise PolicyViolation(f"${paid:.2f} of this order is already refunded: "
+                              f"the most left is ${left:.2f}.")
 
     refund = {
         "refund_id": f"RF-{len(_refunds) + 1:04d}",

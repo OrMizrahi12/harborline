@@ -11,7 +11,7 @@ from claude_agent_sdk import create_sdk_mcp_server, tool
 from harborline import backend
 from harborline.errors import BackendError
 from harborline.tool_errors import tool_error
-from loop.tools import GET_CUSTOMER, LOOKUP_ORDER
+from loop.tools import GET_CUSTOMER, LIST_ORDERS, LOOKUP_ORDER
 from loop.tools import PROCESS_REFUND
 from support import gates
 from support.handoff import HANDOFF
@@ -42,6 +42,12 @@ async def lookup_order(args):
     return reply(gates.lookup_order, order_id=args["order_id"])
 
 
+@tool("list_orders", LIST_ORDERS["description"],
+      LIST_ORDERS["input_schema"])
+async def list_orders(args):
+    return reply(gates.list_orders, customer_id=args["customer_id"])
+
+
 @tool("process_refund", PROCESS_REFUND["description"],
       PROCESS_REFUND["input_schema"])
 async def process_refund(args):
@@ -61,6 +67,7 @@ async def escalate_to_human(args):
                  summary=args["summary"])
 
 
-TOOLS = [get_customer, lookup_order, process_refund, escalate_to_human]
+TOOLS = [get_customer, lookup_order, list_orders, process_refund,
+         escalate_to_human]
 server = create_sdk_mcp_server("harborline", version="1.0.0", tools=TOOLS)
 NAMES = [f"mcp__harborline__{t.name}" for t in TOOLS]  # for allowed_tools

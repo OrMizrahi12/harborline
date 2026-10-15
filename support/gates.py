@@ -1,9 +1,9 @@
 """A prerequisite gate for the order tools.
 
-lookup_order and process_refund refuse until get_customer has verified
-the sender, and then they only reach that customer's own orders. The
-system prompt asks for this too, but a prompt can be skipped: this
-check runs in our code, on every call.
+list_orders, lookup_order and process_refund refuse until get_customer
+has verified the sender, and then they only reach that customer's own
+orders. The system prompt asks for this too, but a prompt can be
+skipped: this check runs in our code, on every call.
 """
 
 from harborline import backend, data
@@ -40,6 +40,21 @@ def check(order_id):
         case["blocked"] += 1
         raise PermissionDenied(problem)
     case["served"] += 1
+
+
+def list_orders(customer_id):
+    """Only the verified customer's own orders."""
+    if case["customer_id"] is None:
+        problem = "No verified customer yet: call get_customer first."
+    elif customer_id != case["customer_id"]:
+        problem = "You can only list the verified customer's orders."
+    else:
+        return backend.list_orders(customer_id)
+    if ENFORCE:
+        case["blocked"] += 1
+        raise PermissionDenied(problem)
+    case["served"] += 1
+    return backend.list_orders(customer_id)
 
 
 def lookup_order(order_id):
