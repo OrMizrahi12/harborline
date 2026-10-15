@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 from harborline.config import BUSINESS_DATE, MODEL
 from loop.agent import first_message
 from support import gates
+from support.hooks import HOOKS
 from support.tools import NAMES, server
 
 SYSTEM = (
@@ -35,6 +36,7 @@ OPTIONS = ClaudeAgentOptions(
     setting_sources=[],
     max_turns=10,
     max_budget_usd=0.10,
+    hooks=HOOKS,
 )
 
 
