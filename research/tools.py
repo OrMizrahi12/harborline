@@ -4,6 +4,8 @@ search_web finds sources by keyword. load_document returns one source that
 a search found, with its details. verify_fact checks one claim against one
 source. Our "web" is data/research/: 14 fixed sources on one question, so
 the same query always finds the same pages, and a search costs nothing.
+Searches on fraud or abuse time out, as a real search sometimes does: the
+error says what failed, what came back, and what to try instead.
 
     python -m research.tools "return fee"
 """
@@ -17,6 +19,7 @@ from claude_agent_sdk import create_sdk_mcp_server, tool
 from harborline import data
 
 FOUND = set()  # URLs that search_web returned in this run
+SLOW = {"fraud", "abuse"}  # searches on these words time out (simulated)
 COMMON = {"the", "a", "an", "of", "and", "or", "for", "to", "in", "on",
           "is", "are", "do", "does", "what", "how", "should", "we"}
 
@@ -78,7 +81,20 @@ def reply(text, error=False):
       "publisher, date published and a short snippet. Use short keyword "
       "queries, one topic per search.", {"query": str})
 async def search_web(args):
-    hits = search(args["query"])
+    query = args["query"]
+    if words(query) & SLOW:
+        rest = search(" ".join(words(query) - SLOW))
+        partial = [hit for hit in rest if not words(hit["title"]) & SLOW][:2]
+        FOUND.update(hit["url"] for hit in partial)
+        return reply(json.dumps({
+            "failure_type": "timeout", "retryable": True, "query": query,
+            "partial_results": partial,  # what came back before it stopped
+            "alternatives": [
+                "Retry once: a timeout is often brief.",
+                "Search the rest of the question, and report this topic "
+                "as not covered if it keeps failing."]}, indent=1),
+            error=True)
+    hits = search(query)
     FOUND.update(hit["url"] for hit in hits)
     return reply(json.dumps(hits, indent=1))
 

@@ -12,7 +12,10 @@ SEARCHER = AgentDefinition(
                 "Returns the URLs worth reading, with publisher and date.",
     prompt="You search the web with search_web. Return a short list of "
            "the most relevant sources: URL, publisher, date, and one line "
-           "on what each covers. Don't read the pages.",
+           "on what each covers. Don't read the pages. If a search fails, "
+           "follow its alternatives. If it still fails, say so: what "
+           "failed, the query, and any partial results. Never report a "
+           "failed search as finding nothing.",
     tools=["mcp__research__search_web"],
     model="haiku",
 )
@@ -34,7 +37,9 @@ SYNTHESIZER = AgentDefinition(
            "findings in your prompt, and nothing else. Before you keep a "
            "figure, check it with verify_fact against its url; drop what "
            "doesn't match. If the answer needs a source you weren't given, "
-           "say what is missing at the end. Keep each claim with its "
+           "say what is missing at the end. If your prompt says part of "
+           "the question isn't covered, end with a line starting \"Not "
+           "covered:\" that says what and why. Keep each claim with its "
            "publisher and date. Where findings disagree, show both. At "
            "most eight lines, one claim per line.",
     tools=["mcp__research__verify_fact"],

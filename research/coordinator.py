@@ -3,12 +3,14 @@
 The coordinator gets a goal and what a good answer looks like, splits
 the work so no two subagents cover the same ground, starts independent
 subagents together, and checks the answer against the goal. Each line
-it prints starts with the seconds since the run began.
+it prints starts with the seconds since the run began; a "!" marks a tool
+call that failed.
 
     python -m research.coordinator "Should Harborline charge for return shipping?"
 """
 
 import asyncio
+import json
 import sys
 import time
 
@@ -56,7 +58,9 @@ OPTIONS = ClaudeAgentOptions(
         "Split the work so no two subagents cover the same ground, for "
         "example by part of the goal or by source type (web pages, "
         "Harborline's documents). Subagents that don't depend on each "
-        "other start together, in one response.\n"
+        "other start together, in one response. If a subagent reports a "
+        "search it couldn't complete, carry on with the rest and tell the "
+        "synthesizer which part isn't covered, so the answer says so.\n"
         "Before you answer, check the synthesizer's answer against the "
         "goal. If a part is missing, send a subagent for that gap only, "
         "then have the synthesizer write again with all the findings. "
@@ -87,8 +91,19 @@ def covered(spans):
     return total
 
 
+def failure(content):
+    """A failed tool's failure_type, or the start of its message."""
+    text = content if isinstance(content, str) else " ".join(
+        part.get("text", "") for part in content or [])
+    try:
+        return json.loads(text)["failure_type"]
+    except (ValueError, KeyError, TypeError):
+        return text[:60]
+
+
 async def main(question):
     names, started, counts, spans, reply = {}, {}, {}, [], ""
+    calls = {}  # each tool call: who made it, which tool
     start = time.monotonic()
     async for message in query(prompt=question, options=OPTIONS):
         now = time.monotonic() - start
@@ -105,14 +120,18 @@ async def main(question):
                 elif isinstance(block, ToolUseBlock):
                     tool = block.name.split("__")[-1]
                     who = names.get(inside, "coordinator, denied")  # the hook
-                    print(f"{now:5.1f}s    [{who}] {tool}",
+                    calls[block.id] = f"[{who}] {tool}"
+                    print(f"{now:5.1f}s    {calls[block.id]}",
                           *block.input.values())
                 elif isinstance(block, TextBlock) and inside is None:
                     reply = block.text  # the last one is the answer
         elif isinstance(message, UserMessage) and isinstance(message.content,
                                                              list):
-            for block in message.content:  # a subagent's report is back
+            for block in message.content:  # a tool's or a subagent's result
                 done = getattr(block, "tool_use_id", None)
+                if getattr(block, "is_error", False) and done in calls:
+                    print(f"{now:5.1f}s  ! {calls[done]} failed: "
+                          f"{failure(block.content)}")
                 if done in started:
                     spans.append((started[done], now))
                     print(f"{now:5.1f}s <- {names[done]} done "

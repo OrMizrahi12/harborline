@@ -1,5 +1,6 @@
 """The research tools' limits, checked without calling Claude."""
 
+import asyncio
 import json
 
 import pytest
@@ -30,3 +31,18 @@ def test_verify_finds_the_sentence_behind_a_figure():
 
 def test_verify_finds_nothing_for_an_unrelated_claim():
     assert tools.verify("the warehouse opens at noon", FEE_STUDY) == []
+
+
+def test_a_search_that_times_out_says_what_failed_and_what_came_back():
+    result = asyncio.run(tools.search_web.handler({"query": "return fraud"}))
+    error = json.loads(result["content"][0]["text"])
+    assert result["is_error"]  # a failure, not an empty success
+    assert error["failure_type"] == "timeout"
+    assert error["query"] == "return fraud"
+    assert error["partial_results"] and error["alternatives"]
+
+
+def test_a_search_with_no_matches_is_a_valid_empty_result():
+    result = asyncio.run(tools.search_web.handler({"query": "zeppelin"}))
+    assert "is_error" not in result
+    assert json.loads(result["content"][0]["text"]) == []
