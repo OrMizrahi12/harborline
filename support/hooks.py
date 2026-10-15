@@ -10,6 +10,7 @@ import json
 from claude_agent_sdk import HookMatcher
 
 from harborline import normalize
+from support import case_facts
 
 REFUND_LIMIT = 500.00  # above this, a support lead approves
 
@@ -29,14 +30,14 @@ async def refund_limit(input_data, tool_use_id, context):
 
 
 async def normalize_order(input_data, tool_use_id, context):
-    """Give Claude one format: UTC dates and status names."""
+    """Give Claude one format, and only the fields that matter."""
     try:
         record = json.loads(input_data["tool_response"][0]["text"])
     except (KeyError, IndexError, TypeError, ValueError):
         return {}  # not the JSON we expect: leave it as it is
     if "order_id" not in record:
         return {}  # an error, not an order
-    clean = normalize.order(record)
+    clean = case_facts.trim(normalize.order(record))
     return {"hookSpecificOutput": {
         "hookEventName": "PostToolUse",
         "updatedToolOutput": [{"type": "text",
@@ -50,5 +51,7 @@ HOOKS = {
         hooks=[refund_limit])],
     "PostToolUse": [HookMatcher(
         matcher="mcp__harborline__lookup_order",
-        hooks=[normalize_order])],
+        hooks=[normalize_order]),
+        HookMatcher(matcher="mcp__harborline__.*",
+                    hooks=[case_facts.record])],
 }
