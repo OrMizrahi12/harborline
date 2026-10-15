@@ -17,7 +17,7 @@ REFUND_LIMIT = 500.00  # above this, a support lead approves
 
 async def refund_limit(input_data, tool_use_id, context):
     """Deny a refund above the limit, and send Claude to a person."""
-    amount = input_data["tool_input"].get("amount", 0)
+    amount = float(input_data["tool_input"].get("amount", 0))
     if amount <= REFUND_LIMIT:
         return {}
     return {"hookSpecificOutput": {
