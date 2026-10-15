@@ -13,6 +13,7 @@ from harborline.errors import BackendError
 from harborline.tool_errors import tool_error
 from loop.tools import GET_CUSTOMER, LOOKUP_ORDER
 from loop.tools import ESCALATE_TO_HUMAN, PROCESS_REFUND
+from support import gates
 
 
 def reply(handler, **arguments):
@@ -30,20 +31,20 @@ def reply(handler, **arguments):
 @tool("get_customer", GET_CUSTOMER["description"],
       GET_CUSTOMER["input_schema"])
 async def get_customer(args):
-    return reply(backend.get_customer, email=args.get("email"),
+    return reply(gates.get_customer, email=args.get("email"),
                  name=args.get("name"))
 
 
 @tool("lookup_order", LOOKUP_ORDER["description"],
       LOOKUP_ORDER["input_schema"])
 async def lookup_order(args):
-    return reply(backend.lookup_order, order_id=args["order_id"])
+    return reply(gates.lookup_order, order_id=args["order_id"])
 
 
 @tool("process_refund", PROCESS_REFUND["description"],
       PROCESS_REFUND["input_schema"])
 async def process_refund(args):
-    return reply(backend.process_refund, order_id=args["order_id"],
+    return reply(gates.process_refund, order_id=args["order_id"],
                  amount=args["amount"], reason=args["reason"],
                  sku=args.get("sku"))
 

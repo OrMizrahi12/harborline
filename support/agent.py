@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 
 from harborline.config import BUSINESS_DATE, MODEL
 from loop.agent import first_message
+from support import gates
 from support.tools import NAMES, server
 
 SYSTEM = (
@@ -37,9 +38,10 @@ OPTIONS = ClaudeAgentOptions(
 )
 
 
-async def handle(ticket_id):
+async def handle(ticket_id, prompt=None):
     """One ticket: the tools Claude called, its reply, the result."""
-    prompt = first_message(ticket_id)["content"]
+    gates.start_case()
+    prompt = prompt or first_message(ticket_id)["content"]
     calls, reply, result = [], "", None
     async for message in query(prompt=prompt, options=OPTIONS):
         if isinstance(message, AssistantMessage):
