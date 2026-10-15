@@ -1,4 +1,4 @@
-"""Harborline's research coordinator: a hub with two subagents.
+"""Harborline's research coordinator: a hub with three subagents.
 
 The coordinator picks the subagents a question needs, briefs them and
 writes the answer. The subagents search and read, each in a fresh
@@ -8,35 +8,19 @@ context: all they get from the coordinator is the prompt it writes.
 """
 
 import asyncio
+import json
 import sys
 import textwrap
 
-from claude_agent_sdk import (AgentDefinition, AssistantMessage,
-                              ClaudeAgentOptions, HookMatcher,
-                              ResultMessage, TextBlock, ToolUseBlock, query)
+from claude_agent_sdk import (AssistantMessage, ClaudeAgentOptions,
+                              HookMatcher, ResultMessage, SystemMessage,
+                              TextBlock, ToolUseBlock, query)
 from dotenv import load_dotenv
 
 from harborline.config import MODEL
+from research.agents import AGENTS
 from research.tools import server
 
-SEARCHER = AgentDefinition(
-    description="Finds sources on the web for one research question. "
-                "Returns the URLs worth reading, with publisher and date.",
-    prompt="You search the web with search_web. Return a short list of "
-           "the most relevant sources: URL, publisher, date, and one line "
-           "on what each covers. Don't read the pages.",
-    tools=["mcp__research__search_web"],
-    model="haiku",
-)
-ANALYST = AgentDefinition(
-    description="Reads web pages and extracts the facts that answer a "
-                "question, with the page each fact came from.",
-    prompt="You read pages with fetch_url and extract the facts that "
-           "answer the question. One line per fact, with its URL. Use "
-           "only what the pages say.",
-    tools=["mcp__research__fetch_url"],
-    model="haiku",
-)
 RESEARCH_TOOLS = ["mcp__research__search_web", "mcp__research__fetch_url"]
 
 
@@ -56,14 +40,19 @@ async def spokes_only(input_data, tool_use_id, context):
 OPTIONS = ClaudeAgentOptions(
     system_prompt=(
         "You coordinate research for Harborline, an online home-goods "
-        "store. You don't search or read yourself. You have two "
-        "subagents: searcher finds sources, analyst reads them. Use only "
+        "store. The research tools work on a saved copy of the web, "
+        "where every URL ends in .example. You don't search or read "
+        "yourself. Your subagents: "
+        "searcher finds sources, analyst reads them and returns findings "
+        "as JSON, synthesizer writes the answer from findings. Use only "
         "the ones the question needs. They know only what you write in "
-        "their prompt: include the question and every URL or fact they "
-        "need. Use only what they report, never your own knowledge. "
-        "Answer in at most eight lines, citing URLs."),
+        "their prompt: include the question and everything they need. "
+        "Use only what they report, never your own knowledge. Give the "
+        "synthesizer the analyst's findings complete and unchanged, the "
+        "whole JSON, never a summary, and ask for at most eight lines. "
+        "Your answer is the synthesizer's."),
     model=MODEL,
-    agents={"searcher": SEARCHER, "analyst": ANALYST},
+    agents=AGENTS,
     mcp_servers={"research": server},
     tools=["Agent"],
     allowed_tools=["Agent"] + RESEARCH_TOOLS,
@@ -77,15 +66,31 @@ OPTIONS = ClaudeAgentOptions(
 )
 
 
+def findings(text):
+    """The list of findings handed over in a prompt, if there is one."""
+    try:
+        found = json.loads(text[text.index("["):text.rindex("]") + 1])
+    except ValueError:
+        return None
+    return found if found and isinstance(found[0], dict) else None
+
+
 def show(prompt):
-    for line in prompt.splitlines():
+    found = findings(prompt)
+    text = prompt[:prompt.index("[")] if found else prompt
+    for line in text.strip().splitlines():
         print(textwrap.fill(line, 78, initial_indent="   ",
                             subsequent_indent="   "))
+    if found:  # handed over whole: say what, instead of printing it all
+        print(f"   [ {len(found)} findings as JSON, keys: "
+              f"{', '.join(found[0])} ]")
 
 
 async def main(question):
     names, reply = {}, ""
     async for message in query(prompt=question, options=OPTIONS):
+        if isinstance(message, SystemMessage) and message.subtype == "init":
+            print("coordinator tools:", ", ".join(message.data["tools"]))
         if isinstance(message, AssistantMessage):
             inside = message.parent_tool_use_id  # None: the coordinator
             for block in message.content:
