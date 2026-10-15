@@ -21,7 +21,8 @@ from harborline.config import MODEL
 from research.agents import AGENTS
 from research.tools import server
 
-RESEARCH_TOOLS = ["mcp__research__search_web", "mcp__research__fetch_url"]
+RESEARCH_TOOLS = ["mcp__research__search_web", "mcp__research__load_document",
+                  "mcp__research__verify_fact"]
 
 
 async def spokes_only(input_data, tool_use_id, context):
@@ -45,7 +46,9 @@ OPTIONS = ClaudeAgentOptions(
         "start with harborline://internal/. You don't search or read "
         "yourself: searcher finds sources, analyst reads them and "
         "returns findings as JSON, synthesizer writes the answer from "
-        "findings. Subagents know only what you write in their prompt.\n"
+        "findings and checks their figures. If it says a source is "
+        "missing, send a searcher for that only. Subagents know only what "
+        "you write in their prompt.\n"
         "Goal: an answer Harborline's managers can act on. A good answer "
         "covers the cost of returns, how customers react to a fee, what "
         "competitors do, and Harborline's own data; keeps every claim "

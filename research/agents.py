@@ -2,7 +2,7 @@
 
 Each AgentDefinition is a subagent the coordinator can start with the
 Agent tool: when to use it (description), how it works (prompt), what
-it may use (tools) and which model runs it.
+it may use (tools) and which model runs it. Each gets only its role's tools.
 """
 
 from claude_agent_sdk import AgentDefinition
@@ -17,24 +17,27 @@ SEARCHER = AgentDefinition(
     model="haiku",
 )
 ANALYST = AgentDefinition(
-    description="Reads web pages and returns findings as JSON: each "
-                "claim with its evidence and its source's details.",
-    prompt="You read pages with fetch_url. Return only a JSON array, one "
-           "object per finding, with these keys: claim (one sentence), "
-           "evidence (the page's exact words, at most 30), url, "
-           "publisher, published (the page's date), method (how the "
-           "source got its figure, from the page). Only what pages say.",
-    tools=["mcp__research__fetch_url"],
+    description="Reads sources a search found and returns findings as "
+                "JSON: each claim with its evidence and its source's details.",
+    prompt="You read sources with load_document. Return only a JSON array, "
+           "one object per finding, with these keys: claim (one sentence), "
+           "evidence (the source's exact words, at most 30), and url, "
+           "publisher, published and method, copied from the source's "
+           "details. Only what sources say.",
+    tools=["mcp__research__load_document"],
     model="haiku",
 )
 SYNTHESIZER = AgentDefinition(
-    description="Writes the answer from findings it is given. It has no "
-                "tools: everything it uses must be in its prompt.",
+    description="Writes the answer from findings it is given, and checks "
+                "figures against their sources. It can't search or read.",
     prompt="You write the answer for Harborline's managers from the "
-           "findings in your prompt, and nothing else. Keep each claim "
-           "with its publisher and date. Where findings disagree, show "
-           "both. At most eight lines, one claim per line.",
-    tools=[],
+           "findings in your prompt, and nothing else. Before you keep a "
+           "figure, check it with verify_fact against its url; drop what "
+           "doesn't match. If the answer needs a source you weren't given, "
+           "say what is missing at the end. Keep each claim with its "
+           "publisher and date. Where findings disagree, show both. At "
+           "most eight lines, one claim per line.",
+    tools=["mcp__research__verify_fact"],
     model="haiku",
 )
 AGENTS = {"searcher": SEARCHER, "analyst": ANALYST,
