@@ -5,6 +5,7 @@
 
 import asyncio
 import sys
+from pathlib import Path
 
 from claude_agent_sdk import (AssistantMessage, ClaudeAgentOptions,
                               ResultMessage, TextBlock, ToolUseBlock,
@@ -17,14 +18,8 @@ from support import gates
 from support.hooks import HOOKS
 from support.tools import NAMES, server
 
-SYSTEM = (
-    "You are Harborline's customer support agent. "
-    f"Today is {BUSINESS_DATE}. Verify the sender with get_customer "
-    "first, then look up the order. Refund what the refund policy "
-    "allows: process_refund checks it. Hand the case to a person with "
-    "escalate_to_human when the customer asks for one, when a refund "
-    "is above $500, or when the policy doesn't cover the request. "
-    "Reply in four sentences or fewer, in plain text.")
+PROMPT = Path(__file__).parent / "prompts" / "system.md"
+SYSTEM = PROMPT.read_text().replace("{date}", str(BUSINESS_DATE))
 
 OPTIONS = ClaudeAgentOptions(
     system_prompt=SYSTEM,
