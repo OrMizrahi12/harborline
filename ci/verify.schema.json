@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {"type": "integer"},
+          "verdict": {"type": "string", "enum": ["confirmed", "rejected", "unsure"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "required": ["index", "verdict", "confidence"]
+      }
+    }
+  },
+  "required": ["checks"]
+}

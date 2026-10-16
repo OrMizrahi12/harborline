@@ -1,3 +1,4 @@
 {
-  "disabled_categories": ["style"]
+  "disabled_categories": ["style"],
+  "inline_confidence": 0.8
 }

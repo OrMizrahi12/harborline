@@ -23,6 +23,14 @@ Earlier findings on this pull request are listed below. If one is still in the c
 with status still_open; if it's fixed, leave it out. Give every other finding status new.
 Earlier findings:
 {prior}"""
+CROSS = """
+This is the whole pull request. Each file was already reviewed on its own: report only problems that span files,
+such as a value one file produces in a unit or shape that another file reads differently."""
+VERIFY = (ROOT / "ci" / "verify.schema.json").read_text()
+CHECK = """You are checking findings that another reviewer wrote about this diff. Read the code each one points to.
+For each finding, give its index, a verdict (confirmed, rejected or unsure) and your confidence from 0 to 1.
+Findings:
+{findings}"""
 
 
 def repo():
@@ -41,16 +49,39 @@ def prior_findings(pr):
             for c in comments if MARK in c["body"]]
 
 
-def review(diff, prior):
-    prompt = CRITERIA + PROMPT.format(prior="\n".join(prior) or "- none yet")
+def claude(prompt, text, schema):
     run = subprocess.run(
-        ["claude", "-p", prompt, "--output-format", "json", "--json-schema", SCHEMA,
+        ["claude", "-p", prompt, "--output-format", "json", "--json-schema", schema,
          "--permission-mode", "dontAsk", "--allowedTools", "Read,Grep,Glob"],
-        input=diff, capture_output=True, text=True, check=True)
-    result = json.loads(run.stdout)
-    findings = result["structured_output"]["findings"]
-    result["findings"] = [f for f in findings if f["category"] not in CONFIG["disabled_categories"]]
-    return result
+        input=text, capture_output=True, text=True, check=True)
+    return json.loads(run.stdout)
+
+
+def files(diff):
+    """{path: that file's part of the diff}"""
+    parts = re.split(r"(?m)^(?=diff --git )", diff)
+    return {re.search(r" b/(\S+)", p).group(1): p for p in parts if p.startswith("diff --git")}
+
+
+def review(diff, prior):
+    """One pass per file, one cross-file pass, then an independent check of every finding."""
+    tail = PROMPT.format(prior="\n".join(prior) or "- none yet")
+    passes = [(path, CRITERIA + tail, part) for path, part in files(diff).items()]
+    if len(passes) > 1:
+        passes.append(("cross-file", CRITERIA + CROSS + tail, diff))
+    runs, found = [], []
+    for name, prompt, text in passes:
+        runs.append(claude(prompt, text, SCHEMA))
+        found += [dict(f, found_by=name) for f in runs[-1]["structured_output"]["findings"]
+                  if f["category"] not in CONFIG["disabled_categories"]]
+    if found:
+        listed = "\n".join(f"{i}. {f['path']}:{f['line']} {f['issue']}" for i, f in enumerate(found))
+        runs.append(claude(CHECK.format(findings=listed), diff, VERIFY))
+        for check in runs[-1]["structured_output"]["checks"]:
+            found[check["index"]].update(verdict=check["verdict"], confidence=check["confidence"])
+    return {"findings": [f for f in found if f.get("verdict") != "rejected"], "passes": len(runs),
+            "num_turns": sum(run["num_turns"] for run in runs),
+            "total_cost_usd": sum(run["total_cost_usd"] for run in runs)}
 
 
 def diff_lines(diff):
@@ -73,8 +104,11 @@ def comment(f):
 
 def post(pr, new, still, fixed, lines):
     """New findings as inline comments; the summary counts what's fixed and lists what's still open."""
-    inline = [f for f in new if f["line"] in lines.get(f["path"], ())]
-    rest = [f"- New, `{f['path']}:{f['line']}`: {f['issue']}" for f in new if f not in inline]
+    sure = [f for f in new if f.get("confidence", 0) >= CONFIG["inline_confidence"]]
+    inline = [f for f in sure if f["line"] in lines.get(f["path"], ())]
+    rest = [f"- New, `{f['path']}:{f['line']}`: {f['issue']}" for f in sure if f not in inline]
+    rest += [f"- For a person to check ({f.get('confidence', 0):.2f}), `{f['path']}:{f['line']}`: {f['issue']}"
+             for f in new if f not in sure]
     rest += [f"- Still open, `{f['path']}:{f['line']}`: {f['issue']}" for f in still]
     head = f"Claude review: {len(new)} new, {len(still)} still open, {fixed} fixed."
     review_ = {"event": "COMMENT", "body": "\n".join([head] + rest),
@@ -101,8 +135,10 @@ def local(git_range):
     diff = subprocess.run(["git", "diff", git_range], capture_output=True, text=True, check=True).stdout
     result = review(diff, [])
     for f in result["findings"]:
-        print(f"{f['path']}:{f['line']} {f['severity']} {f['category']}: {f['issue']}")
-    print(f"{len(result['findings'])} findings; {result['num_turns']} turns, ${result['total_cost_usd']:.4f}")
+        print(f"{f['path']}:{f['line']} {f['severity']} {f['category']} (found by {f['found_by']}; "
+              f"{f.get('verdict', 'unchecked')} {f.get('confidence', 0):.2f}): {f['issue']}")
+    print(f"{len(result['findings'])} findings from {result['passes']} passes; "
+          f"{result['num_turns']} turns, ${result['total_cost_usd']:.4f}")
 
 
 if __name__ == "__main__":
