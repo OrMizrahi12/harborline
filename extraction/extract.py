@@ -23,6 +23,7 @@ RULES = """Rules for every field:
 - Amounts as plain numbers: "1.234,56" and "1,234.56" are both 1234.56.
 - Currency as its ISO 4217 code, such as USD, GBP, EUR or CAD.
 """
+EXAMPLES = (Path(__file__).parent / "prompts" / "examples.md").read_text()
 
 
 def tool(name, description, model):
@@ -40,7 +41,7 @@ def call(client, text, tool, note=""):
     """One forced call; returns the input Claude gave the tool."""
     response = client.messages.create(
         model=MODEL, max_tokens=MAX_TOKENS, tools=[tool], tool_choice={"type": "tool", "name": tool["name"]},
-        messages=[{"role": "user", "content": f"{RULES}\n<document>\n{text}\n</document>{note}"}])
+        messages=[{"role": "user", "content": f"{RULES}\n{EXAMPLES}\n<document>\n{text}\n</document>{note}"}])
     log_usage(response, "extract")
     return next(b for b in response.content if b.type == "tool_use").input
 
