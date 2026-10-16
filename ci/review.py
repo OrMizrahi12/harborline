@@ -19,6 +19,7 @@ CONFIG = json.loads((ROOT / "ci" / "review_config.json").read_text())
 MARK = "<!-- harborline-review -->"
 PROMPT = """
 Report each finding with its file and its line number in the new version of the file.
+Name the kind of problem in detected_pattern, in a few words joined by hyphens, such as refund-by-hand.
 Earlier findings on this pull request are listed below. If one is still in the code, report it again
 with status still_open; if it's fixed, leave it out. Give every other finding status new.
 Earlier findings:
@@ -84,6 +85,14 @@ def review(diff, prior):
             "total_cost_usd": sum(run["total_cost_usd"] for run in runs)}
 
 
+def log(findings):
+    """Append findings to runs/review_log.jsonl, where ci/review_log.py tracks the ones developers dismiss."""
+    path = ROOT / "runs" / "review_log.jsonl"
+    path.parent.mkdir(exist_ok=True)
+    with path.open("a") as out:
+        out.writelines(json.dumps(f) + "\n" for f in findings)
+
+
 def diff_lines(diff):
     """{path: line numbers of the new file shown in the diff}: the only lines GitHub can comment on."""
     lines, path, n = {}, None, 0
@@ -134,6 +143,7 @@ def main(pr):
 def local(git_range):
     diff = subprocess.run(["git", "diff", git_range], capture_output=True, text=True, check=True).stdout
     result = review(diff, [])
+    log(result["findings"])
     for f in result["findings"]:
         print(f"{f['path']}:{f['line']} {f['severity']} {f['category']} (found by {f['found_by']}; "
               f"{f.get('verdict', 'unchecked')} {f.get('confidence', 0):.2f}): {f['issue']}")

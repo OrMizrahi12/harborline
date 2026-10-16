@@ -11,10 +11,11 @@
           "category": {"type": "string", "enum": ["bug", "convention", "security", "style"]},
           "severity": {"type": "string", "enum": ["high", "medium", "low"]},
           "status": {"type": "string", "enum": ["new", "still_open"]},
+          "detected_pattern": {"type": "string"},
           "issue": {"type": "string"},
           "fix": {"type": "string"}
         },
-        "required": ["path", "line", "category", "severity", "status", "issue", "fix"]
+        "required": ["path", "line", "category", "severity", "status", "detected_pattern", "issue", "fix"]
       }
     }
   },
