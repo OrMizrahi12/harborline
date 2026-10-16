@@ -10,6 +10,14 @@
       "env": {
         "HARBORLINE_API_TOKEN": "${HARBORLINE_API_TOKEN}"
       }
+    },
+    "codemap": {
+      "type": "stdio",
+      "command": ".venv/bin/python",
+      "args": [
+        "-m",
+        "devtools.codemap_server"
+      ]
     }
   }
 }
