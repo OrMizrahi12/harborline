@@ -37,11 +37,16 @@ RECORD_DOCUMENT = tool("record_document", "Record one supplier invoice or credit
                        "and dates, its lines and its totals.", schema.Document)
 
 
+def request(text, tool, note=""):
+    """The parameters of one forced call: the same for a single call and inside a batch."""
+    return {"model": MODEL, "max_tokens": MAX_TOKENS, "tools": [tool],
+            "tool_choice": {"type": "tool", "name": tool["name"]},
+            "messages": [{"role": "user", "content": f"{RULES}\n{EXAMPLES}\n<document>\n{text}\n</document>{note}"}]}
+
+
 def call(client, text, tool, note=""):
     """One forced call; returns the input Claude gave the tool."""
-    response = client.messages.create(
-        model=MODEL, max_tokens=MAX_TOKENS, tools=[tool], tool_choice={"type": "tool", "name": tool["name"]},
-        messages=[{"role": "user", "content": f"{RULES}\n{EXAMPLES}\n<document>\n{text}\n</document>{note}"}])
+    response = client.messages.create(**request(text, tool, note))
     log_usage(response, "extract")
     return next(b for b in response.content if b.type == "tool_use").input
 

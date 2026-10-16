@@ -56,6 +56,16 @@ def totals(record):
     return calculated, stated is not None and abs(calculated - stated) > 0.01
 
 
+def finish(record):
+    """A record that passed the checks, with its totals and where it goes next."""
+    calculated, conflict = totals(record)
+    if record["stated_total"] is None:  # not in the document: no retry can find it
+        status = "review: the document states no total"
+    else:
+        status = "review: the document's total disagrees" if conflict else "ok"
+    return record | {"calculated_total": calculated, "conflict_detected": conflict, "status": status}
+
+
 def extract_checked(client, path, tries=3):
     text = Path(path).read_text()
     meta = call(client, text, EXTRACT_METADATA)
@@ -71,12 +81,7 @@ def extract_checked(client, path, tries=3):
             note = RETRY.format(errors=problems(error), output=json.dumps(record))
             continue
         print(f"attempt {attempt}: passed")
-        calculated, conflict = totals(record)
-        if record["stated_total"] is None:  # not in the document: no retry can find it
-            status = "review: the document states no total"
-        else:
-            status = "review: the document's total disagrees" if conflict else "ok"
-        return meta | record | {"calculated_total": calculated, "conflict_detected": conflict, "status": status}
+        return meta | finish(record)
     return meta | record | {"status": f"review: still failing after {tries} attempts"}
 
 
