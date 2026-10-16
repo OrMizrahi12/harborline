@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string"},
+          "line": {"type": "integer"},
+          "category": {"type": "string", "enum": ["bug", "convention", "security", "style"]},
+          "severity": {"type": "string", "enum": ["high", "medium", "low"]},
+          "issue": {"type": "string"},
+          "fix": {"type": "string"}
+        },
+        "required": ["path", "line", "category", "severity", "issue", "fix"]
+      }
+    }
+  },
+  "required": ["findings"]
+}
