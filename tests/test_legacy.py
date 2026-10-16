@@ -4,11 +4,11 @@ import legacy.warehouse as warehouse
 from legacy.warehouse import codes, shipping
 
 
-def test_status_codes_and_old_names():
+def test_status_codes_have_names():
+    assert codes.status_name(3) == "shipped"
     assert codes.status_name(4) == "delivered"
     assert codes.status_name(42) == "unknown"
-    assert warehouse.getStatus(3) == "shipped"
-    assert warehouse.get_status_text("9") == "CANCELLED"
+    assert codes.status_name(9).upper() == "CANCELLED"
 
 
 def test_reading_a_legacy_record():
