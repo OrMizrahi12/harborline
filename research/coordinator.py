@@ -21,6 +21,7 @@ from dotenv import load_dotenv
 
 from harborline.config import MODEL
 from research.agents import AGENTS
+from research.provenance import check, parse, render
 from research.tools import server
 
 RESEARCH_TOOLS = ["mcp__research__search_web", "mcp__research__load_document",
@@ -64,8 +65,8 @@ OPTIONS = ClaudeAgentOptions(
         "Before you answer, check the synthesizer's answer against the "
         "goal. If a part is missing, send a subagent for that gap only, "
         "then have the synthesizer write again with all the findings. "
-        "Give it findings whole, as JSON, and ask for at most ten lines. "
-        "Your answer is the synthesizer's."),
+        "Give it findings whole, as JSON. Reply with the synthesizer's "
+        "JSON report only, unchanged, with nothing before or after it."),
     model=MODEL,
     agents=AGENTS,
     mcp_servers={"research": server},
@@ -137,7 +138,13 @@ async def main(question):
                     print(f"{now:5.1f}s <- {names[done]} done "
                           f"({now - started[done]:.1f}s)")
         elif isinstance(message, ResultMessage):
-            print("\n" + reply)
+            try:
+                report = parse(reply)
+            except ValueError:  # not JSON: show it as it came
+                print("\n" + reply)
+            else:
+                print("\n" + render(report))
+                print("\nprovenance:", "; ".join(check(report)) or "ok")
             print(f"\nsubagents: {', '.join(names.values()) or 'none'}")
             work, clock = sum(b - a for a, b in spans), covered(spans)
             print(f"subagents worked {work:.0f}s in {clock:.0f}s of clock "

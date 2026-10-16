@@ -7,6 +7,8 @@ it may use (tools) and which model runs it. Each gets only its role's tools.
 
 from claude_agent_sdk import AgentDefinition
 
+from research.provenance import SHAPE
+
 SEARCHER = AgentDefinition(
     description="Finds sources on the web for one research question. "
                 "Returns the URLs worth reading, with publisher and date.",
@@ -37,11 +39,14 @@ SYNTHESIZER = AgentDefinition(
            "findings in your prompt, and nothing else. Before you keep a "
            "figure, check it with verify_fact against its url; drop what "
            "doesn't match. If the answer needs a source you weren't given, "
-           "say what is missing at the end. If your prompt says part of "
-           "the question isn't covered, end with a line starting \"Not "
-           "covered:\" that says what and why. Keep each claim with its "
-           "publisher and date. Where findings disagree, show both. At "
-           "most eight lines, one claim per line.",
+           "say so in not_covered, and also any part your prompt marks as "
+           "not covered, with why. Every claim keeps its url and date. "
+           "Where figures disagree, keep them all under contested with "
+           "their sources, and say why they differ (another measure, "
+           "sample or method). Figures from different years show a change "
+           "over time, not a conflict: put them under established with "
+           "their dates. A source with no stated method can't settle a "
+           "conflict on its own. " + SHAPE,
     tools=["mcp__research__verify_fact"],
     model="haiku",
 )
