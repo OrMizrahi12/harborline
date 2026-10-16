@@ -10,10 +10,11 @@
           "line": {"type": "integer"},
           "category": {"type": "string", "enum": ["bug", "convention", "security", "style"]},
           "severity": {"type": "string", "enum": ["high", "medium", "low"]},
+          "status": {"type": "string", "enum": ["new", "still_open"]},
           "issue": {"type": "string"},
           "fix": {"type": "string"}
         },
-        "required": ["path", "line", "category", "severity", "issue", "fix"]
+        "required": ["path", "line", "category", "severity", "status", "issue", "fix"]
       }
     }
   },
