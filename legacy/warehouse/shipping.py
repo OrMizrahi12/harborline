@@ -7,9 +7,8 @@ FREE_SHIPPING_OVER = 75.00
 def quote(subtotal, zone="domestic"):
     """Shipping fee for an order.
 
-    Note: the old system used '>' here, so an order of exactly $75.00
-    was charged shipping. The web store uses '>='.
+    Free shipping starts at $75.00 (data/refund_policy.md).
     """
-    if zone == "domestic" and subtotal > FREE_SHIPPING_OVER:
+    if zone == "domestic" and subtotal >= FREE_SHIPPING_OVER:
         return 0.0
     return ZONE_RATES[zone]

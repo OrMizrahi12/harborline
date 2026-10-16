@@ -19,7 +19,8 @@ def test_reading_a_legacy_record():
     assert raw["status"] == 4  # the original is not changed
 
 
-def test_the_old_shipping_rule():
+def test_free_shipping_starts_at_75_dollars():
     assert warehouse.shipping_quote(80.00) == 0.0
-    assert shipping.quote(75.00) == 6.95  # the old system's '>' rule
+    assert shipping.quote(75.00) == 0.0  # $75.00 exactly ships free
+    assert shipping.quote(74.99) == 6.95
     assert shipping.quote(80.00, zone="canada") == 14.50
