@@ -1,7 +1,8 @@
 """Review a pull request with Claude Code and post the findings as inline comments.
 
 python ci/review.py <pr-number>   (in CI: .github/workflows/pr-review.yml)
-Needs ANTHROPIC_API_KEY and a GitHub token (GH_TOKEN, or a gh login).
+python ci/review.py --local <git range>   (prints the findings; posts nothing)
+Needs ANTHROPIC_API_KEY, and a GitHub token (GH_TOKEN, or a gh login) to post.
 """
 
 import json
@@ -13,8 +14,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = (ROOT / "ci" / "findings.schema.json").read_text()
+CRITERIA = (ROOT / "ci" / "prompts" / "review.md").read_text()
+CONFIG = json.loads((ROOT / "ci" / "review_config.json").read_text())
 MARK = "<!-- harborline-review -->"
-PROMPT = """Review this pull request's diff for bugs and for breaks of this project's conventions.
+PROMPT = """
 Report each finding with its file and its line number in the new version of the file.
 Earlier findings on this pull request are listed below. If one is still in the code, report it again
 with status still_open; if it's fixed, leave it out. Give every other finding status new.
@@ -39,12 +42,15 @@ def prior_findings(pr):
 
 
 def review(diff, prior):
-    prompt = PROMPT.format(prior="\n".join(prior) or "- none yet")
+    prompt = CRITERIA + PROMPT.format(prior="\n".join(prior) or "- none yet")
     run = subprocess.run(
         ["claude", "-p", prompt, "--output-format", "json", "--json-schema", SCHEMA,
          "--permission-mode", "dontAsk", "--allowedTools", "Read,Grep,Glob"],
         input=diff, capture_output=True, text=True, check=True)
-    return json.loads(run.stdout)
+    result = json.loads(run.stdout)
+    findings = result["structured_output"]["findings"]
+    result["findings"] = [f for f in findings if f["category"] not in CONFIG["disabled_categories"]]
+    return result
 
 
 def diff_lines(diff):
@@ -82,7 +88,7 @@ def main(pr):
     diff = gh("pr", "diff", pr, "-R", repo())
     prior = prior_findings(pr)
     result = review(diff, prior)
-    findings = result["structured_output"]["findings"]
+    findings = result["findings"]
     new = [f for f in findings if f["status"] == "new"]
     still = [f for f in findings if f["status"] == "still_open"]
     fixed = max(len(prior) - len(still), 0)
@@ -91,5 +97,16 @@ def main(pr):
           f"{result['num_turns']} turns, ${result['total_cost_usd']:.4f}")
 
 
+def local(git_range):
+    diff = subprocess.run(["git", "diff", git_range], capture_output=True, text=True, check=True).stdout
+    result = review(diff, [])
+    for f in result["findings"]:
+        print(f"{f['path']}:{f['line']} {f['severity']} {f['category']}: {f['issue']}")
+    print(f"{len(result['findings'])} findings; {result['num_turns']} turns, ${result['total_cost_usd']:.4f}")
+
+
 if __name__ == "__main__":
-    main(sys.argv[1])
+    if sys.argv[1] == "--local":
+        local(sys.argv[2])
+    else:
+        main(sys.argv[1])
