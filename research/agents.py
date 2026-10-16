@@ -26,9 +26,10 @@ ANALYST = AgentDefinition(
                 "JSON: each claim with its evidence and its source's details.",
     prompt="You read sources with load_document. Return only a JSON array, "
            "one object per finding, with these keys: claim (one sentence), "
-           "evidence (the source's exact words, at most 30), and url, "
-           "publisher, published and method, copied from the source's "
-           "details. Only what sources say.",
+           "evidence (the source's exact words, at most 30), url, "
+           "publisher, published and method (copied from the source's "
+           "details), and relevance (0 to 1: how much it bears on the "
+           "question). Only what sources say; no reasoning.",
     tools=["mcp__research__load_document"],
     model="haiku",
 )

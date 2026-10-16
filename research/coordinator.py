@@ -7,10 +7,15 @@ it prints starts with the seconds since the run began; a "!" marks a tool
 call that failed.
 
     python -m research.coordinator "Should Harborline charge for return shipping?"
+    python -m research.coordinator --resume <run_id>
+
+Each subagent's report is saved as it arrives (research/state.py), so a run
+that crashes resumes from its manifest instead of redoing that work.
 """
 
 import asyncio
 import json
+import os
 import sys
 import time
 
@@ -20,9 +25,10 @@ from claude_agent_sdk import (AssistantMessage, ClaudeAgentOptions,
 from dotenv import load_dotenv
 
 from harborline.config import MODEL
+from research import state
 from research.agents import AGENTS
 from research.provenance import check, parse, render
-from research.tools import server
+from research.tools import FOUND, server
 
 RESEARCH_TOOLS = ["mcp__research__search_web", "mcp__research__load_document",
                   "mcp__research__verify_fact"]
@@ -65,7 +71,8 @@ OPTIONS = ClaudeAgentOptions(
         "Before you answer, check the synthesizer's answer against the "
         "goal. If a part is missing, send a subagent for that gap only, "
         "then have the synthesizer write again with all the findings. "
-        "Give it findings whole, as JSON. Reply with the synthesizer's "
+        "Give it the findings with relevance 0.5 or more, whole, as JSON. "
+        "Reply with the synthesizer's "
         "JSON report only, unchanged, with nothing before or after it."),
     model=MODEL,
     agents=AGENTS,
@@ -92,21 +99,39 @@ def covered(spans):
     return total
 
 
+def text_of(content):
+    """A result's text, whether it came as one string or in parts."""
+    return content if isinstance(content, str) else " ".join(
+        part.get("text", "") for part in content or [])
+
+
 def failure(content):
     """A failed tool's failure_type, or the start of its message."""
-    text = content if isinstance(content, str) else " ".join(
-        part.get("text", "") for part in content or [])
+    text = text_of(content)
     try:
         return json.loads(text)["failure_type"]
     except (ValueError, KeyError, TypeError):
         return text[:60]
 
 
-async def main(question):
+async def main(run_id):
     names, started, counts, spans, reply = {}, {}, {}, [], ""
-    calls = {}  # each tool call: who made it, which tool
+    calls, prompts = {}, {}  # each tool call: who made it; each brief
+    prompt, earlier = state.manifest(run_id)["question"], state.done(run_id)
+    for report in earlier:  # number new subagents after the saved ones
+        kind, number = report["name"].rsplit(" ", 1)
+        counts[kind] = max(counts.get(kind, 0), int(number))
+    if earlier:
+        print(f"resuming {run_id}: {len(earlier)} reports already saved")
+        FOUND.update(state.manifest(run_id)["found"])  # what searches found
+        prompt += ("\n\nThis run is resuming after a crash. These subagents "
+                   "already reported. Use their reports, and don't repeat "
+                   "their work:\n" + json.dumps(earlier))
+    else:
+        print(f"run {run_id}")
+    crash_after = int(os.environ.get("CRASH_AFTER", 0))  # 0: no crash
     start = time.monotonic()
-    async for message in query(prompt=question, options=OPTIONS):
+    async for message in query(prompt=prompt, options=OPTIONS):
         now = time.monotonic() - start
         if isinstance(message, AssistantMessage):
             inside = message.parent_tool_use_id  # None: the coordinator
@@ -116,6 +141,7 @@ async def main(question):
                     counts[kind] = counts.get(kind, 0) + 1
                     names[block.id] = f"{kind} {counts[kind]}"
                     started[block.id] = now
+                    prompts[block.id] = block.input["prompt"]
                     print(f"{now:5.1f}s -> {names[block.id]}: "
                           f"{block.input['prompt'][:60]}...")
                 elif isinstance(block, ToolUseBlock):
@@ -137,6 +163,11 @@ async def main(question):
                     spans.append((started[done], now))
                     print(f"{now:5.1f}s <- {names[done]} done "
                           f"({now - started[done]:.1f}s)")
+                    state.save(run_id, names[done], prompts[done],
+                               text_of(block.content), found=sorted(FOUND))
+                    if len(state.done(run_id)) == crash_after:
+                        print(f"{now:5.1f}s simulated crash")
+                        raise SystemExit(1)
         elif isinstance(message, ResultMessage):
             try:
                 report = parse(reply)
@@ -155,4 +186,7 @@ async def main(question):
 
 if __name__ == "__main__":
     load_dotenv()  # ANTHROPIC_API_KEY from .env
-    asyncio.run(main(sys.argv[1]))
+    if sys.argv[1] == "--resume":
+        asyncio.run(main(sys.argv[2]))
+    else:
+        asyncio.run(main(state.start(sys.argv[1])))
