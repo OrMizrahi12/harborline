@@ -3,6 +3,7 @@
 research/runs/<run_id>/manifest.json lists the question and every subagent
 report saved so far; each report is its own JSON file next to it. A new
 run with --resume <run_id> starts from the manifest instead of from zero.
+The final report goes in report.json, where research.checker reads it.
 """
 
 import json
@@ -47,3 +48,12 @@ def done(run_id):
     """Every saved report, in the order they finished."""
     return [json.loads((RUNS / run_id / entry["file"]).read_text())
             for entry in manifest(run_id)["reports"]]
+
+
+def finish(run_id, report):
+    """The run's final report, next to its manifest."""
+    (RUNS / run_id / "report.json").write_text(json.dumps(report, indent=1))
+
+
+def report(run_id):
+    return json.loads((RUNS / run_id / "report.json").read_text())

@@ -118,6 +118,7 @@ async def main(run_id):
     names, started, counts, spans, reply = {}, {}, {}, [], ""
     calls, prompts = {}, {}  # each tool call: who made it; each brief
     prompt, earlier = state.manifest(run_id)["question"], state.done(run_id)
+    failures = state.manifest(run_id).get("failures", [])  # kept on resume
     for report in earlier:  # number new subagents after the saved ones
         kind, number = report["name"].rsplit(" ", 1)
         counts[kind] = max(counts.get(kind, 0), int(number))
@@ -157,14 +158,16 @@ async def main(run_id):
             for block in message.content:  # a tool's or a subagent's result
                 done = getattr(block, "tool_use_id", None)
                 if getattr(block, "is_error", False) and done in calls:
-                    print(f"{now:5.1f}s  ! {calls[done]} failed: "
-                          f"{failure(block.content)}")
+                    failures.append(
+                        f"{calls[done]} failed: {failure(block.content)}")
+                    print(f"{now:5.1f}s  ! {failures[-1]}")
                 if done in started:
                     spans.append((started[done], now))
                     print(f"{now:5.1f}s <- {names[done]} done "
                           f"({now - started[done]:.1f}s)")
                     state.save(run_id, names[done], prompts[done],
-                               text_of(block.content), found=sorted(FOUND))
+                               text_of(block.content), found=sorted(FOUND),
+                               failures=failures)
                     if len(state.done(run_id)) == crash_after:
                         print(f"{now:5.1f}s simulated crash")
                         raise SystemExit(1)
@@ -176,6 +179,8 @@ async def main(run_id):
             else:
                 print("\n" + render(report))
                 print("\nprovenance:", "; ".join(check(report)) or "ok")
+                state.finish(run_id, report)
+                print(f"saved research/runs/{run_id}/report.json")
             print(f"\nsubagents: {', '.join(names.values()) or 'none'}")
             work, clock = sum(b - a for a, b in spans), covered(spans)
             print(f"subagents worked {work:.0f}s in {clock:.0f}s of clock "
